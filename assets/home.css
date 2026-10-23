@@ -215,3 +215,14 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
 .hero h1.title{font-family:'Lilita One',sans-serif!important;font-weight:400!important;font-size:clamp(4.3rem,9vw,8.4rem);line-height:.93}
 .hero h1.title .nw{white-space:nowrap!important}
 main{overflow-x:hidden;overflow-x:clip}   /* tilted phone pairs never cause a sideways scroll */
+/* phones and narrow screens: the trailer sits between the description and the download button */
+@media (max-width:900px){
+  .hero .wrap{display:flex;flex-direction:column;align-items:center;gap:0}
+  .hero .wrap > div:first-child{display:contents}
+  .hero .eyebrow{order:1}
+  .hero h1{order:2}
+  .hero .lede{order:3;margin:18px auto 24px}
+  .hero .video-card{order:4;width:100%;margin:0 0 28px}
+  .hero .cta{order:5}
+  .hero .chips{order:6}
+}
