@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com は Cookie、分析、広告を使用しません。<a href=\"{{base}}cookies/\">Cookie ポリシー</a>をご覧ください。</p>",
   "v_pause": "一時停止",
   "v_play": "再生",
-  "v_full": "全画面"
+  "v_full": "全画面",
+  "free_h": "<b>無料</b>でダウンロード",
+  "free_note": "コインパックのアプリ内課金（任意）があります。コインはプレイするだけで無料でも集められます。"
 }

@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com nie używa plików cookies, narzędzi analitycznych ani reklam. Zobacz naszą <a href=\"{{base}}cookies/\">politykę cookies</a>.</p>",
   "v_pause": "Pauza",
   "v_play": "Odtwórz",
-  "v_full": "Pełny ekran"
+  "v_full": "Pełny ekran",
+  "free_h": "Pobierz <b>ZA DARMO</b>",
+  "free_note": "Opcjonalne zakupy w aplikacji pakietów monet. Monety możesz też zdobywać za darmo, po prostu grając."
 }

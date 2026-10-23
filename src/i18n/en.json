@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com uses no cookies, analytics or adverts. See our <a href=\"{{base}}cookies/\">cookie policy</a>.</p>",
   "v_pause": "Pause",
   "v_play": "Play",
-  "v_full": "Full screen"
+  "v_full": "Full screen",
+  "free_h": "<b>FREE</b> to download",
+  "free_note": "Optional in-app purchases for coin bundles. You can also earn coins for free just by playing."
 }

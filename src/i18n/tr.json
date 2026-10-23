@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com çerez, analiz veya reklam kullanmaz. <a href=\"{{base}}cookies/\">Çerez politikamıza</a> göz at.</p>",
   "v_pause": "Duraklat",
   "v_play": "Oynat",
-  "v_full": "Tam ekran"
+  "v_full": "Tam ekran",
+  "free_h": "<b>ÜCRETSİZ</b> indir",
+  "free_note": "Jeton paketleri için isteğe bağlı uygulama içi satın almalar vardır. Jetonları sadece oynayarak da ücretsiz kazanabilirsin."
 }

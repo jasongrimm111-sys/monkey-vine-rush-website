@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com 不使用 Cookie、分析或廣告。請參閱我們的 <a href=\"{{base}}cookies/\">Cookie 政策</a>。</p>",
   "v_pause": "暫停",
   "v_play": "播放",
-  "v_full": "全螢幕"
+  "v_full": "全螢幕",
+  "free_h": "<b>免費</b>下載",
+  "free_note": "可選的 App 內購買金幣禮包。只要玩遊戲，也能免費賺取金幣。"
 }

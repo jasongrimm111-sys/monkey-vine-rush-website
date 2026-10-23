@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com gebruikt geen cookies, analyses of advertenties. Zie ons <a href=\"{{base}}cookies/\">cookiebeleid</a>.</p>",
   "v_pause": "Pauzeren",
   "v_play": "Afspelen",
-  "v_full": "Volledig scherm"
+  "v_full": "Volledig scherm",
+  "free_h": "<b>GRATIS</b> te downloaden",
+  "free_note": "Optionele in-app-aankopen voor muntpakketten. Je kunt ook gratis munten verdienen door gewoon te spelen."
 }

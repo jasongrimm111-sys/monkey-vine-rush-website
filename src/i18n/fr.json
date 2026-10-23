@@ -176,5 +176,7 @@
   "website": "<p>monkeyvinerush.com n'utilise ni cookies, ni outils d'analyse, ni publicité. Consulte notre <a href=\"{{base}}cookies/\">politique de cookies</a>.</p>",
   "v_pause": "Pause",
   "v_play": "Lecture",
-  "v_full": "Plein écran"
+  "v_full": "Plein écran",
+  "free_h": "Téléchargement <b>GRATUIT</b>",
+  "free_note": "Achats intégrés facultatifs de packs de pièces. Tu peux aussi gagner des pièces gratuitement, simplement en jouant."
 }
