@@ -173,5 +173,7 @@
   "security_h": "Segurança e onde fica guardado",
   "security": "<p>Seu progresso fica no seu aparelho e na sua própria conta do iCloud ou do Google Play Games, protegido pela segurança da Apple ou do Google. Nossa conta de e-mail é protegida por verificação em duas etapas. Os serviços que usamos, como Google e ImprovMX, podem guardar e-mails fora do Reino Unido, inclusive nos Estados Unidos, com as garantias exigidas por lei. Guardamos o mínimo de informações possível, pelo menor tempo possível.</p>",
   "website_h": "Nosso site",
-  "website": "<p>O monkeyvinerush.com não usa cookies, análises nem anúncios. Veja nossa <a href=\"{{base}}cookies/\">política de cookies</a>.</p>"
+  "website": "<p>O monkeyvinerush.com não usa cookies, análises nem anúncios. Veja nossa <a href=\"{{base}}cookies/\">política de cookies</a>.</p>",
+  "v_pause": "Pausar",
+  "v_play": "Reproduzir"
 }

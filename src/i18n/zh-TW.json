@@ -173,5 +173,7 @@
   "security_h": "安全與儲存位置",
   "security": "<p>你的進度儲存在你的裝置以及你自己的 iCloud 或 Google Play 遊戲帳號中，受 Apple 或 Google 的安全保護。我們的信箱已啟用兩步驟驗證。我們使用的服務（如 Google 和 ImprovMX）可能會在英國以外（包括美國）儲存信件，並採取法律要求的保護措施。我們盡量少保存資訊，並盡量縮短保存時間。</p>",
   "website_h": "我們的網站",
-  "website": "<p>monkeyvinerush.com 不使用 Cookie、分析或廣告。請參閱我們的 <a href=\"{{base}}cookies/\">Cookie 政策</a>。</p>"
+  "website": "<p>monkeyvinerush.com 不使用 Cookie、分析或廣告。請參閱我們的 <a href=\"{{base}}cookies/\">Cookie 政策</a>。</p>",
+  "v_pause": "暫停",
+  "v_play": "播放"
 }

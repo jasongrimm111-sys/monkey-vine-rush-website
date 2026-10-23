@@ -173,5 +173,7 @@
   "security_h": "安全管理と保存場所",
   "security": "<p>進行状況はあなたのデバイスと、あなた自身の iCloud または Google Play ゲームのアカウントに保存され、Apple または Google のセキュリティで守られます。当方のメールアカウントは 2 段階認証で保護しています。当方が利用する Google や ImprovMX などのサービスは、法律で求められる保護措置のもと、英国外（米国を含む）にメールを保存することがあります。保管する情報は最小限に、期間はできるだけ短くしています。</p>",
   "website_h": "ウェブサイト",
-  "website": "<p>monkeyvinerush.com は Cookie、分析、広告を使用しません。<a href=\"{{base}}cookies/\">Cookie ポリシー</a>をご覧ください。</p>"
+  "website": "<p>monkeyvinerush.com は Cookie、分析、広告を使用しません。<a href=\"{{base}}cookies/\">Cookie ポリシー</a>をご覧ください。</p>",
+  "v_pause": "一時停止",
+  "v_play": "再生"
 }

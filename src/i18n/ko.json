@@ -173,5 +173,7 @@
   "security_h": "보안과 보관 장소",
   "security": "<p>진행 상황은 기기와 여러분의 iCloud 또는 Google Play 게임즈 계정에 저장되며, Apple 또는 Google의 보안으로 보호돼요. 저희 이메일 계정은 2단계 인증으로 보호해요. 저희가 사용하는 Google, ImprovMX 같은 서비스는 법에서 요구하는 보호 조치에 따라 영국 밖(미국 포함)에 이메일을 보관할 수 있어요. 정보는 최대한 적게, 최대한 짧게 보관해요.</p>",
   "website_h": "웹사이트",
-  "website": "<p>monkeyvinerush.com은 쿠키, 분석, 광고를 사용하지 않아요. <a href=\"{{base}}cookies/\">쿠키 정책</a>을 참고하세요.</p>"
+  "website": "<p>monkeyvinerush.com은 쿠키, 분석, 광고를 사용하지 않아요. <a href=\"{{base}}cookies/\">쿠키 정책</a>을 참고하세요.</p>",
+  "v_pause": "일시정지",
+  "v_play": "재생"
 }

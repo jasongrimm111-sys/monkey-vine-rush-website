@@ -173,5 +173,7 @@
   "security_h": "Säkerhet och var det lagras",
   "security": "<p>Dina framsteg stannar på din enhet och i ditt eget iCloud- eller Google Play Spel-konto, skyddade av Apples eller Googles säkerhet. Vårt e-postkonto är skyddat med tvåstegsverifiering. Tjänsterna vi använder, som Google och ImprovMX, kan lagra mejl utanför Storbritannien, bland annat i USA, med de skyddsåtgärder som lagen kräver. Vi sparar så lite information som möjligt, så kort tid som möjligt.</p>",
   "website_h": "Vår webbplats",
-  "website": "<p>monkeyvinerush.com använder inga cookies, ingen analys och ingen reklam. Se vår <a href=\"{{base}}cookies/\">cookiepolicy</a>.</p>"
+  "website": "<p>monkeyvinerush.com använder inga cookies, ingen analys och ingen reklam. Se vår <a href=\"{{base}}cookies/\">cookiepolicy</a>.</p>",
+  "v_pause": "Pausa",
+  "v_play": "Spela upp"
 }

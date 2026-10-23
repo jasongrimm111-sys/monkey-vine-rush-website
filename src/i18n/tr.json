@@ -173,5 +173,7 @@
   "security_h": "Güvenlik ve saklama yeri",
   "security": "<p>İlerlemen cihazında ve kendi iCloud veya Google Play Oyunlar hesabında, Apple veya Google güvenliğiyle korunarak kalır. E-posta hesabımız iki adımlı doğrulamayla korunur. Kullandığımız Google ve ImprovMX gibi hizmetler, yasanın gerektirdiği güvencelerle e-postaları Birleşik Krallık dışında, ABD dahil, saklayabilir. Olabildiğince az bilgiyi, olabildiğince kısa süre saklarız.</p>",
   "website_h": "Web sitemiz",
-  "website": "<p>monkeyvinerush.com çerez, analiz veya reklam kullanmaz. <a href=\"{{base}}cookies/\">Çerez politikamıza</a> göz at.</p>"
+  "website": "<p>monkeyvinerush.com çerez, analiz veya reklam kullanmaz. <a href=\"{{base}}cookies/\">Çerez politikamıza</a> göz at.</p>",
+  "v_pause": "Duraklat",
+  "v_play": "Oynat"
 }

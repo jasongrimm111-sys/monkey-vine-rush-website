@@ -173,5 +173,7 @@
   "security_h": "Keamanan dan lokasi penyimpanan",
   "security": "<p>Progresmu tetap di perangkatmu dan di akun iCloud atau Google Play Game milikmu, dilindungi keamanan Apple atau Google. Akun email kami dilindungi verifikasi dua langkah. Layanan yang kami gunakan, seperti Google dan ImprovMX, dapat menyimpan email di luar Inggris, termasuk di Amerika Serikat, dengan perlindungan yang diwajibkan hukum. Kami menyimpan informasi sesedikit mungkin dan sesingkat mungkin.</p>",
   "website_h": "Situs web kami",
-  "website": "<p>monkeyvinerush.com tidak menggunakan cookie, analitik, atau iklan. Lihat <a href=\"{{base}}cookies/\">kebijakan cookie</a> kami.</p>"
+  "website": "<p>monkeyvinerush.com tidak menggunakan cookie, analitik, atau iklan. Lihat <a href=\"{{base}}cookies/\">kebijakan cookie</a> kami.</p>",
+  "v_pause": "Jeda",
+  "v_play": "Putar"
 }
