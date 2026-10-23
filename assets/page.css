@@ -18,7 +18,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.05;margin:0}
 .top{position:sticky;top:0;z-index:20;background:rgba(6,23,15,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--line)}
 .top .wrap{display:flex;align-items:center;gap:18px;height:72px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);font-weight:400;font-size:1.35rem;color:var(--ink)}
-.brand img{width:42px;height:42px;border-radius:11px;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.brand img{width:50px;height:53px;filter:drop-shadow(0 3px 6px rgba(0,0,0,.3))}
 .brand b{font-weight:400;color:var(--banana)}
 .top nav{margin-left:auto;display:flex;align-items:center;gap:26px;font-weight:600;font-size:1rem}
 .top nav a{text-decoration:none;color:var(--ink);opacity:.85} .top nav a:hover,.top nav a[aria-current]{opacity:1;color:var(--banana)}

@@ -43,7 +43,7 @@ for (const lang of Object.keys(LANGS)){
       // the top bar: logo, links (a drop-down panel behind the menu button on phones), language picker, App Store badge
       pageHeader: `<header class="top" id="top">
   <div class="wrap">
-    <a class="brand" href="${base(lang)}"${pageName === 'home' ? ' id="homeLink"' : ''}><img src="/img/icon-96.png" alt="" width="42" height="42"><span>Monkey <b>Vine Rush</b></span></a>
+    <a class="brand" href="${base(lang)}"${pageName === 'home' ? ' id="homeLink"' : ''}><img src="/img/logo-120.png" alt="" width="50" height="53"><span>Monkey <b>Vine Rush</b></span></a>
     <nav id="mainNav" aria-label="${t('nav_label')}">
       <a href="${base(lang)}"${pageName === 'home' ? ' class="jsHome" aria-current="page"' : ''}>${t('nav_home')}</a>
       <a href="${pageName === 'home' ? '' : base(lang)}#features">${t('nav_features')}</a>
