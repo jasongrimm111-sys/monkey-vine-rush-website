@@ -210,3 +210,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
 .totop.show{opacity:1;visibility:visible;transform:none;transition:opacity .25s ease, transform .25s ease}
 .totop svg{width:26px;height:26px}
 @media (max-width:600px){ .hero h1 .nw{white-space:normal} }
+
+/* the headline is the game name, always in the game's own font (whatever the page language) */
+.hero h1.title{font-family:'Lilita One',sans-serif!important;font-weight:400!important;font-size:clamp(3.6rem,8.2vw,7rem);line-height:.95}
+.hero h1.title .nw{white-space:nowrap!important}
