@@ -47,7 +47,6 @@ for (const lang of Object.keys(LANGS)){
     <nav id="mainNav" aria-label="${t('nav_label')}">
       <a href="${base(lang)}"${pageName === 'home' ? ' class="jsHome" aria-current="page"' : ''}>${t('nav_home')}</a>
       <a href="${pageName === 'home' ? '' : base(lang)}#features">${t('nav_features')}</a>
-      <a href="${pageName === 'home' ? '' : base(lang)}#gallery">${t('nav_screens')}</a>
       <a href="${base(lang)}support/"${pageName === 'support' ? ' aria-current="page"' : ''}>${t('nav_support')}</a>
       <a href="${base(lang)}privacy/"${pageName === 'privacy' ? ' aria-current="page"' : ''}>${t('nav_privacy')}</a>
       {{langMenu}}
