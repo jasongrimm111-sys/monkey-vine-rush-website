@@ -21,7 +21,9 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;margin:0;le
 .top.solid{background:rgba(6,23,15,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(164,217,173,.12)}
 .top .wrap{display:flex;align-items:center;gap:18px;height:72px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);font-size:1.35rem}
-.brand img{width:50px;height:53px;filter:drop-shadow(0 3px 6px rgba(0,0,0,.3))}
+.brand img{width:50px;height:53px;filter:drop-shadow(0 3px 6px rgba(0,0,0,.3));transform-origin:64% 10%;animation:logoSwing 2.6s ease-in-out infinite alternate}
+@keyframes logoSwing{from{transform:rotate(-11deg)}to{transform:rotate(9deg)}}   /* swinging from the knot of leaves */
+@media (prefers-reduced-motion:reduce){ .brand img{animation:none} }
 .brand b{font-weight:400;color:var(--banana)}
 .top nav{margin-left:auto;display:flex;align-items:center;gap:26px;font-weight:600;font-size:1rem}
 .top nav a{text-decoration:none;opacity:.85} .top nav a:hover{opacity:1;color:var(--banana)}
