@@ -232,4 +232,4 @@ main{overflow-x:hidden;overflow-x:clip}   /* tilted phone pairs never cause a si
   .hero .cta{order:5}
   .hero .chips{order:6}
 }
-@media (min-width:901px){ .hero .video-card{align-self:start;margin-top:72px} }   /* desktop: the trailer sits level with the name (phones keep their own order) */
+@media (min-width:901px){ .hero .video-card{align-self:start;margin-top:72px} .hero .lede{max-width:44ch} }   /* desktop: the trailer sits level with the name (phones keep their own order) */
