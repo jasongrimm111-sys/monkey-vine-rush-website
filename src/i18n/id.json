@@ -175,5 +175,6 @@
   "website_h": "Situs web kami",
   "website": "<p>monkeyvinerush.com tidak menggunakan cookie, analitik, atau iklan. Lihat <a href=\"{{base}}cookies/\">kebijakan cookie</a> kami.</p>",
   "v_pause": "Jeda",
-  "v_play": "Putar"
+  "v_play": "Putar",
+  "v_full": "Layar penuh"
 }

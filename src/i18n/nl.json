@@ -175,5 +175,6 @@
   "website_h": "Onze website",
   "website": "<p>monkeyvinerush.com gebruikt geen cookies, analyses of advertenties. Zie ons <a href=\"{{base}}cookies/\">cookiebeleid</a>.</p>",
   "v_pause": "Pauzeren",
-  "v_play": "Afspelen"
+  "v_play": "Afspelen",
+  "v_full": "Volledig scherm"
 }

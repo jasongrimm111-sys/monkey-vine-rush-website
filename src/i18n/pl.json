@@ -175,5 +175,6 @@
   "website_h": "Nasza strona",
   "website": "<p>monkeyvinerush.com nie używa plików cookies, narzędzi analitycznych ani reklam. Zobacz naszą <a href=\"{{base}}cookies/\">politykę cookies</a>.</p>",
   "v_pause": "Pauza",
-  "v_play": "Odtwórz"
+  "v_play": "Odtwórz",
+  "v_full": "Pełny ekran"
 }

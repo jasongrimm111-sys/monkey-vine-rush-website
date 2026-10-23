@@ -175,5 +175,6 @@
   "website_h": "Vår webbplats",
   "website": "<p>monkeyvinerush.com använder inga cookies, ingen analys och ingen reklam. Se vår <a href=\"{{base}}cookies/\">cookiepolicy</a>.</p>",
   "v_pause": "Pausa",
-  "v_play": "Spela upp"
+  "v_play": "Spela upp",
+  "v_full": "Helskärm"
 }

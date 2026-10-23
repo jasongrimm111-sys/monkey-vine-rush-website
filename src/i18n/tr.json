@@ -175,5 +175,6 @@
   "website_h": "Web sitemiz",
   "website": "<p>monkeyvinerush.com çerez, analiz veya reklam kullanmaz. <a href=\"{{base}}cookies/\">Çerez politikamıza</a> göz at.</p>",
   "v_pause": "Duraklat",
-  "v_play": "Oynat"
+  "v_play": "Oynat",
+  "v_full": "Tam ekran"
 }

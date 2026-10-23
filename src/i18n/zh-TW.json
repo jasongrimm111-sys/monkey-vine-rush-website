@@ -175,5 +175,6 @@
   "website_h": "我們的網站",
   "website": "<p>monkeyvinerush.com 不使用 Cookie、分析或廣告。請參閱我們的 <a href=\"{{base}}cookies/\">Cookie 政策</a>。</p>",
   "v_pause": "暫停",
-  "v_play": "播放"
+  "v_play": "播放",
+  "v_full": "全螢幕"
 }
