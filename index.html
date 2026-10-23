@@ -176,8 +176,8 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
   .final{margin-top:50px;padding:80px 0 90px}
 }
 /* reveal on scroll */
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease, transform .55s cubic-bezier(.2,.7,.2,1)}
-.reveal.in{opacity:1;transform:none}
+.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease, transform .55s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} .reveal{opacity:1;transform:none} }
 .soon{max-width:100%;display:inline-flex;align-items:center;gap:10px;height:62px;padding:0 18px 0 14px;border-radius:14px;border:1.5px dashed rgba(255,255,255,.45);background:rgba(6,23,15,.35);color:#fff;font-weight:600;font-size:.98rem;line-height:1.15;text-align:left;backdrop-filter:blur(6px)}
 .soon svg{width:28px;height:28px;flex:none}
@@ -351,12 +351,14 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
 </footer>
 
 <script>
+(() => {
   // the top bar turns solid once you scroll
-  const top = document.getElementById('top');
-  const solid = () => top.classList.toggle('solid', scrollY > 30);
+  const bar = document.getElementById('top');
+  const solid = () => bar.classList.toggle('solid', scrollY > 30);
   addEventListener('scroll', solid, { passive:true }); solid();
-  // sections fade up as they come into view
-  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold:0, rootMargin:'0px 0px -6% 0px' })   // appear as soon as the top edge comes into view (tall sections on phones never sit empty) : null;
+  // sections fade up as they come into view (hidden only once this script is running, so they can never get stuck hidden)
+  if ('IntersectionObserver' in window) document.documentElement.classList.add('js');
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold:0, rootMargin:'0px 0px -6% 0px' }) : null;   // appear as soon as the top edge comes into view, so tall sections on phones never sit empty
   document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
   // the trailer plays silently; the button restarts it with sound
   const v = document.getElementById('teaser'), btn = document.getElementById('soundBtn');
@@ -366,6 +368,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
     v.muted = !on; if (on){ v.currentTime = 0; v.play(); }
     btn.querySelector('span').textContent = on ? 'Mute' : 'Watch with sound';
   });
+})();
 </script>
 </body>
 </html>
