@@ -3,201 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Monkey Vine Rush · Hold. Swing. Fly! · iPhone &amp; iPad</title>
+<title>Monkey Vine Rush · Hold. Swing. Fly! · iPhone & iPad</title>
 <meta name="description" content="Hold to swing, let go to fly! Swing through 24 wild worlds and 1,200 levels, beat the bosses and outrun the chaser. No ads, plays offline, fun for all ages. On iPhone and iPad.">
 <meta name="apple-itunes-app" content="app-id=6825472830">
+<meta name="author" content="Jason Grimmitt, Grimmitt Games">
 <meta name="theme-color" content="#0b2a1c">
 <link rel="canonical" href="https://monkeyvinerush.com/">
+<link rel="alternate" hreflang="en" href="https://monkeyvinerush.com/">
+<link rel="alternate" hreflang="es" href="https://monkeyvinerush.com/es/">
+<link rel="alternate" hreflang="fr" href="https://monkeyvinerush.com/fr/">
+<link rel="alternate" hreflang="de" href="https://monkeyvinerush.com/de/">
+<link rel="alternate" hreflang="pt" href="https://monkeyvinerush.com/pt/">
+<link rel="alternate" hreflang="it" href="https://monkeyvinerush.com/it/">
+<link rel="alternate" hreflang="nl" href="https://monkeyvinerush.com/nl/">
+<link rel="alternate" hreflang="pl" href="https://monkeyvinerush.com/pl/">
+<link rel="alternate" hreflang="sv" href="https://monkeyvinerush.com/sv/">
+<link rel="alternate" hreflang="ru" href="https://monkeyvinerush.com/ru/">
+<link rel="alternate" hreflang="zh-Hans" href="https://monkeyvinerush.com/zh/">
+<link rel="alternate" hreflang="ja" href="https://monkeyvinerush.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://monkeyvinerush.com/ko/">
+<link rel="alternate" hreflang="zh-Hant" href="https://monkeyvinerush.com/zh-TW/">
+<link rel="alternate" hreflang="tr" href="https://monkeyvinerush.com/tr/">
+<link rel="alternate" hreflang="id" href="https://monkeyvinerush.com/id/">
+<link rel="alternate" hreflang="x-default" href="https://monkeyvinerush.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Monkey Vine Rush · Hold. Swing. Fly!">
 <meta property="og:description" content="Swing through 24 wild worlds and 1,200 levels. No ads, plays offline, fun for all ages. On iPhone and iPad.">
 <meta property="og:image" content="https://monkeyvinerush.com/img/og.jpg">
 <meta property="og:url" content="https://monkeyvinerush.com/">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" href="img/favicon.png">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" as="image" href="/img/teaser-poster.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Lilita+One&display=swap" rel="stylesheet">
-<style>
-:root{
-  --banana:#ffd23f; --banana-deep:#e8a90f; --leaf-950:#06170f; --leaf-900:#0b2a1c; --leaf-800:#123b28; --leaf-700:#1b5236;
-  --leaf-500:#3f9a5c; --mint:#a4ffb4; --sky:#5ff2ff; --ink:#eaf7ee; --muted:#a9c9b3; --orange:#ff9a3d; --pink:#ff8ad8;
-  --r:28px; --display:'Lilita One', 'Fredoka', system-ui, sans-serif; --body:'Fredoka', system-ui, -apple-system, sans-serif;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--leaf-950);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55;overflow-x:hidden}
-img,video{display:block;max-width:100%}
-a{color:inherit}
-.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
-h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;margin:0;letter-spacing:.005em}
-.eyebrow{font-weight:700;font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mint)}
-.badge-link{display:inline-block;transition:transform .18s ease, filter .18s ease}
-.badge-link:hover{transform:translateY(-3px) scale(1.03);filter:drop-shadow(0 12px 22px rgba(0,0,0,.45))}
-.badge-link img{height:62px;width:auto}
-.badge-link.sm img{height:44px}
+<link rel="stylesheet" href="/assets/home.css">
 
-/* ---------- top bar ---------- */
-.top{position:fixed;inset:0 0 auto 0;z-index:20;transition:background .25s ease, box-shadow .25s ease}
-.top.solid{background:rgba(6,23,15,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(164,217,173,.12)}
-.top .wrap{display:flex;align-items:center;gap:18px;height:72px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);font-size:1.35rem}
-.brand img{width:42px;height:42px;border-radius:11px;box-shadow:0 4px 14px rgba(0,0,0,.35)}
-.brand b{font-weight:400;color:var(--banana)}
-.top nav{margin-left:auto;display:flex;align-items:center;gap:26px;font-weight:600;font-size:1rem}
-.top nav a{text-decoration:none;opacity:.85} .top nav a:hover{opacity:1;color:var(--banana)}
-@media (max-width:760px){ .top nav a:not(.badge-link){display:none} .brand span{display:none} }
-
-/* ---------- hero ---------- */
-.hero{position:relative;min-height:100svh;display:grid;align-items:center;padding:110px 0 70px;isolation:isolate;overflow:hidden;
-  background:radial-gradient(1200px 700px at 72% 38%, rgba(255,214,120,.28), transparent 60%),
-             linear-gradient(180deg,#0f8f8a 0%,#2bb39a 38%,#1b6b48 72%,var(--leaf-950) 100%)}
-.hero::before{content:"";position:absolute;inset:auto -10% -2px -10%;height:46%;z-index:-1;
-  background:radial-gradient(60% 90% at 20% 100%, #0d3a26 60%, transparent 61%),radial-gradient(55% 80% at 80% 100%, #0b3322 60%, transparent 61%),linear-gradient(transparent 55%, var(--leaf-950))}
-.hero .canopy{position:absolute;inset:-120px -60px auto -60px;height:260px;z-index:-1;pointer-events:none;
-  background:radial-gradient(160px 150px at 6% 60%, #1f6e33 70%, transparent 71%),radial-gradient(190px 170px at 19% 30%, #2a8a3f 70%, transparent 71%),
-             radial-gradient(150px 140px at 34% 55%, #1f6e33 70%, transparent 71%),radial-gradient(180px 150px at 70% 40%, #2a8a3f 70%, transparent 71%),
-             radial-gradient(170px 160px at 86% 60%, #1f6e33 70%, transparent 71%),radial-gradient(150px 140px at 98% 30%, #2a8a3f 70%, transparent 71%);
-  filter:drop-shadow(0 18px 24px rgba(0,30,15,.35))}
-.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:56px;align-items:center}
-.hero h1{font-size:clamp(2.7rem,5.6vw,5.4rem);color:#fff;text-shadow:0 6px 0 rgba(6,40,24,.55),0 18px 40px rgba(0,0,0,.3)}
-.hero h1 .fly{display:block;color:var(--banana)}
-.hero h1 .nw{white-space:nowrap}
-.hero .lede{font-size:clamp(1.1rem,1.9vw,1.35rem);max-width:30ch;margin:22px 0 30px;color:#f2fff5;text-shadow:0 2px 12px rgba(0,0,0,.25)}
-.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px 22px}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-.chip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(6,23,15,.42);border:1px solid rgba(255,255,255,.18);font-weight:600;font-size:.92rem;backdrop-filter:blur(6px)}
-.chip svg{width:18px;height:18px;flex:none}
-.video-card{position:relative;border-radius:var(--r);overflow:hidden;background:#0b2a1c;aspect-ratio:16/9;
-  box-shadow:0 0 0 6px rgba(255,255,255,.12),0 40px 90px rgba(0,20,10,.55);transform:rotate(1.5deg)}
-.video-card video{width:100%;height:100%;object-fit:cover}
-.sound{position:absolute;right:14px;bottom:14px;display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;
-  padding:10px 16px;border-radius:999px;background:rgba(6,23,15,.78);color:#fff;font:600 .9rem var(--body);backdrop-filter:blur(6px)}
-.sound:hover{background:var(--banana);color:#3a2210}
-.sound svg{width:18px;height:18px}
-.floaty{position:absolute;z-index:-1;width:46px;opacity:.95;filter:drop-shadow(0 8px 10px rgba(0,30,15,.3));animation:bob 5s ease-in-out infinite}
-@keyframes bob{50%{transform:translateY(-16px) rotate(8deg)}}
-@media (max-width:600px){ .floaty{display:none} }
-@media (max-width:900px){
-  .hero{padding-top:100px}
-  .hero .wrap{grid-template-columns:minmax(0,1fr);gap:40px;text-align:center}
-  .hero .lede{margin-inline:auto} .hero .cta,.chips{justify-content:center}
-  .video-card{transform:none}
-}
-
-/* ---------- stats ---------- */
-.stats{position:relative;margin-top:-46px;z-index:2}
-.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);background:var(--leaf-900);border:1px solid rgba(164,217,173,.16);border-radius:var(--r);box-shadow:0 30px 60px rgba(0,0,0,.35)}
-.stat{padding:26px 18px;text-align:center}
-.stat + .stat{border-left:1px dashed rgba(164,217,173,.18)}
-.stat b{display:block;font-family:var(--display);font-weight:400;font-size:clamp(2rem,4vw,2.9rem);color:var(--banana);line-height:1}
-.stat span{color:var(--muted);font-weight:600;font-size:.95rem}
-@media (max-width:700px){ .stats .wrap{grid-template-columns:repeat(2,1fr)} .stat:nth-child(3){border-left:0} .stat:nth-child(n+3){border-top:1px dashed rgba(164,217,173,.18)} }
-
-/* ---------- features ---------- */
-section.block{padding:120px 0 40px}
-.section-head{text-align:center;max-width:720px;margin:0 auto 70px}
-.section-head h2{font-size:clamp(2.4rem,5vw,3.8rem);margin-top:10px}
-.section-head p{color:var(--muted);font-size:1.15rem;margin:16px 0 0}
-.feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:70px;align-items:center;margin-bottom:110px}
-.feature:nth-child(even) .phone-wrap{order:2}
-.feature h3{font-size:clamp(2rem,3.6vw,2.9rem)}
-.feature h3 em{font-style:normal;color:var(--banana)}
-.feature p{color:#cfe5d6;font-size:1.12rem;max-width:44ch}
-.feature ul{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px}
-.feature li{display:flex;gap:12px;align-items:flex-start;font-weight:500}
-.feature li::before{content:"";flex:none;width:22px;height:22px;margin-top:3px;border-radius:50%;background:var(--banana) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233a2210' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/14px no-repeat}
-.tag{display:inline-block;margin-bottom:14px;padding:5px 12px;border-radius:999px;font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,210,63,.12);color:var(--banana);border:1px solid rgba(255,210,63,.35)}
-.tag.c{background:rgba(95,242,255,.1);color:var(--sky);border-color:rgba(95,242,255,.35)}
-.tag.o{background:rgba(255,154,61,.12);color:var(--orange);border-color:rgba(255,154,61,.4)}
-.tag.p{background:rgba(255,138,216,.12);color:var(--pink);border-color:rgba(255,138,216,.4)}
-.phone-wrap{position:relative;display:flex;justify-content:center}
-.phone-wrap::before{content:"";position:absolute;inset:8% 6%;border-radius:50%;background:radial-gradient(closest-side, var(--glow, rgba(255,210,63,.32)), transparent);filter:blur(10px);z-index:0}
-.phone{position:relative;z-index:1;width:min(300px,72vw);aspect-ratio:1206/2622;border-radius:46px;padding:11px;background:#0a0d0c;
-  box-shadow:0 0 0 2px #2c3a33,0 50px 80px rgba(0,0,0,.55)}
-.phone img{width:100%;height:100%;object-fit:cover;border-radius:36px}
-.phone::after{content:"";position:absolute;left:50%;top:22px;width:30%;height:22px;margin-left:-15%;border-radius:12px;background:#000}
-.phone.tilt-l{transform:rotate(-4deg)} .phone.tilt-r{transform:rotate(4deg)}
-.duo{display:flex;justify-content:center}
-.duo .phone{width:min(250px,44vw)}
-.duo .phone:first-child{transform:rotate(-6deg) translateX(30px)} .duo .phone:last-child{transform:rotate(5deg) translate(-30px,40px);z-index:2}
-@media (max-width:860px){
-  .feature{grid-template-columns:minmax(0,1fr);gap:40px;text-align:center;margin-bottom:90px}
-  .feature:nth-child(even) .phone-wrap{order:0}
-  .feature p{margin-inline:auto} .feature ul{justify-items:center}
-}
-
-/* ---------- gallery ---------- */
-.gallery{padding:70px 0 30px}
-.strip{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding:20px max(20px,calc((100vw - 1180px)/2)) 40px;scrollbar-width:none}
-.strip::-webkit-scrollbar{display:none}
-.strip figure{margin:0;flex:none;width:230px;scroll-snap-align:center}
-.strip img{width:100%;border-radius:26px;box-shadow:0 0 0 1px rgba(164,217,173,.18),0 24px 40px rgba(0,0,0,.45);transition:transform .2s ease}
-.strip img:hover{transform:translateY(-6px)}
-.strip figcaption{text-align:center;color:var(--muted);font-weight:600;font-size:.92rem;margin-top:12px}
-
-/* ---------- family ---------- */
-.family .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.card{background:linear-gradient(160deg,var(--leaf-800),var(--leaf-900));border:1px solid rgba(164,217,173,.14);border-radius:22px;padding:26px 22px}
-.card .ic{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:rgba(255,210,63,.14);color:var(--banana);margin-bottom:16px}
-.card .ic svg{width:28px;height:28px}
-.card h3{font-size:1.45rem}
-.card p{color:var(--muted);margin:8px 0 0;font-size:1rem}
-@media (max-width:900px){ .family .wrap{grid-template-columns:repeat(2,1fr)} }
-@media (max-width:520px){ .family .wrap{grid-template-columns:1fr} }
-
-/* ---------- final call ---------- */
-.final{position:relative;margin:120px 0 0;padding:120px 0 130px;text-align:center;overflow:hidden;isolation:isolate;
-  background:radial-gradient(700px 420px at 50% 40%, rgba(255,214,120,.35), transparent 70%),linear-gradient(180deg,var(--leaf-950),#0e3a27 50%,var(--leaf-950))}
-.final .icon{width:168px;height:168px;margin:0 auto 34px;border-radius:38px;box-shadow:0 0 0 6px rgba(255,255,255,.1),0 0 80px rgba(95,242,255,.35),0 30px 60px rgba(0,0,0,.5);animation:bob 6s ease-in-out infinite}
-.final h2{font-size:clamp(2.8rem,7vw,5.2rem);color:#fff}
-.final h2 span{color:var(--banana)}
-.final p{color:#cfe5d6;font-size:1.2rem;margin:16px auto 34px;max-width:40ch}
-
-/* ---------- footer ---------- */
-footer{border-top:1px solid rgba(164,217,173,.12);padding:40px 0 calc(40px + env(safe-area-inset-bottom));color:var(--muted);font-size:.95rem}
-footer .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:16px 30px}
-footer .links{display:flex;flex-wrap:wrap;gap:22px;margin-left:auto;font-weight:600}
-footer .links a{text-decoration:none;color:var(--ink)} footer .links a:hover{color:var(--banana)}
-footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
-.studio{display:flex;align-items:center;gap:12px;font-weight:700;color:var(--ink)}
-.studio small{display:block;font-weight:500;color:var(--muted)}
-
-/* phones: tighter spacing between sections */
-@media (max-width:700px){
-  .hero{min-height:0;padding:96px 0 64px}
-  .stats{margin-top:-30px}
-  section.block{padding:56px 0 10px}
-  .section-head{margin-bottom:34px}
-  .section-head h2{font-size:2.3rem}
-  .feature{gap:26px;margin-bottom:64px}
-  .gallery{padding:30px 0 10px}
-  .final{margin-top:50px;padding:80px 0 90px}
-}
-/* reveal on scroll */
-.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease, transform .55s cubic-bezier(.2,.7,.2,1)}
-.js .reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){ *{animation:none!important;transition:none!important} .reveal{opacity:1;transform:none} }
-.soon{max-width:100%;display:inline-flex;align-items:center;gap:10px;height:62px;padding:0 18px 0 14px;border-radius:14px;border:1.5px dashed rgba(255,255,255,.45);background:rgba(6,23,15,.35);color:#fff;font-weight:600;font-size:.98rem;line-height:1.15;text-align:left;backdrop-filter:blur(6px)}
-.soon svg{width:28px;height:28px;flex:none}
-.soon small{display:block;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
-.cta-final{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:16px 20px}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-</style>
+<script>(()=>{try{if(localStorage.getItem('mvr-lang'))return;const L=["es","fr","de","pt","it","nl","pl","sv","ru","zh","ja","ko","tr","id"];for(const x of (navigator.languages||[navigator.language||'']).map(s=>String(s).toLowerCase())){let m=null;if(/^zh-(tw|hk|mo|hant)/.test(x))m='zh-TW';else{const b=x.split('-')[0];if(b==='en')return;if(L.includes(b))m=b;}if(m){location.replace('/'+m+location.pathname+location.hash);return;}}}catch(e){}})()</script>
 </head>
 <body>
 
 <header class="top" id="top">
   <div class="wrap">
-    <a class="brand" href="#"><img src="img/icon-512.png" alt=""><span>Monkey <b>Vine Rush</b></span></a>
-    <nav aria-label="Main">
+    <a class="brand" href="/" id="homeLink"><img src="/img/icon-96.png" alt="" width="42" height="42"><span>Monkey <b>Vine Rush</b></span></a>
+    <nav id="mainNav" aria-label="Main">
+      <a href="/" class="jsHome" aria-current="page">Home</a>
       <a href="#features">Features</a>
       <a href="#gallery">Screenshots</a>
       <a href="/support/">Support</a>
       <a href="/privacy/">Privacy</a>
-      <a class="badge-link sm" href="https://apps.apple.com/app/id6825472830"><img src="img/app-store-badge.svg" alt="Download on the App Store"></a>
+      <details class="lang"><summary aria-label="Language"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>EN</summary><ul><li><a href="/" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/sv/" hreflang="sv" lang="sv" data-lang="sv">Svenska</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a></li><li><a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/zh-TW/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-TW">繁體中文</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></li></ul></details>
     </nav>
+    <a class="badge-link sm hdr-badge" href="https://apps.apple.com/app/id6825472830"><img src="/img/app-store-badge.svg" alt="Download on the App Store" width="132" height="44"></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path class="l1" d="M4 7h16"/><path class="l2" d="M4 12h16"/><path class="l3" d="M4 17h16"/></svg></button>
   </div>
 </header>
 
@@ -211,9 +70,9 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
       <div>
         <p class="eyebrow">Monkey Vine Rush · iPhone &amp; iPad</p>
         <h1><span class="nw">Hold. Swing.</span><span class="fly nw">Let go &amp; FLY!</span></h1>
-        <p class="lede">One finger is all it takes. Swing through 24 wild worlds, grab every banana, beat the bosses and outrun the chaser.</p>
+        <p class="lede">Explore 24 wild worlds, leap from vine to vine, beat the bosses and race ahead of the chaser. Easy to pick up and packed with adventure.</p>
         <div class="cta">
-          <a class="badge-link" href="https://apps.apple.com/app/id6825472830"><img src="img/app-store-badge.svg" alt="Download on the App Store"></a>
+          <a class="badge-link" href="https://apps.apple.com/app/id6825472830"><img src="/img/app-store-badge.svg" alt="Download on the App Store" width="186" height="62"></a>
           <span class="soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M4 2.6l10.3 9.4L4 21.4c-.4-.2-.6-.6-.6-1.1V3.7c0-.5.2-.9.6-1.1z"/><path fill="#fbbc04" d="M17.6 15.1l-3.3-3.1 3.3-3.1 3.6 2c.9.5.9 1.8 0 2.3z"/><path fill="#4285f4" d="M14.3 12L4 21.4c.3.2.8.2 1.2 0l12.4-6.3z"/><path fill="#ea4335" d="M14.3 12L17.6 8.9 5.2 2.6c-.4-.2-.9-.2-1.2 0z"/></svg><span><small>Android</small>Google Play version coming soon</span></span>
         </div>
         <div class="chips">
@@ -223,8 +82,8 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
         </div>
       </div>
       <div class="video-card">
-        <video id="teaser" src="img/teaser.mp4" poster="img/teaser-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="Monkey Vine Rush gameplay trailer"></video>
-        <button class="sound" id="soundBtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span>Watch with sound</span></button>
+        <video id="teaser" src="/img/teaser.mp4" poster="/img/teaser-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Monkey Vine Rush gameplay trailer"></video>
+        <button class="sound" id="soundBtn" type="button" data-on="Watch with sound" data-off="Mute"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span>Watch with sound</span></button>
       </div>
     </div>
   </section>
@@ -247,7 +106,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
       </div>
 
       <div class="feature reveal">
-        <div class="phone-wrap"><div class="phone tilt-l"><img src="img/02-play.jpg" alt="Swinging between trees in a level" loading="lazy"></div></div>
+        <div class="phone-wrap"><div class="phone tilt-l"><img src="/img/02-play.webp" alt="Swing &amp; fly" loading="lazy" width="600" height="1304"></div></div>
         <div>
           <span class="tag">Hold &amp; let go</span>
           <h3>The perfect swing, <em>every time</em></h3>
@@ -257,7 +116,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
       </div>
 
       <div class="feature reveal" style="--glow:rgba(95,242,255,.28)">
-        <div class="phone-wrap"><div class="phone tilt-r"><img src="img/06-worlds.jpg" alt="The World Map with Jungle Canopy and Frosty Peaks" loading="lazy"></div></div>
+        <div class="phone-wrap"><div class="phone tilt-r"><img src="/img/06-worlds.webp" alt="24 worlds" loading="lazy" width="600" height="1304"></div></div>
         <div>
           <span class="tag c">24 worlds</span>
           <h3>From jungles to <em>outer space</em></h3>
@@ -267,7 +126,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
       </div>
 
       <div class="feature reveal" style="--glow:rgba(255,154,61,.3)">
-        <div class="phone-wrap"><div class="phone tilt-l"><img src="img/03-rush.jpg" alt="Rush mode with the jaguar chasing" loading="lazy"></div></div>
+        <div class="phone-wrap"><div class="phone tilt-l"><img src="/img/03-rush.webp" alt="Endless Rush" loading="lazy" width="600" height="1304"></div></div>
         <div>
           <span class="tag o">Rush mode</span>
           <h3>Run! The chaser is <em>right behind you</em></h3>
@@ -277,7 +136,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
       </div>
 
       <div class="feature reveal" style="--glow:rgba(255,138,216,.28)">
-        <div class="phone-wrap"><div class="duo"><div class="phone"><img src="img/04-profile.jpg" alt="Dressing up the monkey on the profile page" loading="lazy"></div><div class="phone"><img src="img/08-shop_monkeys.jpg" alt="Monkeys to unlock in the Banana Bazaar" loading="lazy"></div></div></div>
+        <div class="phone-wrap"><div class="duo"><div class="phone"><img src="/img/04-profile.webp" alt="Dress up" loading="lazy" width="600" height="1304"></div><div class="phone"><img src="/img/08-shop_monkeys.webp" alt="New monkeys" loading="lazy" width="600" height="1304"></div></div></div>
         <div>
           <span class="tag p">Make it yours</span>
           <h3>Dress up your <em>monkey</em></h3>
@@ -287,7 +146,7 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
       </div>
 
       <div class="feature reveal">
-        <div class="phone-wrap"><div class="duo"><div class="phone"><img src="img/10-daily.jpg" alt="Picking a daily gift box" loading="lazy"></div><div class="phone"><img src="img/07-missions.jpg" alt="Missions with coin rewards" loading="lazy"></div></div></div>
+        <div class="phone-wrap"><div class="duo"><div class="phone"><img src="/img/10-daily.webp" alt="Daily gifts" loading="lazy" width="600" height="1304"></div><div class="phone"><img src="/img/07-missions.webp" alt="Missions" loading="lazy" width="600" height="1304"></div></div></div>
         <div>
           <span class="tag">Every day</span>
           <h3>Something new <em>every day</em></h3>
@@ -298,22 +157,22 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
     </div>
   </section>
 
-  <section class="gallery" id="gallery" aria-label="Screenshots">
+  <section class="gallery" id="gallery" aria-label="See it in action">
     <div class="section-head reveal" style="margin-bottom:10px">
       <p class="eyebrow">Take a look</p>
       <h2>See it in action</h2>
     </div>
     <div class="strip">
-      <figure><img src="img/01-hub_levels.jpg" alt="The Camp: levels and Rush" loading="lazy"><figcaption>Your Camp</figcaption></figure>
-      <figure><img src="img/02-play.jpg" alt="Swinging through a level" loading="lazy"><figcaption>Swing &amp; fly</figcaption></figure>
-      <figure><img src="img/03-rush.jpg" alt="Rush mode" loading="lazy"><figcaption>Endless Rush</figcaption></figure>
-      <figure><img src="img/05-powers.jpg" alt="Power-ups" loading="lazy"><figcaption>Power-ups</figcaption></figure>
-      <figure><img src="img/06-worlds.jpg" alt="World Map" loading="lazy"><figcaption>24 worlds</figcaption></figure>
-      <figure><img src="img/04-profile.jpg" alt="Profile" loading="lazy"><figcaption>Dress up</figcaption></figure>
-      <figure><img src="img/08-shop_monkeys.jpg" alt="Monkeys in the shop" loading="lazy"><figcaption>New monkeys</figcaption></figure>
-      <figure><img src="img/07-missions.jpg" alt="Missions" loading="lazy"><figcaption>Missions</figcaption></figure>
-      <figure><img src="img/09-badges.jpg" alt="Badges" loading="lazy"><figcaption>Badges</figcaption></figure>
-      <figure><img src="img/10-daily.jpg" alt="Daily gift" loading="lazy"><figcaption>Daily gifts</figcaption></figure>
+      <figure><img src="/img/01-hub_levels.webp" alt="Your Camp" loading="lazy" width="600" height="1304"><figcaption>Your Camp</figcaption></figure>
+      <figure><img src="/img/02-play.webp" alt="Swing &amp; fly" loading="lazy" width="600" height="1304"><figcaption>Swing &amp; fly</figcaption></figure>
+      <figure><img src="/img/03-rush.webp" alt="Endless Rush" loading="lazy" width="600" height="1304"><figcaption>Endless Rush</figcaption></figure>
+      <figure><img src="/img/05-powers.webp" alt="Power-ups" loading="lazy" width="600" height="1304"><figcaption>Power-ups</figcaption></figure>
+      <figure><img src="/img/06-worlds.webp" alt="24 worlds" loading="lazy" width="600" height="1304"><figcaption>24 worlds</figcaption></figure>
+      <figure><img src="/img/04-profile.webp" alt="Dress up" loading="lazy" width="600" height="1304"><figcaption>Dress up</figcaption></figure>
+      <figure><img src="/img/08-shop_monkeys.webp" alt="New monkeys" loading="lazy" width="600" height="1304"><figcaption>New monkeys</figcaption></figure>
+      <figure><img src="/img/07-missions.webp" alt="Missions" loading="lazy" width="600" height="1304"><figcaption>Missions</figcaption></figure>
+      <figure><img src="/img/09-badges.webp" alt="Badges" loading="lazy" width="600" height="1304"><figcaption>Badges</figcaption></figure>
+      <figure><img src="/img/10-daily.webp" alt="Daily gifts" loading="lazy" width="600" height="1304"><figcaption>Daily gifts</figcaption></figure>
     </div>
   </section>
 
@@ -331,45 +190,53 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
   </section>
 
   <section class="final">
-    <img class="icon" src="img/icon-512.png" alt="Monkey Vine Rush app icon">
+    <img class="icon" src="/img/icon-336.webp" alt="Monkey Vine Rush app icon" width="168" height="168" loading="lazy">
     <h2>Ready to <span>swing?</span></h2>
     <p>Join the rush on iPhone and iPad. Your first vine is waiting.</p>
-    <div class="cta-final"><a class="badge-link" href="https://apps.apple.com/app/id6825472830"><img src="img/app-store-badge.svg" alt="Download on the App Store"></a>
+    <div class="cta-final"><a class="badge-link" href="https://apps.apple.com/app/id6825472830"><img src="/img/app-store-badge.svg" alt="Download on the App Store" width="186" height="62"></a>
     <span class="soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M4 2.6l10.3 9.4L4 21.4c-.4-.2-.6-.6-.6-1.1V3.7c0-.5.2-.9.6-1.1z"/><path fill="#fbbc04" d="M17.6 15.1l-3.3-3.1 3.3-3.1 3.6 2c.9.5.9 1.8 0 2.3z"/><path fill="#4285f4" d="M14.3 12L4 21.4c.3.2.8.2 1.2 0l12.4-6.3z"/><path fill="#ea4335" d="M14.3 12L17.6 8.9 5.2 2.6c-.4-.2-.9-.2-1.2 0z"/></svg><span><small>Android</small>Google Play version coming soon</span></span></div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <div class="studio"><img src="img/icon-512.png" alt="" width="40" height="40" style="border-radius:10px"><div>Grimmitt Games<small>Makers of Monkey Vine Rush</small></div></div>
+    <div class="studio"><img src="/img/icon-96.png" alt="" width="40" height="40" style="border-radius:10px"><div>Grimmitt Games<small>A game by Jason Grimmitt</small></div></div>
     <div class="links">
+      <a href="/" aria-current="page">Home</a>
       <a href="/support/">Support</a>
       <a href="/privacy/">Privacy Policy</a>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
+    <p class="langs" aria-label="Language"><a href="/" hreflang="en" lang="en" data-lang="en" aria-current="true">English</a><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a><a href="/sv/" hreflang="sv" lang="sv" data-lang="sv">Svenska</a><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a><a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a><a href="/zh-TW/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-TW">繁體中文</a><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></p>
     <p class="legal">© 2026 Grimmitt Games. Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
   </div>
 </footer>
 
+<button class="totop" id="toTop" type="button" aria-label="Back to top" title="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14l6-6 6 6"/></svg></button>
+
 <script>
 (() => {
-  // the top bar turns solid once you scroll
-  const bar = document.getElementById('top');
-  const solid = () => bar.classList.toggle('solid', scrollY > 30);
-  addEventListener('scroll', solid, { passive:true }); solid();
+  // the top bar turns solid once you scroll; the back-to-top button appears further down
+  const bar = document.getElementById('top'), up = document.getElementById('toTop');
+  const onScroll = () => { bar.classList.toggle('solid', scrollY > 30); up.classList.toggle('show', scrollY > 700); };
+  addEventListener('scroll', onScroll, { passive:true }); onScroll();
+  // Home, the logo and the arrow all glide back to the top of this page
+  const toTop = e => { e.preventDefault(); scrollTo({ top:0, behavior:'smooth' }); history.replaceState(null, '', location.pathname); };
+  document.querySelectorAll('.jsHome, #homeLink').forEach(a => a.addEventListener('click', toTop)); up.addEventListener('click', toTop);
   // sections fade up as they come into view (hidden only once this script is running, so they can never get stuck hidden)
   if ('IntersectionObserver' in window) document.documentElement.classList.add('js');
-  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold:0, rootMargin:'0px 0px -6% 0px' }) : null;   // appear as soon as the top edge comes into view, so tall sections on phones never sit empty
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold:0, rootMargin:'0px 0px -6% 0px' }) : null;   // appear as soon as the top edge comes into view
   document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
   // the trailer plays silently; the button restarts it with sound
   const v = document.getElementById('teaser'), btn = document.getElementById('soundBtn');
   btn.addEventListener('click', () => {
     const on = v.muted;
-    if (on && !v.dataset.sound){ v.dataset.sound = '1'; v.src = 'img/teaser-sound.mp4'; v.loop = true; }
+    if (on && !v.dataset.sound){ v.dataset.sound = '1'; v.src = '/img/teaser-sound.mp4'; v.loop = true; }
     v.muted = !on; if (on){ v.currentTime = 0; v.play(); }
-    btn.querySelector('span').textContent = on ? 'Mute' : 'Watch with sound';
+    btn.querySelector('span').textContent = on ? btn.dataset.off : btn.dataset.on;
   });
 })();
 </script>
+<script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>
 </body>
 </html>

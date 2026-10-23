@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="{{htmlLang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{p_title}}</title>
+<meta name="description" content="{{p_desc}}">
+<meta name="author" content="Jason Grimmitt, Grimmitt Games">
+<meta name="theme-color" content="#0b2a1c">
+<link rel="canonical" href="{{canonical}}">
+{{hreflang}}
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/page.css">
+{{scriptFont}}
+{{autoLang}}
+</head>
+<body>
+
+{{pageHeader}}
+
+<section class="hero">
+  <p class="eyebrow">{{p_eyebrow}}</p>
+  <h1>Monkey <span>Vine Rush</span></h1>
+  <p class="sub">{{p_updated}}</p>
+</section>
+
+<main>
+  <div class="col">
+    {{transNote}}
+    <section class="card" aria-labelledby="sum">
+      <h2 id="sum">{{sum_h}}</h2>
+      <ul>
+        <li>{{sum_1}}</li>
+        <li>{{sum_2}}</li>
+        <li>{{sum_3}}</li>
+        <li>{{sum_4}}</li>
+      </ul>
+    </section>
+
+    <h2>{{who_h}}</h2>
+    {{who}}
+
+    <h2>{{stores_h}}</h2>
+    {{stores}}
+
+    <h2>{{notcollect_h}}</h2>
+    {{notcollect}}
+
+    <h2>{{purchases_h}}</h2>
+    {{purchases}}
+
+    <h2>{{boards_h}}</h2>
+    {{boards}}
+
+    <h2>{{fonts_h}}</h2>
+    {{fonts}}
+
+    <h2>{{children_h}}</h2>
+    {{children}}
+
+    <h2>{{choices_h}}</h2>
+    {{choices}}
+
+    <h2>{{translations_h}}</h2>
+    {{translations}}
+
+    <h2>{{marks_h}}</h2>
+    {{marks}}
+
+    <h2>{{changes_h}}</h2>
+    {{changes}}
+    <div class="contact">
+      <span class="email" id="email">MonkeyVineRush@outlook.com</span>
+      <a class="btn" href="mailto:MonkeyVineRush@outlook.com?subject=Monkey%20Vine%20Rush%20privacy">{{email_us}}</a>
+      <button class="btn ghost" type="button" id="copyEmail" data-copied="{{copied}}" data-selected="{{selected}}">{{copy}}</button>
+      <span class="status" id="copyStatus" aria-live="polite"></span>
+    </div>
+  </div>
+</main>
+
+{{footer}}
+
+{{copyScript}}
+{{langScript}}
+</body>
+</html>
