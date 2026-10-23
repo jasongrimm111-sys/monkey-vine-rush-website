@@ -180,8 +180,11 @@
   // tap the trailer: full screen, from the start, with sound and controls; back to the silent loop afterwards
   const label = () => { btn.querySelector('span').textContent = v.muted ? btn.dataset.on : btn.dataset.off; };
   v.style.cursor = 'pointer';
-  v.addEventListener('click', () => {
+  v.addEventListener('click', e => {
     if (document.fullscreenElement || document.webkitFullscreenElement) return;
+    // a tap that just misses the pause/play button counts as pressing it, not as full screen
+    const b = document.getElementById('ppBtn').getBoundingClientRect(), pad = 30;
+    if (e.clientX < b.right + pad && e.clientY > b.top - pad){ v.paused ? v.play().catch(() => {}) : v.pause(); return; }
     if (!v.dataset.sound){ v.dataset.sound = '1'; v.src = '/img/teaser-sound.mp4'; v.loop = true; }
     v.muted = false; v.currentTime = 0; v.controls = true; v.play().catch(() => {}); label();
     if (v.requestFullscreen) v.requestFullscreen().catch(() => v.webkitEnterFullscreen && v.webkitEnterFullscreen());
