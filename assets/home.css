@@ -47,7 +47,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;margin:0;le
 .free{margin:0 0 14px}
 .free-h{margin:0;font-family:var(--display);font-size:1.7rem;line-height:1.1;color:#fff}
 .free-h b{color:var(--banana);font-weight:inherit;letter-spacing:.02em}
-.free-note{margin:6px 0 0;max-width:30rem;font-size:.86rem;line-height:1.45;opacity:.78}
+.free-note{margin:4px 0 0;max-width:26rem;font-size:.7rem;line-height:1.4;opacity:.7}
 .hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px 22px}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
 .chip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(6,23,15,.42);border:1px solid rgba(255,255,255,.18);font-weight:600;font-size:.92rem;backdrop-filter:blur(6px)}
