@@ -82,6 +82,7 @@
       </div>
       <div class="video-card">
         <video id="teaser" src="/img/teaser.mp4" poster="/img/teaser-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Monkey Vine Rush gameplay trailer"></video>
+        <span class="fs-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></span>
         <button class="sound" id="soundBtn" type="button" data-on="Watch with sound" data-off="Mute"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span>Watch with sound</span></button>
       </div>
     </div>
@@ -217,6 +218,20 @@
     v.muted = !on; if (on){ v.currentTime = 0; v.play(); }
     btn.querySelector('span').textContent = on ? btn.dataset.off : btn.dataset.on;
   });
+  // tap the trailer: full screen, from the start, with sound and controls; back to the silent loop afterwards
+  const label = () => { btn.querySelector('span').textContent = v.muted ? btn.dataset.on : btn.dataset.off; };
+  v.style.cursor = 'pointer';
+  v.addEventListener('click', () => {
+    if (document.fullscreenElement || document.webkitFullscreenElement) return;
+    if (!v.dataset.sound){ v.dataset.sound = '1'; v.src = '/img/teaser-sound.mp4'; v.loop = true; }
+    v.muted = false; v.currentTime = 0; v.controls = true; v.play().catch(() => {}); label();
+    if (v.requestFullscreen) v.requestFullscreen().catch(() => v.webkitEnterFullscreen && v.webkitEnterFullscreen());
+    else if (v.webkitEnterFullscreen) v.webkitEnterFullscreen();   // iPhone
+  });
+  const back = () => { v.controls = false; v.muted = true; v.play().catch(() => {}); label(); };
+  document.addEventListener('fullscreenchange', () => { if (!document.fullscreenElement) back(); });
+  document.addEventListener('webkitfullscreenchange', () => { if (!document.webkitFullscreenElement) back(); });
+  v.addEventListener('webkitendfullscreen', back);
 })();
 </script>
 <script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>

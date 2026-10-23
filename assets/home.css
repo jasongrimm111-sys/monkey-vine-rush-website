@@ -53,6 +53,9 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;margin:0;le
   padding:10px 16px;border-radius:999px;background:rgba(6,23,15,.78);color:#fff;font:600 .9rem var(--body);backdrop-filter:blur(6px)}
 .sound:hover{background:var(--banana);color:#3a2210}
 .sound svg{width:18px;height:18px}
+.fs-hint{position:absolute;right:14px;top:14px;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:rgba(10,30,20,.62);color:#fff;pointer-events:none}
+.fs-hint svg{width:18px;height:18px}
+.video-card:hover .fs-hint{background:var(--banana);color:#3a2210}
 .floaty{position:absolute;z-index:-1;width:46px;opacity:.95;filter:drop-shadow(0 8px 10px rgba(0,30,15,.3));animation:bob 5s ease-in-out infinite}
 @keyframes bob{50%{transform:translateY(-16px) rotate(8deg)}}
 @media (max-width:600px){ .floaty{display:none} }
