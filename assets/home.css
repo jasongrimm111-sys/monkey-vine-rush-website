@@ -6,7 +6,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--leaf-950);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55;overflow-x:hidden}
-img,video{display:block;max-width:100%}
+img,video{display:block;max-width:100%;height:auto}   /* the width/height attributes reserve space while loading; the height follows the width */
 a{color:inherit}
 .wrap{width:min(1180px,100% - 40px);margin-inline:auto}
 h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;margin:0;letter-spacing:.005em}
@@ -37,7 +37,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;margin:0;le
              radial-gradient(150px 140px at 34% 55%, #1f6e33 70%, transparent 71%),radial-gradient(180px 150px at 70% 40%, #2a8a3f 70%, transparent 71%),
              radial-gradient(170px 160px at 86% 60%, #1f6e33 70%, transparent 71%),radial-gradient(150px 140px at 98% 30%, #2a8a3f 70%, transparent 71%);
   filter:drop-shadow(0 18px 24px rgba(0,30,15,.35))}
-.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:56px;align-items:center}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:48px;align-items:center}
 .hero h1{font-size:clamp(2.7rem,5.6vw,5.4rem);color:#fff;text-shadow:0 6px 0 rgba(6,40,24,.55),0 18px 40px rgba(0,0,0,.3)}
 .hero h1 .fly{display:block;color:var(--banana)}
 .hero h1 .nw{white-space:nowrap}
@@ -212,5 +212,6 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
 @media (max-width:600px){ .hero h1 .nw{white-space:normal} }
 
 /* the headline is the game name, always in the game's own font (whatever the page language) */
-.hero h1.title{font-family:'Lilita One',sans-serif!important;font-weight:400!important;font-size:clamp(3.6rem,8.2vw,7rem);line-height:.95}
+.hero h1.title{font-family:'Lilita One',sans-serif!important;font-weight:400!important;font-size:clamp(4.3rem,9vw,8.4rem);line-height:.93}
 .hero h1.title .nw{white-space:nowrap!important}
+main{overflow-x:hidden;overflow-x:clip}   /* tilted phone pairs never cause a sideways scroll */
