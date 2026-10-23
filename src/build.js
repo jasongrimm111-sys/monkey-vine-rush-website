@@ -7,7 +7,7 @@ const ROOT = path.join(__dirname, '..'), SITE = 'https://monkeyvinerush.com';
 const LANGS = { en:'English', es:'Español', fr:'Français', de:'Deutsch', pt:'Português', it:'Italiano', nl:'Nederlands', pl:'Polski', sv:'Svenska',
   ru:'Русский', zh:'简体中文', ja:'日本語', ko:'한국어', 'zh-TW':'繁體中文', tr:'Türkçe', id:'Bahasa Indonesia' };
 const HTML_LANG = { zh:'zh-Hans', 'zh-TW':'zh-Hant' };
-const PAGES = [['home.html', ''], ['support.html', 'support/'], ['privacy.html', 'privacy/']];
+const PAGES = [['home.html', ''], ['support.html', 'support/'], ['privacy.html', 'privacy/'], ['cookies.html', 'cookies/']];
 // The game's fonts (Lilita One, Fredoka) only cover Latin letters, so these languages get a matching chunky font of their own
 const SCRIPT_FONTS = {
   ja:{ css:'M+PLUS+Rounded+1c:wght@500;800', display:"'M PLUS Rounded 1c'", body:"'M PLUS Rounded 1c'" },
@@ -62,6 +62,7 @@ for (const lang of Object.keys(LANGS)){
       <a href="${base(lang)}"${pageName === 'home' ? ' aria-current="page"' : ''}>${t('nav_home')}</a>
       <a href="${base(lang)}support/"${pageName === 'support' ? ' aria-current="page"' : ''}>${t('nav_support')}</a>
       <a href="${base(lang)}privacy/"${pageName === 'privacy' ? ' aria-current="page"' : ''}>${t('footer_privacy')}</a>
+      <a href="${base(lang)}cookies/"${pageName === 'cookies' ? ' aria-current="page"' : ''}>${t('footer_cookies')}</a>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="${t('lang_label')}">${Object.entries(LANGS).map(([l, n]) => `<a href="${base(l) + rel}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a>`).join('')}</p>
@@ -77,7 +78,7 @@ document.getElementById('copyEmail').addEventListener('click', e => {
 </script>`,
       scriptFont: !SCRIPT_FONTS[lang] ? '' : `<link href="https://fonts.googleapis.com/css2?family=${SCRIPT_FONTS[lang].css}&display=swap" rel="stylesheet">
 <style>:root{--display:${SCRIPT_FONTS[lang].display},'Lilita One',sans-serif;--body:${SCRIPT_FONTS[lang].body},'Fredoka',system-ui,sans-serif}h1,h2,h3,.stat b,.final h2,.side b,.brand,.soon,.chip,summary{font-weight:${lang === 'ko' ? 400 : 800}}body{font-weight:500}</style>`,
-      transNote: lang === 'en' ? '' : `<p class="note">${t('trans_note')}</p>`,
+      transNote: lang === 'en' ? '' : `<p class="note">${t(pageName === 'cookies' ? 'c_trans_note' : 'trans_note')}</p>`,
     };
     let html = fs.readFileSync(path.join(__dirname, tpl), 'utf8');
     // fill in parts (which may hold {{keys}} themselves), then strings, then any {{base}} the strings carry
