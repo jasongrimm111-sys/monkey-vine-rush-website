@@ -178,5 +178,12 @@
   "v_play": "Abspielen",
   "v_full": "Vollbild",
   "free_h": "<b>KOSTENLOS</b> herunterladen",
-  "free_note": "Optionale In-App-Käufe für Münzpakete. Münzen kannst du auch einfach kostenlos beim Spielen sammeln."
+  "free_note": "Optionale In-App-Käufe für Münzpakete. Münzen kannst du auch einfach kostenlos beim Spielen sammeln.",
+  "f6_tag": "Bosskämpfe",
+  "f6_h3": "Stell dich <em>epischen Bossen</em>",
+  "f6_p": "Jedes 10. Level endet mit einem Showdown. Schwing dich direkt in den Boss, um ihn zu treffen, nutze den Power Spin für doppelten Schaden und weiche seinen Feuerbällen, Eiszapfen und Lasern aus. Jede Welt hat ihren eigenen Boss, von Big Beak dem Tukan bis zum Kristalldrachen.",
+  "f6_li1": "Alle 10 Level ein Bosskampf",
+  "f6_li2": "Weiche Feuerbällen, Eiszapfen und Lasern aus",
+  "f6_li3": "24 Bosse mit eigenen Angriffen",
+  "cap9": "Bosskämpfe"
 }

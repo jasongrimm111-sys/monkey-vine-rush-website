@@ -178,5 +178,12 @@
   "v_play": "Afspelen",
   "v_full": "Volledig scherm",
   "free_h": "<b>GRATIS</b> te downloaden",
-  "free_note": "Optionele in-app-aankopen voor muntpakketten. Je kunt ook gratis munten verdienen door gewoon te spelen."
+  "free_note": "Optionele in-app-aankopen voor muntpakketten. Je kunt ook gratis munten verdienen door gewoon te spelen.",
+  "f6_tag": "Baasgevechten",
+  "f6_h3": "Versla <em>epische bazen</em>",
+  "f6_p": "Elk 10e level eindigt in een eindgevecht. Zwaai recht op de baas af om raak te slaan, gebruik de Krachtdraai voor dubbele schade en ontwijk zijn vuurballen, ijspegels en lasers. Elke wereld heeft zijn eigen baas, van toekan Big Beak tot de Kristallen Draak.",
+  "f6_li1": "Elke 10 levels een baasgevecht",
+  "f6_li2": "Ontwijk vuurballen, ijspegels en lasers",
+  "f6_li3": "24 bazen, elk met eigen aanvallen",
+  "cap9": "Baasgevechten"
 }

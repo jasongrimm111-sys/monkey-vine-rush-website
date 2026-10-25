@@ -178,5 +178,12 @@
   "v_play": "Odtwórz",
   "v_full": "Pełny ekran",
   "free_h": "Pobierz <b>ZA DARMO</b>",
-  "free_note": "Opcjonalne zakupy w aplikacji pakietów monet. Monety możesz też zdobywać za darmo, po prostu grając."
+  "free_note": "Opcjonalne zakupy w aplikacji pakietów monet. Monety możesz też zdobywać za darmo, po prostu grając.",
+  "f6_tag": "Walki z bossami",
+  "f6_h3": "Zmierz się z <em>epickimi bossami</em>",
+  "f6_p": "Co 10. poziom kończy się starciem. Wleć prosto w bossa, by go trafić, użyj Super obrotu, by zadać podwójne obrażenia, i unikaj jego kul ognia, sopli i laserów. Każdy świat ma własnego bossa, od tukana Big Beak po Kryształowego Smoka.",
+  "f6_li1": "Walka z bossem co 10 poziomów",
+  "f6_li2": "Unikaj kul ognia, sopli i laserów",
+  "f6_li3": "24 bossów, każdy z własnymi atakami",
+  "cap9": "Walki z bossami"
 }

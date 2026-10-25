@@ -178,5 +178,12 @@
   "v_play": "Riproduci",
   "v_full": "Schermo intero",
   "free_h": "Download <b>GRATIS</b>",
-  "free_note": "Acquisti in-app facoltativi di pacchetti di monete. Puoi anche guadagnare monete gratis semplicemente giocando."
+  "free_note": "Acquisti in-app facoltativi di pacchetti di monete. Puoi anche guadagnare monete gratis semplicemente giocando.",
+  "f6_tag": "Boss",
+  "f6_h3": "Affronta <em>boss epici</em>",
+  "f6_p": "Ogni 10° livello finisce con uno scontro. Lanciati contro il boss per colpirlo, usa la Super Giravolta per un danno doppio e schiva palle di fuoco, ghiaccioli e laser. Ogni mondo ha il suo boss, da Big Beak il tucano al Drago di Cristallo.",
+  "f6_li1": "Una sfida contro un boss ogni 10 livelli",
+  "f6_li2": "Schiva palle di fuoco, ghiaccioli e laser",
+  "f6_li3": "24 boss, ognuno con i suoi attacchi",
+  "cap9": "Boss"
 }

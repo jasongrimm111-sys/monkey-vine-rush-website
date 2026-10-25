@@ -178,5 +178,12 @@
   "v_play": "Reproducir",
   "v_full": "Pantalla completa",
   "free_h": "Descarga <b>GRATIS</b>",
-  "free_note": "Compras opcionales dentro de la app de paquetes de monedas. También puedes ganar monedas gratis solo con jugar."
+  "free_note": "Compras opcionales dentro de la app de paquetes de monedas. También puedes ganar monedas gratis solo con jugar.",
+  "f6_tag": "Jefes",
+  "f6_h3": "Enfréntate a <em>jefes épicos</em>",
+  "f6_p": "Cada 10.º nivel termina en un duelo. Lánzate contra el jefe para golpearlo, usa el Giro Poderoso para hacer doble daño y esquiva sus bolas de fuego, carámbanos y láseres. Cada mundo tiene su propio jefe, desde Big Beak el tucán hasta el Dragón de Cristal.",
+  "f6_li1": "Una batalla contra un jefe cada 10 niveles",
+  "f6_li2": "Esquiva bolas de fuego, carámbanos y láseres",
+  "f6_li3": "24 jefes, cada uno con sus propios ataques",
+  "cap9": "Jefes"
 }

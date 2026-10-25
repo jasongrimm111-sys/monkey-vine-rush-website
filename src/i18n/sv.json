@@ -178,5 +178,12 @@
   "v_play": "Spela upp",
   "v_full": "Helskärm",
   "free_h": "<b>GRATIS</b> att ladda ner",
-  "free_note": "Valfria köp i appen av myntpaket. Du kan också tjäna mynt gratis bara genom att spela."
+  "free_note": "Valfria köp i appen av myntpaket. Du kan också tjäna mynt gratis bara genom att spela.",
+  "f6_tag": "Bosstrider",
+  "f6_h3": "Möt <em>episka bossar</em>",
+  "f6_p": "Var 10:e nivå slutar med en uppgörelse. Sväng rakt in i bossen för att träffa, använd Kraftsnurr för dubbel skada och undvik dess eldklot, istappar och lasrar. Varje värld har sin egen boss, från tukanen Big Beak till Kristalldraken.",
+  "f6_li1": "En bosstrid var 10:e nivå",
+  "f6_li2": "Undvik eldklot, istappar och lasrar",
+  "f6_li3": "24 bossar med egna attacker",
+  "cap9": "Bosstrider"
 }

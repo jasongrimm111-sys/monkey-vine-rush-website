@@ -178,5 +178,12 @@
   "v_play": "Putar",
   "v_full": "Layar penuh",
   "free_h": "Unduh <b>GRATIS</b>",
-  "free_note": "Ada pembelian dalam aplikasi opsional untuk paket koin. Kamu juga bisa mendapat koin gratis hanya dengan bermain."
+  "free_note": "Ada pembelian dalam aplikasi opsional untuk paket koin. Kamu juga bisa mendapat koin gratis hanya dengan bermain.",
+  "f6_tag": "Pertarungan bos",
+  "f6_h3": "Hadapi <em>bos-bos epik</em>",
+  "f6_p": "Setiap level ke-10 diakhiri pertarungan. Ayun langsung ke arah bos untuk memukulnya, gunakan Putaran Kuat untuk kerusakan ganda, dan hindari bola api, es runcing, dan lasernya. Setiap dunia punya bosnya sendiri, dari tukan Big Beak hingga Naga Kristal.",
+  "f6_li1": "Pertarungan bos setiap 10 level",
+  "f6_li2": "Hindari bola api, es runcing, dan laser",
+  "f6_li3": "24 bos, masing-masing dengan serangannya sendiri",
+  "cap9": "Pertarungan bos"
 }

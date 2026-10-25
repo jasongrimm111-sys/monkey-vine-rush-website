@@ -178,5 +178,12 @@
   "v_play": "Oynat",
   "v_full": "Tam ekran",
   "free_h": "<b>ÜCRETSİZ</b> indir",
-  "free_note": "Jeton paketleri için isteğe bağlı uygulama içi satın almalar vardır. Jetonları sadece oynayarak da ücretsiz kazanabilirsin."
+  "free_note": "Jeton paketleri için isteğe bağlı uygulama içi satın almalar vardır. Jetonları sadece oynayarak da ücretsiz kazanabilirsin.",
+  "f6_tag": "Boss savaşları",
+  "f6_h3": "<em>Destansı bosslarla</em> yüzleş",
+  "f6_p": "Her 10. seviye bir hesaplaşmayla biter. Vurmak için doğrudan bossa doğru salın, iki kat hasar için Güç Dönüşü yap ve ateş toplarından, buz sarkıtlarından ve lazerlerden kaç. Tukan Big Beak'ten Kristal Ejderha'ya kadar her dünyanın kendi bossu var.",
+  "f6_li1": "Her 10 seviyede bir boss savaşı",
+  "f6_li2": "Ateş toplarından, buz sarkıtlarından ve lazerlerden kaç",
+  "f6_li3": "Her biri kendi saldırılarına sahip 24 boss",
+  "cap9": "Boss savaşları"
 }

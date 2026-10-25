@@ -178,5 +178,12 @@
   "v_play": "Lecture",
   "v_full": "Plein écran",
   "free_h": "Téléchargement <b>GRATUIT</b>",
-  "free_note": "Achats intégrés facultatifs de packs de pièces. Tu peux aussi gagner des pièces gratuitement, simplement en jouant."
+  "free_note": "Achats intégrés facultatifs de packs de pièces. Tu peux aussi gagner des pièces gratuitement, simplement en jouant.",
+  "f6_tag": "Combats de boss",
+  "f6_h3": "Affronte des <em>boss épiques</em>",
+  "f6_p": "Chaque 10e niveau se termine par un face-à-face. Fonce sur le boss pour le toucher, fais une Toupie pour doubler les dégâts et esquive ses boules de feu, stalactites et lasers. Chaque monde a son boss, de Big Beak le toucan au Dragon de Cristal.",
+  "f6_li1": "Un combat de boss tous les 10 niveaux",
+  "f6_li2": "Esquive boules de feu, stalactites et lasers",
+  "f6_li3": "24 boss, chacun avec ses attaques",
+  "cap9": "Combats de boss"
 }

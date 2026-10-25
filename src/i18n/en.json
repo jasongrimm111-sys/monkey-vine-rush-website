@@ -178,5 +178,12 @@
   "v_play": "Play",
   "v_full": "Full screen",
   "free_h": "<b>FREE</b> to download",
-  "free_note": "Optional in-app purchases for coin bundles. You can also earn coins for free just by playing."
+  "free_note": "Optional in-app purchases for coin bundles. You can also earn coins for free just by playing.",
+  "f6_tag": "Boss battles",
+  "f6_h3": "Face down <em>epic bosses</em>",
+  "f6_p": "Every 10th level ends in a showdown. Swing straight into the boss to land a hit, Power Spin for double damage, and dodge its fireballs, icicles and lasers. Every world has its own boss, from Big Beak the toucan to the Crystal Dragon.",
+  "f6_li1": "A boss battle every 10 levels",
+  "f6_li2": "Dodge fireballs, icicles and lasers",
+  "f6_li3": "24 bosses, each with its own attacks",
+  "cap9": "Boss battles"
 }
