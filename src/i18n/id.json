@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Pegang. Ayun. Terbang! · iPhone dan iPad",
-  "meta_desc": "Tahan untuk berayun, lepaskan untuk terbang! Jelajahi 24 dunia liar dan 1.200 level, kalahkan para bos, dan kabur dari pengejar. Tanpa iklan, bisa dimainkan offline, seru untuk segala usia. Di iPhone dan iPad.",
+  "meta_desc": "Tahan untuk berayun, lepaskan untuk terbang! Jelajahi 24 dunia liar dan 1.200 level, kalahkan para bos, dan kabur dari pengejar. Tanpa iklan yang mengganggu, bisa dimainkan offline, seru untuk segala usia. Di iPhone dan iPad.",
   "og_title": "Monkey Vine Rush · Pegang. Ayun. Terbang!",
-  "og_desc": "Jelajahi 24 dunia liar dan 1.200 level. Tanpa iklan, bisa dimainkan offline, seru untuk segala usia. Di iPhone dan iPad.",
+  "og_desc": "Jelajahi 24 dunia liar dan 1.200 level. Tanpa iklan yang mengganggu, bisa dimainkan offline, seru untuk segala usia. Di iPhone dan iPad.",
   "nav_label": "Utama",
   "nav_home": "Beranda",
   "nav_features": "Fitur",
@@ -15,7 +15,7 @@
   "to_top": "Kembali ke atas",
   "hero_eyebrow": "iPhone dan iPad",
   "hero_lede": "Jelajahi 24 dunia liar, lompat dari sulur ke sulur, kalahkan para bos, dan tinggalkan pengejar di belakang. Mudah dimulai dan penuh petualangan.",
-  "chip_noads": "Tanpa iklan",
+  "chip_noads": "Tanpa iklan yang mengganggu",
   "chip_offline": "Main offline",
   "chip_ages": "Untuk segala usia",
   "video_label": "Trailer gameplay Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Hadiah harian",
   "fam_eyebrow": "Dibuat untuk keluarga",
   "fam_h2": "Keseruan yang bikin tenang",
-  "fam1_h": "Tanpa iklan, selamanya",
-  "fam1_p": "Tanpa pop-up atau video yang mengganggu. Main saja.",
+  "fam1_h": "Tanpa iklan yang mengganggu",
+  "fam1_p": "Tidak ada pop-up atau iklan saat bermain. Tonton video singkat hanya jika kamu ingin koin gratis atau power-up.",
   "fam2_h": "Main offline",
   "fam2_p": "Cocok untuk perjalanan mobil, penerbangan, dan di mana pun tanpa Wi-Fi.",
   "fam3_h": "Tanpa akun",
@@ -178,7 +178,7 @@
   "v_play": "Putar",
   "v_full": "Layar penuh",
   "free_h": "Unduh <b>GRATIS</b>",
-  "free_note": "Ada pembelian dalam aplikasi opsional untuk paket koin. Kamu juga bisa mendapat koin gratis hanya dengan bermain.",
+  "free_note": "Pembelian dalam aplikasi untuk paket koin bersifat opsional. Kamu juga bisa mendapat koin gratis hanya dengan bermain, atau dengan menonton video opsional.",
   "f6_tag": "Pertarungan bos",
   "f6_h3": "Hadapi <em>bos-bos epik</em>",
   "f6_p": "Setiap level ke-10 diakhiri pertarungan. Ayun langsung ke arah bos untuk memukulnya, gunakan Putaran Kuat untuk kerusakan ganda, dan hindari bola api, es runcing, dan lasernya. Setiap dunia punya bosnya sendiri, dari tukan Big Beak hingga Naga Kristal.",
@@ -195,5 +195,7 @@
   "cap11": "Boss Rush",
   "cap12": "Boss Rush di layar utama",
   "videos_h": "Video opsional",
-  "videos": "<p>Di aplikasi, kamu bisa memilih menonton iklan video singkat untuk mendapat koin gratis atau power-up gratis. Video hanya diputar saat kamu mengetuk untuk menontonnya, dan tidak pernah ada iklan saat bermain.</p><p>Videonya berasal dari Google AdMob. Kami meminta Google memperlakukan setiap permintaan seolah berasal dari anak-anak: iklannya ramah keluarga, tidak pernah dipersonalisasi, dan tidak memakai ID iklan atau melacakmu di aplikasi lain. Untuk menampilkan video dan menghitung bahwa video sudah ditonton, Google menerima informasi teknis seperti jenis perangkat, versi aplikasi, dan alamat IP (dipakai untuk perkiraan negaramu), sesuai kebijakan privasi Google sendiri (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Versi web tidak memiliki iklan.</p>"
+  "videos": "<p>Di aplikasi, kamu bisa memilih menonton iklan video singkat untuk mendapat koin gratis atau power-up gratis. Video hanya diputar saat kamu mengetuk untuk menontonnya, dan tidak pernah ada iklan saat bermain.</p><p>Videonya berasal dari Google AdMob. Kami meminta Google memperlakukan setiap permintaan seolah berasal dari anak-anak: iklannya ramah keluarga, tidak pernah dipersonalisasi, dan tidak memakai ID iklan atau melacakmu di aplikasi lain. Untuk menampilkan video dan menghitung bahwa video sudah ditonton, Google menerima informasi teknis seperti jenis perangkat, versi aplikasi, dan alamat IP (dipakai untuk perkiraan negaramu), sesuai kebijakan privasi Google sendiri (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Versi web tidak memiliki iklan.</p>",
+  "q10": "Kenapa video gratis tidak mau diputar?",
+  "a10": "<p>Video gratis butuh internet, jadi sambungkan ke Wi-Fi atau data seluler lalu coba lagi. Jika tertulis belum ada video yang siap, tunggu sebentar: video dimuat di latar belakang.</p><p>Kamu bisa menonton hingga 5 video sehari untuk koin gratis, dan 3 sehari untuk tiap power-up. Batasnya diatur ulang tengah malam.</p>"
 }

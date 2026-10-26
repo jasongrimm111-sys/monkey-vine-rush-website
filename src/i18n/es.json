@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Agárrate. Balancéate. ¡Vuela! · iPhone y iPad",
-  "meta_desc": "¡Mantén pulsado para balancearte y suelta para volar! Recorre 24 mundos salvajes y 1200 niveles, vence a los jefes y escapa del perseguidor. Sin anuncios, se juega sin conexión y es divertido para todas las edades. En iPhone y iPad.",
+  "meta_desc": "¡Mantén pulsado para balancearte y suelta para volar! Recorre 24 mundos salvajes y 1200 niveles, vence a los jefes y escapa del perseguidor. Sin anuncios molestos, se juega sin conexión y es divertido para todas las edades. En iPhone y iPad.",
   "og_title": "Monkey Vine Rush · Agárrate. Balancéate. ¡Vuela!",
-  "og_desc": "Recorre 24 mundos salvajes y 1200 niveles. Sin anuncios, se juega sin conexión y es divertido para todas las edades. En iPhone y iPad.",
+  "og_desc": "Recorre 24 mundos salvajes y 1200 niveles. Sin anuncios molestos, se juega sin conexión y es divertido para todas las edades. En iPhone y iPad.",
   "nav_label": "Principal",
   "nav_home": "Inicio",
   "nav_features": "Novedades",
@@ -15,7 +15,7 @@
   "to_top": "Volver arriba",
   "hero_eyebrow": "iPhone y iPad",
   "hero_lede": "Explora 24 mundos salvajes, salta de liana en liana, vence a los jefes y deja atrás al perseguidor. Fácil de empezar y lleno de aventuras.",
-  "chip_noads": "Sin anuncios",
+  "chip_noads": "Sin anuncios molestos",
   "chip_offline": "Juega sin conexión",
   "chip_ages": "Para todas las edades",
   "video_label": "Tráiler de Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Regalos diarios",
   "fam_eyebrow": "Pensado para familias",
   "fam_h2": "Diversión con la que estar tranquilo",
-  "fam1_h": "Sin anuncios, nunca",
-  "fam1_p": "Sin ventanas emergentes ni vídeos que molesten. Solo jugar.",
+  "fam1_h": "Sin anuncios molestos",
+  "fam1_p": "Sin ventanas emergentes ni anuncios mientras juegas. Mira un vídeo corto solo si quieres monedas gratis o un potenciador.",
   "fam2_h": "Juega sin conexión",
   "fam2_p": "Perfecto para viajes en coche, vuelos y cualquier sitio sin wifi.",
   "fam3_h": "Sin cuentas",
@@ -178,7 +178,7 @@
   "v_play": "Reproducir",
   "v_full": "Pantalla completa",
   "free_h": "Descarga <b>GRATIS</b>",
-  "free_note": "Compras opcionales dentro de la app de paquetes de monedas. También puedes ganar monedas gratis solo con jugar.",
+  "free_note": "Compras opcionales de paquetes de monedas. También puedes ganar monedas gratis solo con jugar o viendo un vídeo opcional.",
   "f6_tag": "Jefes",
   "f6_h3": "Enfréntate a <em>jefes épicos</em>",
   "f6_p": "Cada 10.º nivel termina en un duelo. Lánzate contra el jefe para golpearlo, usa el Giro Poderoso para hacer doble daño y esquiva sus bolas de fuego, carámbanos y láseres. Cada mundo tiene su propio jefe, desde Big Beak el tucán hasta el Dragón de Cristal.",
@@ -195,5 +195,7 @@
   "cap11": "Jefes sin fin",
   "cap12": "Jefes sin fin en la pantalla de inicio",
   "videos_h": "Vídeos opcionales",
-  "videos": "<p>En la app, puedes elegir ver un anuncio en vídeo corto para conseguir monedas gratis o un potenciador gratis. Un vídeo solo se reproduce cuando tocas para verlo, y nunca hay anuncios mientras juegas.</p><p>Los vídeos los ofrece Google AdMob. Pedimos a Google que trate cada solicitud como si viniera de un niño: los anuncios son aptos para toda la familia, nunca son personalizados y no usan tu identificador de publicidad ni te siguen entre apps. Para mostrar un vídeo y contar que se ha visto, Google recibe información técnica como el tipo de dispositivo, la versión de la app y tu dirección IP (usada para saber tu país aproximado), según su propia política de privacidad (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). La versión web no tiene anuncios.</p>"
+  "videos": "<p>En la app, puedes elegir ver un anuncio en vídeo corto para conseguir monedas gratis o un potenciador gratis. Un vídeo solo se reproduce cuando tocas para verlo, y nunca hay anuncios mientras juegas.</p><p>Los vídeos los ofrece Google AdMob. Pedimos a Google que trate cada solicitud como si viniera de un niño: los anuncios son aptos para toda la familia, nunca son personalizados y no usan tu identificador de publicidad ni te siguen entre apps. Para mostrar un vídeo y contar que se ha visto, Google recibe información técnica como el tipo de dispositivo, la versión de la app y tu dirección IP (usada para saber tu país aproximado), según su propia política de privacidad (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). La versión web no tiene anuncios.</p>",
+  "q10": "¿Por qué no se reproduce un vídeo gratis?",
+  "a10": "<p>Los vídeos gratis necesitan internet, así que conéctate a una red wifi o a los datos móviles y vuelve a intentarlo. Si dice que no hay ningún vídeo listo, espera un minuto: los vídeos se cargan en segundo plano.</p><p>Puedes ver hasta 5 vídeos al día para conseguir monedas gratis y 3 al día por cada potenciador. Los límites se reinician a medianoche.</p>"
 }

@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Accroche-toi. Balance-toi. Envole-toi ! · iPhone et iPad",
-  "meta_desc": "Maintiens pour te balancer, lâche pour t'envoler ! Traverse 24 mondes sauvages et 1 200 niveaux, bats les boss et échappe au poursuivant. Sans pub, jouable hors ligne, amusant à tout âge. Sur iPhone et iPad.",
+  "meta_desc": "Maintiens pour te balancer, lâche pour t'envoler ! Traverse 24 mondes sauvages et 1 200 niveaux, bats les boss et échappe au poursuivant. Pas de pub intrusive, jouable hors ligne, amusant à tout âge. Sur iPhone et iPad.",
   "og_title": "Monkey Vine Rush · Accroche-toi. Balance-toi. Envole-toi !",
-  "og_desc": "Traverse 24 mondes sauvages et 1 200 niveaux. Sans pub, jouable hors ligne, amusant à tout âge. Sur iPhone et iPad.",
+  "og_desc": "Traverse 24 mondes sauvages et 1 200 niveaux. Pas de pub intrusive, jouable hors ligne, amusant à tout âge. Sur iPhone et iPad.",
   "nav_label": "Principal",
   "nav_home": "Accueil",
   "nav_features": "Le jeu",
@@ -15,7 +15,7 @@
   "to_top": "Revenir en haut",
   "hero_eyebrow": "iPhone et iPad",
   "hero_lede": "Explore 24 mondes sauvages, saute de liane en liane, bats les boss et distance le poursuivant. Facile à prendre en main et plein d'aventures.",
-  "chip_noads": "Sans pub",
+  "chip_noads": "Pas de pub intrusive",
   "chip_offline": "Jouable hors ligne",
   "chip_ages": "Pour tous les âges",
   "video_label": "Bande-annonce de Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Cadeaux du jour",
   "fam_eyebrow": "Pensé pour les familles",
   "fam_h2": "Un jeu qui rassure les parents",
-  "fam1_h": "Zéro pub, jamais",
-  "fam1_p": "Pas de fenêtres ni de vidéos qui gênent. On joue, c'est tout.",
+  "fam1_h": "Pas de pub intrusive",
+  "fam1_p": "Ni fenêtres ni pubs pendant le jeu. Regarde une courte vidéo seulement si tu veux des pièces ou un bonus gratuits.",
   "fam2_h": "Jouable hors ligne",
   "fam2_p": "Parfait en voiture, en avion et partout sans Wi-Fi.",
   "fam3_h": "Aucun compte",
@@ -178,7 +178,7 @@
   "v_play": "Lecture",
   "v_full": "Plein écran",
   "free_h": "Téléchargement <b>GRATUIT</b>",
-  "free_note": "Achats intégrés facultatifs de packs de pièces. Tu peux aussi gagner des pièces gratuitement, simplement en jouant.",
+  "free_note": "Achats intégrés facultatifs pour des lots de pièces. Tu peux aussi gagner des pièces gratuitement en jouant, ou en regardant une vidéo facultative.",
   "f6_tag": "Combats de boss",
   "f6_h3": "Affronte des <em>boss épiques</em>",
   "f6_p": "Chaque 10e niveau se termine par un face-à-face. Fonce sur le boss pour le toucher, fais une Toupie pour doubler les dégâts et esquive ses boules de feu, stalactites et lasers. Chaque monde a son boss, de Big Beak le toucan au Dragon de Cristal.",
@@ -195,5 +195,7 @@
   "cap11": "Boss Rush",
   "cap12": "Le Boss Rush sur l’écran d’accueil",
   "videos_h": "Vidéos facultatives",
-  "videos": "<p>Dans l’app, tu peux choisir de regarder une courte publicité vidéo pour obtenir des pièces ou un bonus gratuits. Une vidéo ne se lance que si tu touches pour la regarder, et il n’y a jamais de publicité pendant le jeu.</p><p>Les vidéos sont fournies par Google AdMob. Nous demandons à Google de traiter chaque demande comme venant d’un enfant : les publicités sont adaptées à toute la famille, jamais personnalisées, et n’utilisent pas ton identifiant publicitaire ni ne te suivent d’une app à l’autre. Pour afficher une vidéo et compter qu’elle a été vue, Google reçoit des informations techniques comme le type d’appareil, la version de l’app et ton adresse IP (utilisée pour ton pays approximatif), selon sa propre politique de confidentialité (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). La version web n’a pas de publicité.</p>"
+  "videos": "<p>Dans l’app, tu peux choisir de regarder une courte publicité vidéo pour obtenir des pièces ou un bonus gratuits. Une vidéo ne se lance que si tu touches pour la regarder, et il n’y a jamais de publicité pendant le jeu.</p><p>Les vidéos sont fournies par Google AdMob. Nous demandons à Google de traiter chaque demande comme venant d’un enfant : les publicités sont adaptées à toute la famille, jamais personnalisées, et n’utilisent pas ton identifiant publicitaire ni ne te suivent d’une app à l’autre. Pour afficher une vidéo et compter qu’elle a été vue, Google reçoit des informations techniques comme le type d’appareil, la version de l’app et ton adresse IP (utilisée pour ton pays approximatif), selon sa propre politique de confidentialité (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). La version web n’a pas de publicité.</p>",
+  "q10": "Pourquoi une vidéo gratuite ne se lance-t-elle pas ?",
+  "a10": "<p>Les vidéos gratuites ont besoin d’Internet : connecte-toi au Wi-Fi ou aux données mobiles et réessaie. Si aucune vidéo n’est prête, attends une minute : elles se chargent en arrière-plan.</p><p>Tu peux regarder jusqu’à 5 vidéos par jour pour des pièces gratuites, et 3 par jour pour chaque bonus. Les limites repartent à zéro à minuit.</p>"
 }

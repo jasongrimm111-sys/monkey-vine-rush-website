@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Tieni. Dondola. Vola! · iPhone e iPad",
-  "meta_desc": "Tieni premuto per dondolare, lascia per volare! Attraversa 24 mondi selvaggi e 1.200 livelli, sconfiggi i boss e sfuggi all'inseguitore. Niente pubblicità, si gioca offline, divertente per tutte le età. Su iPhone e iPad.",
+  "meta_desc": "Tieni premuto per dondolare, lascia per volare! Attraversa 24 mondi selvaggi e 1.200 livelli, sconfiggi i boss e sfuggi all'inseguitore. Niente pubblicità invadenti, si gioca offline, divertente per tutte le età. Su iPhone e iPad.",
   "og_title": "Monkey Vine Rush · Tieni. Dondola. Vola!",
-  "og_desc": "Attraversa 24 mondi selvaggi e 1.200 livelli. Niente pubblicità, si gioca offline, divertente per tutte le età. Su iPhone e iPad.",
+  "og_desc": "Attraversa 24 mondi selvaggi e 1.200 livelli. Niente pubblicità invadenti, si gioca offline, divertente per tutte le età. Su iPhone e iPad.",
   "nav_label": "Principale",
   "nav_home": "Home",
   "nav_features": "Il gioco",
@@ -15,7 +15,7 @@
   "to_top": "Torna su",
   "hero_eyebrow": "iPhone e iPad",
   "hero_lede": "Esplora 24 mondi selvaggi, salta di liana in liana, sconfiggi i boss e semina l'inseguitore. Facile da iniziare e pieno di avventura.",
-  "chip_noads": "Niente pubblicità",
+  "chip_noads": "Niente pubblicità invadenti",
   "chip_offline": "Si gioca offline",
   "chip_ages": "Per tutte le età",
   "video_label": "Trailer di Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Regali giornalieri",
   "fam_eyebrow": "Pensato per le famiglie",
   "fam_h2": "Divertimento in tutta tranquillità",
-  "fam1_h": "Mai pubblicità",
-  "fam1_p": "Niente pop-up o video tra i piedi. Solo gioco.",
+  "fam1_h": "Niente pubblicità invadenti",
+  "fam1_p": "Niente pop-up né pubblicità durante il gioco. Guarda un breve video solo se vuoi monete gratis o un power-up.",
   "fam2_h": "Si gioca offline",
   "fam2_p": "Perfetto per i viaggi in auto, i voli e ovunque non ci sia il Wi-Fi.",
   "fam3_h": "Nessun account",
@@ -178,7 +178,7 @@
   "v_play": "Riproduci",
   "v_full": "Schermo intero",
   "free_h": "Download <b>GRATIS</b>",
-  "free_note": "Acquisti in-app facoltativi di pacchetti di monete. Puoi anche guadagnare monete gratis semplicemente giocando.",
+  "free_note": "Acquisti in-app facoltativi per pacchetti di monete. Puoi anche guadagnare monete gratis giocando o guardando un video facoltativo.",
   "f6_tag": "Boss",
   "f6_h3": "Affronta <em>boss epici</em>",
   "f6_p": "Ogni 10° livello finisce con uno scontro. Lanciati contro il boss per colpirlo, usa la Super Giravolta per un danno doppio e schiva palle di fuoco, ghiaccioli e laser. Ogni mondo ha il suo boss, da Big Beak il tucano al Drago di Cristallo.",
@@ -195,5 +195,7 @@
   "cap11": "Boss Rush",
   "cap12": "Il Boss Rush nella schermata iniziale",
   "videos_h": "Video facoltativi",
-  "videos": "<p>Nell’app puoi scegliere di guardare un breve video pubblicitario per ottenere monete gratis o un power-up gratis. Un video parte solo quando tocchi per guardarlo, e non ci sono mai pubblicità durante il gioco.</p><p>I video sono forniti da Google AdMob. Chiediamo a Google di trattare ogni richiesta come se provenisse da un bambino: le pubblicità sono adatte a tutta la famiglia, mai personalizzate, e non usano il tuo ID pubblicitario né ti tracciano tra le app. Per mostrare un video e contare che è stato visto, Google riceve informazioni tecniche come il tipo di dispositivo, la versione dell’app e il tuo indirizzo IP (usato per il tuo paese approssimativo), secondo la propria informativa sulla privacy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). La versione web non ha pubblicità.</p>"
+  "videos": "<p>Nell’app puoi scegliere di guardare un breve video pubblicitario per ottenere monete gratis o un power-up gratis. Un video parte solo quando tocchi per guardarlo, e non ci sono mai pubblicità durante il gioco.</p><p>I video sono forniti da Google AdMob. Chiediamo a Google di trattare ogni richiesta come se provenisse da un bambino: le pubblicità sono adatte a tutta la famiglia, mai personalizzate, e non usano il tuo ID pubblicitario né ti tracciano tra le app. Per mostrare un video e contare che è stato visto, Google riceve informazioni tecniche come il tipo di dispositivo, la versione dell’app e il tuo indirizzo IP (usato per il tuo paese approssimativo), secondo la propria informativa sulla privacy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). La versione web non ha pubblicità.</p>",
+  "q10": "Perché un video gratis non parte?",
+  "a10": "<p>I video gratis hanno bisogno di internet: connettiti al Wi-Fi o ai dati mobili e riprova. Se dice che nessun video è pronto, aspetta un minuto: i video si caricano in background.</p><p>Puoi guardare fino a 5 video al giorno per le monete gratis e 3 al giorno per ogni power-up. I limiti si azzerano a mezzanotte.</p>"
 }

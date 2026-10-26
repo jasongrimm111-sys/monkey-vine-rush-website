@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Festhalten. Schwingen. Fliegen! · iPhone und iPad",
-  "meta_desc": "Halten zum Schwingen, loslassen zum Fliegen! Schwing dich durch 24 wilde Welten und 1.200 Level, besiege die Bosse und entkomme dem Verfolger. Ohne Werbung, offline spielbar, Spaß für alle Altersgruppen. Für iPhone und iPad.",
+  "meta_desc": "Halten zum Schwingen, loslassen zum Fliegen! Schwing dich durch 24 wilde Welten und 1.200 Level, besiege die Bosse und entkomme dem Verfolger. Keine aufdringliche Werbung, offline spielbar, Spaß für alle Altersgruppen. Für iPhone und iPad.",
   "og_title": "Monkey Vine Rush · Festhalten. Schwingen. Fliegen!",
-  "og_desc": "Schwing dich durch 24 wilde Welten und 1.200 Level. Ohne Werbung, offline spielbar, Spaß für alle Altersgruppen. Für iPhone und iPad.",
+  "og_desc": "Schwing dich durch 24 wilde Welten und 1.200 Level. Keine aufdringliche Werbung, offline spielbar, Spaß für alle Altersgruppen. Für iPhone und iPad.",
   "nav_label": "Hauptmenü",
   "nav_home": "Start",
   "nav_features": "Das Spiel",
@@ -15,7 +15,7 @@
   "to_top": "Nach oben",
   "hero_eyebrow": "iPhone und iPad",
   "hero_lede": "Erkunde 24 wilde Welten, spring von Liane zu Liane, besiege die Bosse und häng den Verfolger ab. Schnell gelernt und voller Abenteuer.",
-  "chip_noads": "Ohne Werbung",
+  "chip_noads": "Keine aufdringliche Werbung",
   "chip_offline": "Offline spielbar",
   "chip_ages": "Für alle Altersgruppen",
   "video_label": "Trailer zu Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Tagesgeschenke",
   "fam_eyebrow": "Für Familien gemacht",
   "fam_h2": "Spielspaß mit gutem Gefühl",
-  "fam1_h": "Niemals Werbung",
-  "fam1_p": "Keine Pop-ups oder Videos, die stören. Einfach spielen.",
+  "fam1_h": "Keine aufdringliche Werbung",
+  "fam1_p": "Keine Pop-ups oder Werbung beim Spielen. Schau ein kurzes Video nur, wenn du Gratis-Münzen oder ein Power-up willst.",
   "fam2_h": "Offline spielbar",
   "fam2_p": "Perfekt für Autofahrten, Flüge und überall ohne WLAN.",
   "fam3_h": "Kein Konto",
@@ -178,7 +178,7 @@
   "v_play": "Abspielen",
   "v_full": "Vollbild",
   "free_h": "<b>KOSTENLOS</b> herunterladen",
-  "free_note": "Optionale In-App-Käufe für Münzpakete. Münzen kannst du auch einfach kostenlos beim Spielen sammeln.",
+  "free_note": "Optionale In-App-Käufe für Münzpakete. Münzen kannst du auch gratis verdienen, einfach durchs Spielen oder mit einem freiwilligen Video.",
   "f6_tag": "Bosskämpfe",
   "f6_h3": "Stell dich <em>epischen Bossen</em>",
   "f6_p": "Jedes 10. Level endet mit einem Showdown. Schwing dich direkt in den Boss, um ihn zu treffen, nutze den Power Spin für doppelten Schaden und weiche seinen Feuerbällen, Eiszapfen und Lasern aus. Jede Welt hat ihren eigenen Boss, von Big Beak dem Tukan bis zum Kristalldrachen.",
@@ -195,5 +195,7 @@
   "cap11": "Boss-Marathon",
   "cap12": "Der Boss-Marathon auf dem Startbildschirm",
   "videos_h": "Freiwillige Videos",
-  "videos": "<p>In der App kannst du dir freiwillig einen kurzen Werbespot ansehen, um Gratis-Münzen oder ein Gratis-Power-up zu bekommen. Ein Video läuft nur, wenn du zum Ansehen tippst, und während des Spielens gibt es nie Werbung.</p><p>Die Videos kommen von Google AdMob. Wir bitten Google, jede Anfrage so zu behandeln, als käme sie von einem Kind: Die Werbung ist familienfreundlich, nie personalisiert und nutzt weder deine Werbe-ID noch verfolgt sie dich über Apps hinweg. Um ein Video zu zeigen und zu zählen, dass es angesehen wurde, erhält Google technische Angaben wie deinen Gerätetyp, die Version der App und deine IP-Adresse (für dein ungefähres Land), gemäß Googles eigener Datenschutzerklärung (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Die Webversion hat keine Werbung.</p>"
+  "videos": "<p>In der App kannst du dir freiwillig einen kurzen Werbespot ansehen, um Gratis-Münzen oder ein Gratis-Power-up zu bekommen. Ein Video läuft nur, wenn du zum Ansehen tippst, und während des Spielens gibt es nie Werbung.</p><p>Die Videos kommen von Google AdMob. Wir bitten Google, jede Anfrage so zu behandeln, als käme sie von einem Kind: Die Werbung ist familienfreundlich, nie personalisiert und nutzt weder deine Werbe-ID noch verfolgt sie dich über Apps hinweg. Um ein Video zu zeigen und zu zählen, dass es angesehen wurde, erhält Google technische Angaben wie deinen Gerätetyp, die Version der App und deine IP-Adresse (für dein ungefähres Land), gemäß Googles eigener Datenschutzerklärung (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Die Webversion hat keine Werbung.</p>",
+  "q10": "Warum startet ein Gratis-Video nicht?",
+  "a10": "<p>Gratis-Videos brauchen Internet. Verbinde dich mit WLAN oder mobilen Daten und versuch es noch mal. Wenn kein Video bereit ist, warte eine Minute: Videos laden im Hintergrund.</p><p>Du kannst pro Tag bis zu 5 Videos für Gratis-Münzen und 3 für jedes Power-up ansehen. Die Grenzen werden um Mitternacht zurückgesetzt.</p>"
 }

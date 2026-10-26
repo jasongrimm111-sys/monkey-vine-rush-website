@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Håll i. Svinga. Flyg! · iPhone och iPad",
-  "meta_desc": "Håll för att svinga, släpp för att flyga! Svinga dig genom 24 vilda världar och 1 200 nivåer, besegra bossarna och fly undan jägaren. Utan reklam, fungerar offline, kul för alla åldrar. På iPhone och iPad.",
+  "meta_desc": "Håll för att svinga, släpp för att flyga! Svinga dig genom 24 vilda världar och 1 200 nivåer, besegra bossarna och fly undan jägaren. Utan påträngande reklam, fungerar offline, kul för alla åldrar. På iPhone och iPad.",
   "og_title": "Monkey Vine Rush · Håll i. Svinga. Flyg!",
-  "og_desc": "Svinga dig genom 24 vilda världar och 1 200 nivåer. Utan reklam, fungerar offline, kul för alla åldrar. På iPhone och iPad.",
+  "og_desc": "Svinga dig genom 24 vilda världar och 1 200 nivåer. Utan påträngande reklam, fungerar offline, kul för alla åldrar. På iPhone och iPad.",
   "nav_label": "Huvudmeny",
   "nav_home": "Hem",
   "nav_features": "Spelet",
@@ -15,7 +15,7 @@
   "to_top": "Till toppen",
   "hero_eyebrow": "iPhone och iPad",
   "hero_lede": "Utforska 24 vilda världar, hoppa från lian till lian, besegra bossarna och lämna jägaren bakom dig. Lätt att komma igång och fullt av äventyr.",
-  "chip_noads": "Ingen reklam",
+  "chip_noads": "Ingen påträngande reklam",
   "chip_offline": "Funkar offline",
   "chip_ages": "För alla åldrar",
   "video_label": "Trailer för Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Dagliga gåvor",
   "fam_eyebrow": "Gjort för familjer",
   "fam_h2": "Kul som känns bra",
-  "fam1_h": "Aldrig reklam",
-  "fam1_p": "Inga popup-fönster eller videor i vägen. Bara spel.",
+  "fam1_h": "Ingen påträngande reklam",
+  "fam1_p": "Inga popup-fönster eller reklam medan du spelar. Titta på en kort video bara om du vill ha gratis mynt eller en power-up.",
   "fam2_h": "Funkar offline",
   "fam2_p": "Perfekt på bilresor, flyg och överallt utan wifi.",
   "fam3_h": "Inga konton",
@@ -178,7 +178,7 @@
   "v_play": "Spela upp",
   "v_full": "Helskärm",
   "free_h": "<b>GRATIS</b> att ladda ner",
-  "free_note": "Valfria köp i appen av myntpaket. Du kan också tjäna mynt gratis bara genom att spela.",
+  "free_note": "Valfria köp i appen för myntpaket. Du kan också tjäna mynt gratis bara genom att spela, eller genom att titta på en frivillig video.",
   "f6_tag": "Bosstrider",
   "f6_h3": "Möt <em>episka bossar</em>",
   "f6_p": "Var 10:e nivå slutar med en uppgörelse. Sväng rakt in i bossen för att träffa, använd Kraftsnurr för dubbel skada och undvik dess eldklot, istappar och lasrar. Varje värld har sin egen boss, från tukanen Big Beak till Kristalldraken.",
@@ -195,5 +195,7 @@
   "cap11": "Bossrusch",
   "cap12": "Bossrusch på startskärmen",
   "videos_h": "Frivilliga videor",
-  "videos": "<p>I appen kan du välja att titta på en kort videoreklam för att få gratis mynt eller en gratis power-up. En video spelas bara när du trycker för att titta, och det är aldrig reklam medan du spelar.</p><p>Videorna kommer från Google AdMob. Vi ber Google att behandla varje förfrågan som om den kom från ett barn: reklamen är familjevänlig, aldrig personanpassad och använder inte ditt reklam-ID eller spårar dig mellan appar. För att visa en video och räkna att den har setts får Google teknisk information som din enhetstyp, appens version och din IP-adress (används för ditt ungefärliga land), enligt Googles egen integritetspolicy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Webbversionen har ingen reklam.</p>"
+  "videos": "<p>I appen kan du välja att titta på en kort videoreklam för att få gratis mynt eller en gratis power-up. En video spelas bara när du trycker för att titta, och det är aldrig reklam medan du spelar.</p><p>Videorna kommer från Google AdMob. Vi ber Google att behandla varje förfrågan som om den kom från ett barn: reklamen är familjevänlig, aldrig personanpassad och använder inte ditt reklam-ID eller spårar dig mellan appar. För att visa en video och räkna att den har setts får Google teknisk information som din enhetstyp, appens version och din IP-adress (används för ditt ungefärliga land), enligt Googles egen integritetspolicy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Webbversionen har ingen reklam.</p>",
+  "q10": "Varför spelas inte en gratisvideo?",
+  "a10": "<p>Gratisvideor behöver internet, så anslut till wifi eller mobildata och försök igen. Om ingen video är redo, vänta en minut: videorna laddas i bakgrunden.</p><p>Du kan titta på upp till 5 videor om dagen för gratis mynt och 3 om dagen för varje power-up. Gränserna nollställs vid midnatt.</p>"
 }

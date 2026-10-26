@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Hold. Swing. Fly! · iPhone & iPad",
-  "meta_desc": "Hold to swing, let go to fly! Swing through 24 wild worlds and 1,200 levels, beat the bosses and outrun the chaser. No ads, plays offline, fun for all ages. On iPhone and iPad.",
+  "meta_desc": "Hold to swing, let go to fly! Swing through 24 wild worlds and 1,200 levels, beat the bosses and outrun the chaser. No intrusive ads, plays offline, fun for all ages. On iPhone and iPad.",
   "og_title": "Monkey Vine Rush · Hold. Swing. Fly!",
-  "og_desc": "Swing through 24 wild worlds and 1,200 levels. No ads, plays offline, fun for all ages. On iPhone and iPad.",
+  "og_desc": "Swing through 24 wild worlds and 1,200 levels. No intrusive ads, plays offline, fun for all ages. On iPhone and iPad.",
   "nav_label": "Main",
   "nav_home": "Home",
   "nav_features": "Features",
@@ -14,7 +14,7 @@
   "to_top": "Back to top",
   "hero_eyebrow": "iPhone &amp; iPad",
   "hero_lede": "Explore 24 wild worlds, leap from vine to vine, beat the bosses and race ahead of the chaser. Easy to pick up and packed with adventure.",
-  "chip_noads": "No ads",
+  "chip_noads": "No intrusive ads",
   "chip_offline": "Plays offline",
   "chip_ages": "Fun for all ages",
   "video_label": "Monkey Vine Rush gameplay trailer",
@@ -66,8 +66,8 @@
   "cap10": "Daily gifts",
   "fam_eyebrow": "Made for families",
   "fam_h2": "Fun you can feel good about",
-  "fam1_h": "No ads, ever",
-  "fam1_p": "No pop-ups or videos in the way. Just play.",
+  "fam1_h": "No intrusive ads",
+  "fam1_p": "No pop-ups or adverts during play. Watch a short video only if you want free coins or a power-up.",
   "fam2_h": "Plays offline",
   "fam2_p": "Perfect for car rides, flights and anywhere without Wi-Fi.",
   "fam3_h": "No accounts",
@@ -178,7 +178,7 @@
   "v_play": "Play",
   "v_full": "Full screen",
   "free_h": "<b>FREE</b> to download",
-  "free_note": "Optional in-app purchases for coin bundles. You can also earn coins for free just by playing.",
+  "free_note": "Optional in-app purchases for coin bundles. You can also earn coins for free just by playing, or by watching an optional video.",
   "f6_tag": "Boss battles",
   "f6_h3": "Face down <em>epic bosses</em>",
   "f6_p": "Every 10th level ends in a showdown. Swing straight into the boss to land a hit, Power Spin for double damage, and dodge its fireballs, icicles and lasers. Every world has its own boss, from Big Beak the toucan to the Crystal Dragon.",
@@ -195,5 +195,7 @@
   "cap11": "Boss Rush",
   "cap12": "Boss Rush on the home screen",
   "videos_h": "Optional videos",
-  "videos": "<p>In the app, you can choose to watch a short video advert to get free coins or a free power-up. A video only plays when you tap to watch one, and there are never adverts during play.</p><p>The videos come from Google AdMob. We ask Google to treat every request as coming from a child: the adverts are family-friendly, never personalised, and do not use your advertising ID or track you across apps. To show a video and count that it was watched, Google receives technical information such as your device type, the app's version and your IP address (used for your approximate country), under Google's own privacy policy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). The web version has no adverts.</p>"
+  "videos": "<p>In the app, you can choose to watch a short video advert to get free coins or a free power-up. A video only plays when you tap to watch one, and there are never adverts during play.</p><p>The videos come from Google AdMob. We ask Google to treat every request as coming from a child: the adverts are family-friendly, never personalised, and do not use your advertising ID or track you across apps. To show a video and count that it was watched, Google receives technical information such as your device type, the app's version and your IP address (used for your approximate country), under Google's own privacy policy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). The web version has no adverts.</p>",
+  "q10": "Why won't a free video play?",
+  "a10": "<p>Free videos need the internet, so connect to Wi-Fi or mobile data and try again. If it says no video is ready, wait a minute: videos load in the background.</p><p>You can watch up to 5 videos a day for free coins, and 3 a day for each power-up. The limits reset at midnight.</p>"
 }

@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Tutun. Sallan. Uç! · iPhone ve iPad",
-  "meta_desc": "Sallanmak için basılı tut, uçmak için bırak! 24 vahşi dünyayı ve 1.200 seviyeyi geç, patronları yen ve kovalayandan kaç. Reklamsız, çevrimdışı oynanır, her yaşa uygun. iPhone ve iPad için.",
+  "meta_desc": "Sallanmak için basılı tut, uçmak için bırak! 24 vahşi dünyayı ve 1.200 seviyeyi geç, patronları yen ve kovalayandan kaç. Rahatsız edici reklam yok, çevrimdışı oynanır, her yaşa uygun. iPhone ve iPad için.",
   "og_title": "Monkey Vine Rush · Tutun. Sallan. Uç!",
-  "og_desc": "24 vahşi dünyayı ve 1.200 seviyeyi geç. Reklamsız, çevrimdışı oynanır, her yaşa uygun. iPhone ve iPad için.",
+  "og_desc": "24 vahşi dünyayı ve 1.200 seviyeyi geç. Rahatsız edici reklam yok, çevrimdışı oynanır, her yaşa uygun. iPhone ve iPad için.",
   "nav_label": "Ana menü",
   "nav_home": "Ana sayfa",
   "nav_features": "Oyun",
@@ -15,7 +15,7 @@
   "to_top": "Başa dön",
   "hero_eyebrow": "iPhone ve iPad",
   "hero_lede": "24 vahşi dünyayı keşfet, sarmaşıktan sarmaşığa atla, patronları yen ve kovalayanı geride bırak. Başlaması kolay, macerası bol.",
-  "chip_noads": "Reklamsız",
+  "chip_noads": "Rahatsız edici reklam yok",
   "chip_offline": "Çevrimdışı oynanır",
   "chip_ages": "Her yaşa uygun",
   "video_label": "Monkey Vine Rush oyun fragmanı",
@@ -67,8 +67,8 @@
   "cap10": "Günlük hediyeler",
   "fam_eyebrow": "Aileler için yapıldı",
   "fam_h2": "İçiniz rahat eğlence",
-  "fam1_h": "Asla reklam yok",
-  "fam1_p": "Araya giren açılır pencere ya da video yok. Sadece oyna.",
+  "fam1_h": "Rahatsız edici reklam yok",
+  "fam1_p": "Oyun sırasında açılır pencere veya reklam yok. Kısa bir videoyu yalnızca ücretsiz altın ya da güçlendirme istersen izlersin.",
   "fam2_h": "Çevrimdışı oynanır",
   "fam2_p": "Araba yolculukları, uçuşlar ve Wi-Fi olmayan her yer için ideal.",
   "fam3_h": "Hesap yok",
@@ -178,7 +178,7 @@
   "v_play": "Oynat",
   "v_full": "Tam ekran",
   "free_h": "<b>ÜCRETSİZ</b> indir",
-  "free_note": "Jeton paketleri için isteğe bağlı uygulama içi satın almalar vardır. Jetonları sadece oynayarak da ücretsiz kazanabilirsin.",
+  "free_note": "Altın paketleri için isteğe bağlı uygulama içi satın alımlar. Altınları sadece oynayarak veya isteğe bağlı bir video izleyerek de ücretsiz kazanabilirsin.",
   "f6_tag": "Boss savaşları",
   "f6_h3": "<em>Destansı bosslarla</em> yüzleş",
   "f6_p": "Her 10. seviye bir hesaplaşmayla biter. Vurmak için doğrudan bossa doğru salın, iki kat hasar için Güç Dönüşü yap ve ateş toplarından, buz sarkıtlarından ve lazerlerden kaç. Tukan Big Beak'ten Kristal Ejderha'ya kadar her dünyanın kendi bossu var.",
@@ -195,5 +195,7 @@
   "cap11": "Boss Akını",
   "cap12": "Ana ekranda Boss Akını",
   "videos_h": "İsteğe bağlı videolar",
-  "videos": "<p>Uygulamada, ücretsiz altın veya ücretsiz bir güçlendirme almak için kısa bir video reklam izlemeyi seçebilirsin. Video yalnızca izlemek için dokunduğunda oynar ve oyun sırasında asla reklam çıkmaz.</p><p>Videolar Google AdMob'dan gelir. Google'dan her isteği bir çocuktan geliyormuş gibi ele almasını istiyoruz: reklamlar aileye uygundur, asla kişiselleştirilmez, reklam kimliğini kullanmaz ve seni uygulamalar arasında izlemez. Bir videoyu göstermek ve izlendiğini saymak için Google, kendi gizlilik politikası (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>) kapsamında cihaz türün, uygulamanın sürümü ve IP adresin (yaklaşık ülkeni bulmak için) gibi teknik bilgiler alır. Web sürümünde reklam yoktur.</p>"
+  "videos": "<p>Uygulamada, ücretsiz altın veya ücretsiz bir güçlendirme almak için kısa bir video reklam izlemeyi seçebilirsin. Video yalnızca izlemek için dokunduğunda oynar ve oyun sırasında asla reklam çıkmaz.</p><p>Videolar Google AdMob'dan gelir. Google'dan her isteği bir çocuktan geliyormuş gibi ele almasını istiyoruz: reklamlar aileye uygundur, asla kişiselleştirilmez, reklam kimliğini kullanmaz ve seni uygulamalar arasında izlemez. Bir videoyu göstermek ve izlendiğini saymak için Google, kendi gizlilik politikası (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>) kapsamında cihaz türün, uygulamanın sürümü ve IP adresin (yaklaşık ülkeni bulmak için) gibi teknik bilgiler alır. Web sürümünde reklam yoktur.</p>",
+  "q10": "Ücretsiz video neden oynamıyor?",
+  "a10": "<p>Ücretsiz videolar için internet gerekir; Wi-Fi'a veya mobil veriye bağlanıp tekrar dene. Hazır video olmadığını söylüyorsa bir dakika bekle: videolar arka planda yüklenir.</p><p>Günde en fazla 5 video ile ücretsiz altın, her güçlendirme için de günde 3 video izleyebilirsin. Sınırlar gece yarısı sıfırlanır.</p>"
 }

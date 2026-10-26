@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Vasthouden. Slingeren. Vliegen! · iPhone en iPad",
-  "meta_desc": "Houd vast om te slingeren, laat los om te vliegen! Slinger door 24 wilde werelden en 1200 levels, versla de eindbazen en ontsnap aan de achtervolger. Zonder advertenties, offline speelbaar, leuk voor alle leeftijden. Op iPhone en iPad.",
+  "meta_desc": "Houd vast om te slingeren, laat los om te vliegen! Slinger door 24 wilde werelden en 1200 levels, versla de eindbazen en ontsnap aan de achtervolger. Zonder opdringerige advertenties, offline speelbaar, leuk voor alle leeftijden. Op iPhone en iPad.",
   "og_title": "Monkey Vine Rush · Vasthouden. Slingeren. Vliegen!",
-  "og_desc": "Slinger door 24 wilde werelden en 1200 levels. Zonder advertenties, offline speelbaar, leuk voor alle leeftijden. Op iPhone en iPad.",
+  "og_desc": "Slinger door 24 wilde werelden en 1200 levels. Zonder opdringerige advertenties, offline speelbaar, leuk voor alle leeftijden. Op iPhone en iPad.",
   "nav_label": "Hoofdmenu",
   "nav_home": "Home",
   "nav_features": "Het spel",
@@ -15,7 +15,7 @@
   "to_top": "Naar boven",
   "hero_eyebrow": "iPhone en iPad",
   "hero_lede": "Ontdek 24 wilde werelden, spring van liaan naar liaan, versla de eindbazen en laat de achtervolger achter je. Makkelijk om te beginnen en vol avontuur.",
-  "chip_noads": "Geen advertenties",
+  "chip_noads": "Geen opdringerige advertenties",
   "chip_offline": "Offline speelbaar",
   "chip_ages": "Voor alle leeftijden",
   "video_label": "Trailer van Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Dagelijkse cadeaus",
   "fam_eyebrow": "Gemaakt voor gezinnen",
   "fam_h2": "Plezier met een goed gevoel",
-  "fam1_h": "Nooit advertenties",
-  "fam1_p": "Geen pop-ups of video's die in de weg zitten. Gewoon spelen.",
+  "fam1_h": "Geen opdringerige advertenties",
+  "fam1_p": "Geen pop-ups of advertenties tijdens het spelen. Kijk alleen een korte video als je gratis munten of een power-up wilt.",
   "fam2_h": "Offline speelbaar",
   "fam2_p": "Perfect voor autoritten, vluchten en overal zonder wifi.",
   "fam3_h": "Geen account",
@@ -178,7 +178,7 @@
   "v_play": "Afspelen",
   "v_full": "Volledig scherm",
   "free_h": "<b>GRATIS</b> te downloaden",
-  "free_note": "Optionele in-app-aankopen voor muntpakketten. Je kunt ook gratis munten verdienen door gewoon te spelen.",
+  "free_note": "Optionele in-app-aankopen voor muntpakketten. Je kunt ook gratis munten verdienen door gewoon te spelen of door een vrijwillige video te bekijken.",
   "f6_tag": "Baasgevechten",
   "f6_h3": "Versla <em>epische bazen</em>",
   "f6_p": "Elk 10e level eindigt in een eindgevecht. Zwaai recht op de baas af om raak te slaan, gebruik de Krachtdraai voor dubbele schade en ontwijk zijn vuurballen, ijspegels en lasers. Elke wereld heeft zijn eigen baas, van toekan Big Beak tot de Kristallen Draak.",
@@ -195,5 +195,7 @@
   "cap11": "Baasrace",
   "cap12": "De Baasrace op het startscherm",
   "videos_h": "Vrijwillige video’s",
-  "videos": "<p>In de app kun je ervoor kiezen een korte videoadvertentie te bekijken om gratis munten of een gratis power-up te krijgen. Een video speelt alleen af als je tikt om hem te bekijken, en tijdens het spelen zijn er nooit advertenties.</p><p>De video’s komen van Google AdMob. We vragen Google elk verzoek te behandelen alsof het van een kind komt: de advertenties zijn gezinsvriendelijk, nooit gepersonaliseerd en gebruiken je advertentie-ID niet en volgen je niet tussen apps. Om een video te tonen en te tellen dat hij is bekeken, ontvangt Google technische gegevens zoals je apparaattype, de versie van de app en je IP-adres (gebruikt voor je ongeveer land), volgens het eigen privacybeleid van Google (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). De webversie heeft geen advertenties.</p>"
+  "videos": "<p>In de app kun je ervoor kiezen een korte videoadvertentie te bekijken om gratis munten of een gratis power-up te krijgen. Een video speelt alleen af als je tikt om hem te bekijken, en tijdens het spelen zijn er nooit advertenties.</p><p>De video’s komen van Google AdMob. We vragen Google elk verzoek te behandelen alsof het van een kind komt: de advertenties zijn gezinsvriendelijk, nooit gepersonaliseerd en gebruiken je advertentie-ID niet en volgen je niet tussen apps. Om een video te tonen en te tellen dat hij is bekeken, ontvangt Google technische gegevens zoals je apparaattype, de versie van de app en je IP-adres (gebruikt voor je ongeveer land), volgens het eigen privacybeleid van Google (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). De webversie heeft geen advertenties.</p>",
+  "q10": "Waarom speelt een gratis video niet af?",
+  "a10": "<p>Gratis video’s hebben internet nodig, dus maak verbinding met wifi of mobiele data en probeer het opnieuw. Staat er dat er geen video klaar is, wacht dan even: video’s laden op de achtergrond.</p><p>Je kunt per dag tot 5 video’s kijken voor gratis munten en 3 per power-up. De limieten beginnen om middernacht opnieuw.</p>"
 }

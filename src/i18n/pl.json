@@ -1,8 +1,8 @@
 {
   "meta_title": "Monkey Vine Rush · Trzymaj. Bujaj się. Leć! · iPhone i iPad",
-  "meta_desc": "Przytrzymaj, by się bujać, puść, by polecieć! Przemierz 24 dzikie światy i 1200 poziomów, pokonaj bossów i ucieknij przed pościgiem. Bez reklam, działa offline, frajda w każdym wieku. Na iPhone'a i iPada.",
+  "meta_desc": "Przytrzymaj, by się bujać, puść, by polecieć! Przemierz 24 dzikie światy i 1200 poziomów, pokonaj bossów i ucieknij przed pościgiem. Bez natrętnych reklam, działa offline, frajda w każdym wieku. Na iPhone'a i iPada.",
   "og_title": "Monkey Vine Rush · Trzymaj. Bujaj się. Leć!",
-  "og_desc": "Przemierz 24 dzikie światy i 1200 poziomów. Bez reklam, działa offline, frajda w każdym wieku. Na iPhone'a i iPada.",
+  "og_desc": "Przemierz 24 dzikie światy i 1200 poziomów. Bez natrętnych reklam, działa offline, frajda w każdym wieku. Na iPhone'a i iPada.",
   "nav_label": "Główne",
   "nav_home": "Start",
   "nav_features": "O grze",
@@ -15,7 +15,7 @@
   "to_top": "Do góry",
   "hero_eyebrow": "iPhone i iPad",
   "hero_lede": "Odkrywaj 24 dzikie światy, skacz z liany na lianę, pokonuj bossów i zostaw pościg w tyle. Łatwo zacząć, a przygód co niemiara.",
-  "chip_noads": "Bez reklam",
+  "chip_noads": "Bez natrętnych reklam",
   "chip_offline": "Działa offline",
   "chip_ages": "Dla każdego",
   "video_label": "Zwiastun Monkey Vine Rush",
@@ -67,8 +67,8 @@
   "cap10": "Codzienne prezenty",
   "fam_eyebrow": "Stworzona dla rodzin",
   "fam_h2": "Zabawa bez zmartwień",
-  "fam1_h": "Nigdy żadnych reklam",
-  "fam1_p": "Żadnych wyskakujących okienek ani filmików. Po prostu graj.",
+  "fam1_h": "Bez natrętnych reklam",
+  "fam1_p": "Żadnych wyskakujących okienek ani reklam podczas gry. Obejrzyj krótki film tylko wtedy, gdy chcesz darmowe monety lub wzmocnienie.",
   "fam2_h": "Działa offline",
   "fam2_p": "Idealna w samochodzie, w samolocie i wszędzie bez Wi-Fi.",
   "fam3_h": "Bez kont",
@@ -178,7 +178,7 @@
   "v_play": "Odtwórz",
   "v_full": "Pełny ekran",
   "free_h": "Pobierz <b>ZA DARMO</b>",
-  "free_note": "Opcjonalne zakupy w aplikacji pakietów monet. Monety możesz też zdobywać za darmo, po prostu grając.",
+  "free_note": "Opcjonalne zakupy pakietów monet. Monety możesz też zdobywać za darmo, po prostu grając lub oglądając dobrowolny film.",
   "f6_tag": "Walki z bossami",
   "f6_h3": "Zmierz się z <em>epickimi bossami</em>",
   "f6_p": "Co 10. poziom kończy się starciem. Wleć prosto w bossa, by go trafić, użyj Super obrotu, by zadać podwójne obrażenia, i unikaj jego kul ognia, sopli i laserów. Każdy świat ma własnego bossa, od tukana Big Beak po Kryształowego Smoka.",
@@ -195,5 +195,7 @@
   "cap11": "Boss Rush",
   "cap12": "Boss Rush na ekranie głównym",
   "videos_h": "Dobrowolne filmy",
-  "videos": "<p>W aplikacji możesz obejrzeć krótką reklamę wideo, aby dostać darmowe monety lub darmowe wzmocnienie. Film odtwarza się tylko po stuknięciu, a podczas gry nigdy nie ma reklam.</p><p>Filmy dostarcza Google AdMob. Prosimy Google, aby każde żądanie traktowało jak pochodzące od dziecka: reklamy są odpowiednie dla całej rodziny, nigdy nie są spersonalizowane i nie korzystają z identyfikatora reklamowego ani nie śledzą cię między aplikacjami. Aby wyświetlić film i policzyć, że został obejrzany, Google otrzymuje informacje techniczne, takie jak typ urządzenia, wersja aplikacji i adres IP (służący do określenia przybliżonego kraju), zgodnie z własną polityką prywatności Google (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Wersja internetowa nie ma reklam.</p>"
+  "videos": "<p>W aplikacji możesz obejrzeć krótką reklamę wideo, aby dostać darmowe monety lub darmowe wzmocnienie. Film odtwarza się tylko po stuknięciu, a podczas gry nigdy nie ma reklam.</p><p>Filmy dostarcza Google AdMob. Prosimy Google, aby każde żądanie traktowało jak pochodzące od dziecka: reklamy są odpowiednie dla całej rodziny, nigdy nie są spersonalizowane i nie korzystają z identyfikatora reklamowego ani nie śledzą cię między aplikacjami. Aby wyświetlić film i policzyć, że został obejrzany, Google otrzymuje informacje techniczne, takie jak typ urządzenia, wersja aplikacji i adres IP (służący do określenia przybliżonego kraju), zgodnie z własną polityką prywatności Google (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Wersja internetowa nie ma reklam.</p>",
+  "q10": "Dlaczego darmowy film się nie odtwarza?",
+  "a10": "<p>Darmowe filmy wymagają internetu, więc połącz się z Wi-Fi lub danymi komórkowymi i spróbuj ponownie. Jeśli żaden film nie jest gotowy, poczekaj minutę: filmy wczytują się w tle.</p><p>Możesz obejrzeć do 5 filmów dziennie za darmowe monety i 3 dziennie dla każdego wzmocnienia. Limity odnawiają się o północy.</p>"
 }
