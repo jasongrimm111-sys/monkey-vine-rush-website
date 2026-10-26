@@ -41,6 +41,13 @@
 <link rel="stylesheet" href="/assets/home.css">
 
 
+<script>(()=>{const ID='G-2M1YFDZQH2',K='mvr-consent';window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+let c=null;try{c=localStorage.getItem(K);}catch(e){}
+const load=()=>{if(window.__mvrGA)return;window.__mvrGA=1;gtag('consent','update',{analytics_storage:'granted'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);gtag('js',new Date());gtag('config',ID);};
+const wipe=()=>{for(const n of document.cookie.split(';').map(x=>x.split('=')[0].trim()))if(/^_ga/.test(n))for(const d of ['',location.hostname,'.'+location.hostname.replace(/^www\./,'')])document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');};
+window.mvrConsent={get:()=>{try{return localStorage.getItem(K);}catch(e){return null;}},set:v=>{const was=window.mvrConsent.get();try{localStorage.setItem(K,v);}catch(e){}if(v==='yes')load();else{wipe();if(was==='yes'&&window.__mvrGA)location.reload();}}};
+if(c==='yes')load();})();</script>
 </head>
 <body>
 
@@ -210,6 +217,7 @@
       <a href="/sv/support/">Hjälp</a>
       <a href="/sv/privacy/">Integritetspolicy</a>
       <a href="/sv/cookies/">Cookiepolicy</a>
+      <button type="button" class="cklink" id="ckOpen">Cookieinställningar</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="Språk"><a href="/" hreflang="en" lang="en" data-lang="en">English</a><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a><a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a><a href="/pt/" hreflang="pt" lang="pt" data-lang="pt">Português</a><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a><a href="/sv/" hreflang="sv" lang="sv" data-lang="sv" aria-current="true">Svenska</a><a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a><a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a><a href="/zh-TW/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-TW">繁體中文</a><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a><a href="/id/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></p>
@@ -269,5 +277,19 @@
 })();
 </script>
 <script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>
+<div class="ckbar" id="ckBar" role="dialog" aria-live="polite" aria-label="Cookiepolicy" hidden>
+  <p>Vi vill gärna använda cookies från Google Analytics för att se hur sajten används och göra den bättre. De sätts bara om du godkänner. <a href="/sv/cookies/">Cookiepolicy</a></p>
+  <div class="ckbtns"><button type="button" class="ckb ghost" data-ck="no">Avvisa</button><button type="button" class="ckb" data-ck="yes">Godkänn</button></div>
+</div>
+<style>.ckbar{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;width:min(720px,calc(100% - 24px));display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:16px 18px;border-radius:20px;background:rgba(6,23,15,.96);border:1.5px solid rgba(255,210,63,.55);box-shadow:0 18px 50px rgba(0,0,0,.5);color:#eaf7ee;font-family:'Fredoka',system-ui,sans-serif;font-size:16px;line-height:1.45}
+.ckbar[hidden]{display:none}.ckbar p{margin:0;flex:1 1 300px}.ckbar a{color:#ffd23f;font-weight:600}.ckbtns{display:flex;gap:10px;flex:0 0 auto;margin-left:auto}
+.ckb{font:inherit;font-weight:700;font-size:1rem;background:#ffd23f;color:#3a2210;border:0;border-radius:999px;padding:10px 22px;cursor:pointer;box-shadow:0 4px 0 #c48a12}
+.ckb.ghost{background:transparent;color:#eaf7ee;box-shadow:none;border:1.5px solid rgba(255,255,255,.4)}.cklink{all:unset;cursor:pointer;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:520px){.ckbtns{width:100%}.ckb{flex:1}}</style>
+<script>(()=>{const bar=document.getElementById('ckBar'),now=document.getElementById('ckNow'),C=window.mvrConsent;if(!bar||!C)return;
+const sync=()=>{if(now){const v=C.get();now.textContent=v==='yes'?now.dataset.yes:v==='no'?now.dataset.no:now.dataset.none;}};
+if(!C.get())bar.hidden=false;sync();
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ck]');if(b){C.set(b.dataset.ck);bar.hidden=true;sync();return;}
+if(e.target.closest&&e.target.closest('#ckOpen')){e.preventDefault();bar.hidden=false;bar.querySelector('[data-ck="yes"]').focus();}});})();</script>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>쿠키 정책 · Monkey Vine Rush</title>
-<meta name="description" content="monkeyvinerush.com 쿠키 정책: 쿠키 없음, 추적 없음, 광고 없음.">
+<meta name="description" content="monkeyvinerush.com 쿠키 정책: 선택형 Google 애널리틱스 쿠키, 동의한 경우에만 사용.">
 <meta name="author" content="Jason Grimmitt, Grimmitt Games">
 <meta name="theme-color" content="#0b2a1c">
 <link rel="canonical" href="https://monkeyvinerush.com/ko/cookies/">
@@ -34,6 +34,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Jua&family=Gothic+A1:wght@500;700&display=swap" rel="stylesheet">
 <style>:root{--display:'Jua','Lilita One',sans-serif;--body:'Gothic A1','Fredoka',system-ui,sans-serif}h1,h2,h3,.stat b,.final h2,.side b,.brand,.soon,.chip,summary{font-weight:400}body{font-weight:500}</style>
 
+<script>(()=>{const ID='G-2M1YFDZQH2',K='mvr-consent';window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+let c=null;try{c=localStorage.getItem(K);}catch(e){}
+const load=()=>{if(window.__mvrGA)return;window.__mvrGA=1;gtag('consent','update',{analytics_storage:'granted'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);gtag('js',new Date());gtag('config',ID);};
+const wipe=()=>{for(const n of document.cookie.split(';').map(x=>x.split('=')[0].trim()))if(/^_ga/.test(n))for(const d of ['',location.hostname,'.'+location.hostname.replace(/^www\./,'')])document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');};
+window.mvrConsent={get:()=>{try{return localStorage.getItem(K);}catch(e){return null;}},set:v=>{const was=window.mvrConsent.get();try{localStorage.setItem(K,v);}catch(e){}if(v==='yes')load();else{wipe();if(was==='yes'&&window.__mvrGA)location.reload();}}};
+if(c==='yes')load();})();</script>
 </head>
 <body>
 
@@ -55,7 +62,7 @@
 <section class="hero">
   <p class="eyebrow">쿠키 정책</p>
   <h1>Monkey <span>Vine Rush</span></h1>
-  <p class="sub">최종 업데이트: 2026년 10월 23일</p>
+  <p class="sub">최종 업데이트: 2026년 10월 26일</p>
 </section>
 
 <main>
@@ -64,14 +71,19 @@
     <section class="card" aria-labelledby="sum">
       <h2 id="sum">간단히 말하면</h2>
       <ul>
-        <li>이 웹사이트는 쿠키를 사용하지 않아요.</li>
-        <li>분석, 추적, 광고가 없어요.</li>
+        <li>분석 쿠키는 동의한 경우에만 사용돼요.</li>
+        <li>광고 쿠키는 없고, 다른 사이트에서 추적하지도 않아요.</li>
         <li>언어를 선택하면 브라우저가 기기에 그 선택을 기억해요.</li>
       </ul>
     </section>
 
     <h2>쿠키</h2>
-    <p>monkeyvinerush.com은 어떤 쿠키도 설정하지 않으며, 분석·광고·추적 도구도 전혀 사용하지 않아요. 그래서 여기에는 쿠키 배너가 없어요.</p>
+    <p>동의하면 사이트는 Google 애널리틱스로 방문 수를 세고 어떤 페이지가 인기 있는지 확인해요. 다음 쿠키가 설정돼요:</p><ul><li><b>_ga</b>: 방문자를 서로 구별해요(2년간 보관)</li><li><b>_ga_2M1YFDZQH2</b>: 현재 방문을 기록해요(2년간 보관)</li></ul><p>Google 애널리틱스는 보는 페이지, 기기와 브라우저 종류, 대략적인 위치(IP 주소로 추정하며 IP 주소는 저장되지 않아요) 등을 기록해요. 이를 당신을 식별하거나, 광고에 쓰거나, 다른 사이트에서 추적하는 데 사용하지 않아요. 거부하거나 선택하지 않으면 이 쿠키는 설정되지 않고 Google 애널리틱스도 불러오지 않아요.</p>
+
+    <h2>내 선택</h2>
+    <p>선택한 내용은 브라우저의 로컬 저장소(<b>mvr-consent</b>라는 이름)에 저장돼요. 여기서 또는 모든 페이지 하단의 쿠키 설정에서 언제든지 바꿀 수 있어요.</p>
+    <p class="ckpage"><button type="button" class="btn" data-ck="yes">동의</button> <button type="button" class="btn ghost" data-ck="no">거부</button></p>
+    <p class="note" id="ckNow" data-yes="내 선택: 분석 쿠키가 켜져 있어요." data-no="내 선택: 분석 쿠키가 꺼져 있어요." data-none="아직 선택하지 않아서 분석 쿠키가 꺼져 있어요."></p>
 
     <h2>언어 선택</h2>
     <p>언어를 선택하면 다음에도 그 언어로 열리도록 사이트가 그 선택을 브라우저의 로컬 저장소(<b>mvr-lang</b>라는 이름)에 저장해요. 이 정보는 기기에만 남고 저희에게 전송되지 않아요. 직접 선택했을 때만 저장되며, 브라우저에서 이 사이트의 데이터를 지우면 언제든지 삭제할 수 있어요.</p>
@@ -80,7 +92,7 @@
     <p>이 사이트는 GitHub Pages에서 호스팅되고 글꼴은 Google Fonts에서 불러와요. 다른 웹사이트와 마찬가지로 브라우저가 페이지와 글꼴을 불러올 때 이 서비스들은 IP 주소와 브라우저 종류 같은 기술 정보를 받아요. 이 사이트를 위해 쿠키를 설정하지는 않아요. 데이터 처리 방식은 <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 보호정책</a>과 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에서 확인할 수 있어요.</p>
 
     <h2>게임</h2>
-    <p>Monkey Vine Rush 앱도 쿠키나 추적을 사용하지 않아요. 게임이 저장하는 내용은 <a href="/ko/privacy/">개인정보 처리방침</a>을 참고하세요.</p>
+    <p>Monkey Vine Rush 앱은 쿠키를 사용하지 않아요. 게임이 저장하는 내용은 <a href="/ko/privacy/">개인정보처리방침</a>에서 확인하세요.</p>
 
     <h2>변경 및 문의</h2>
     <p>이 정책이 바뀌면 새 버전이 새 날짜와 함께 여기에 게시돼요. 궁금한 점은 다음 주소로 이메일을 보내 주세요:</p>
@@ -101,6 +113,7 @@
       <a href="/ko/support/">지원</a>
       <a href="/ko/privacy/">개인정보 처리방침</a>
       <a href="/ko/cookies/" aria-current="page">쿠키 정책</a>
+      <button type="button" class="cklink" id="ckOpen">쿠키 설정</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="언어"><a href="/cookies/" hreflang="en" lang="en" data-lang="en">English</a><a href="/es/cookies/" hreflang="es" lang="es" data-lang="es">Español</a><a href="/fr/cookies/" hreflang="fr" lang="fr" data-lang="fr">Français</a><a href="/de/cookies/" hreflang="de" lang="de" data-lang="de">Deutsch</a><a href="/pt/cookies/" hreflang="pt" lang="pt" data-lang="pt">Português</a><a href="/it/cookies/" hreflang="it" lang="it" data-lang="it">Italiano</a><a href="/nl/cookies/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a><a href="/pl/cookies/" hreflang="pl" lang="pl" data-lang="pl">Polski</a><a href="/sv/cookies/" hreflang="sv" lang="sv" data-lang="sv">Svenska</a><a href="/ru/cookies/" hreflang="ru" lang="ru" data-lang="ru">Русский</a><a href="/zh/cookies/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a><a href="/ja/cookies/" hreflang="ja" lang="ja" data-lang="ja">日本語</a><a href="/ko/cookies/" hreflang="ko" lang="ko" data-lang="ko" aria-current="true">한국어</a><a href="/zh-TW/cookies/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-TW">繁體中文</a><a href="/tr/cookies/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a><a href="/id/cookies/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></p>
@@ -116,5 +129,19 @@ document.getElementById('copyEmail').addEventListener('click', e => {
 });
 </script>
 <script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>
+<div class="ckbar" id="ckBar" role="dialog" aria-live="polite" aria-label="쿠키 정책" hidden>
+  <p>이 사이트가 어떻게 사용되는지 알고 더 좋게 만들기 위해 Google 애널리틱스 쿠키를 사용하고 싶어요. 동의한 경우에만 설정돼요. <a href="/ko/cookies/">쿠키 정책</a></p>
+  <div class="ckbtns"><button type="button" class="ckb ghost" data-ck="no">거부</button><button type="button" class="ckb" data-ck="yes">동의</button></div>
+</div>
+<style>.ckbar{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;width:min(720px,calc(100% - 24px));display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:16px 18px;border-radius:20px;background:rgba(6,23,15,.96);border:1.5px solid rgba(255,210,63,.55);box-shadow:0 18px 50px rgba(0,0,0,.5);color:#eaf7ee;font-family:'Fredoka',system-ui,sans-serif;font-size:16px;line-height:1.45}
+.ckbar[hidden]{display:none}.ckbar p{margin:0;flex:1 1 300px}.ckbar a{color:#ffd23f;font-weight:600}.ckbtns{display:flex;gap:10px;flex:0 0 auto;margin-left:auto}
+.ckb{font:inherit;font-weight:700;font-size:1rem;background:#ffd23f;color:#3a2210;border:0;border-radius:999px;padding:10px 22px;cursor:pointer;box-shadow:0 4px 0 #c48a12}
+.ckb.ghost{background:transparent;color:#eaf7ee;box-shadow:none;border:1.5px solid rgba(255,255,255,.4)}.cklink{all:unset;cursor:pointer;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:520px){.ckbtns{width:100%}.ckb{flex:1}}</style>
+<script>(()=>{const bar=document.getElementById('ckBar'),now=document.getElementById('ckNow'),C=window.mvrConsent;if(!bar||!C)return;
+const sync=()=>{if(now){const v=C.get();now.textContent=v==='yes'?now.dataset.yes:v==='no'?now.dataset.no:now.dataset.none;}};
+if(!C.get())bar.hidden=false;sync();
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ck]');if(b){C.set(b.dataset.ck);bar.hidden=true;sync();return;}
+if(e.target.closest&&e.target.closest('#ckOpen')){e.preventDefault();bar.hidden=false;bar.querySelector('[data-ck="yes"]').focus();}});})();</script>
 </body>
 </html>

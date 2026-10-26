@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cookie policy · Monkey Vine Rush</title>
-<meta name="description" content="Cookie policy di monkeyvinerush.com: niente cookie, niente tracciamento, niente pubblicità.">
+<meta name="description" content="Cookie policy di monkeyvinerush.com: cookie di Google Analytics facoltativi, solo se li accetti.">
 <meta name="author" content="Jason Grimmitt, Grimmitt Games">
 <meta name="theme-color" content="#0b2a1c">
 <link rel="canonical" href="https://monkeyvinerush.com/it/cookies/">
@@ -33,6 +33,13 @@
 <link rel="stylesheet" href="/assets/page.css">
 
 
+<script>(()=>{const ID='G-2M1YFDZQH2',K='mvr-consent';window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+let c=null;try{c=localStorage.getItem(K);}catch(e){}
+const load=()=>{if(window.__mvrGA)return;window.__mvrGA=1;gtag('consent','update',{analytics_storage:'granted'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);gtag('js',new Date());gtag('config',ID);};
+const wipe=()=>{for(const n of document.cookie.split(';').map(x=>x.split('=')[0].trim()))if(/^_ga/.test(n))for(const d of ['',location.hostname,'.'+location.hostname.replace(/^www\./,'')])document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');};
+window.mvrConsent={get:()=>{try{return localStorage.getItem(K);}catch(e){return null;}},set:v=>{const was=window.mvrConsent.get();try{localStorage.setItem(K,v);}catch(e){}if(v==='yes')load();else{wipe();if(was==='yes'&&window.__mvrGA)location.reload();}}};
+if(c==='yes')load();})();</script>
 </head>
 <body>
 
@@ -54,7 +61,7 @@
 <section class="hero">
   <p class="eyebrow">Cookie policy</p>
   <h1>Monkey <span>Vine Rush</span></h1>
-  <p class="sub">Ultimo aggiornamento: 23 ottobre 2026</p>
+  <p class="sub">Ultimo aggiornamento: 26 ottobre 2026</p>
 </section>
 
 <main>
@@ -63,14 +70,19 @@
     <section class="card" aria-labelledby="sum">
       <h2 id="sum">In breve</h2>
       <ul>
-        <li>Questo sito non usa cookie.</li>
-        <li>Niente analisi, tracciamento o pubblicità.</li>
+        <li>I cookie di analisi vengono usati solo se li accetti.</li>
+        <li>Nessun cookie pubblicitario e nessun tracciamento su altri siti.</li>
         <li>Se scegli una lingua, il browser la ricorda sul tuo dispositivo.</li>
       </ul>
     </section>
 
     <h2>Cookie</h2>
-    <p>monkeyvinerush.com non imposta alcun cookie e non usiamo strumenti di analisi, pubblicità o tracciamento di alcun tipo. Per questo qui non vedrai nessun banner dei cookie.</p>
+    <p>Se accetti, il sito usa Google Analytics per contare le visite e vedere quali pagine piacciono di più. Imposta questi cookie:</p><ul><li><b>_ga</b>: distingue un visitatore dall’altro (conservato 2 anni)</li><li><b>_ga_2M1YFDZQH2</b>: tiene traccia della visita in corso (conservato 2 anni)</li></ul><p>Google Analytics registra ad esempio le pagine che visiti, il tipo di dispositivo e di browser e la tua posizione approssimativa (ricavata dall’indirizzo IP, che non viene conservato). Non lo usiamo per identificarti, per la pubblicità né per seguirti su altri siti. Se rifiuti, o non scegli, questi cookie non vengono mai impostati e Google Analytics non viene caricato.</p>
+
+    <h2>La tua scelta</h2>
+    <p>La tua scelta viene salvata nella memoria locale del browser (con il nome <b>mvr-consent</b>). Puoi cambiarla in qualsiasi momento qui o con Impostazioni cookie in fondo a ogni pagina.</p>
+    <p class="ckpage"><button type="button" class="btn" data-ck="yes">Accetta</button> <button type="button" class="btn ghost" data-ck="no">Rifiuta</button></p>
+    <p class="note" id="ckNow" data-yes="La tua scelta: i cookie di analisi sono attivi." data-no="La tua scelta: i cookie di analisi sono disattivati." data-none="Non hai ancora scelto, quindi i cookie di analisi sono disattivati."></p>
 
     <h2>La tua scelta della lingua</h2>
     <p>Quando scegli una lingua, il sito salva questa scelta nella memoria locale del browser (con il nome <b>mvr-lang</b>) per aprirsi nella tua lingua la volta successiva. Resta sul tuo dispositivo e non ci viene mai inviata. Viene salvata solo perché l'hai chiesto tu, e puoi rimuoverla in qualsiasi momento cancellando i dati di questo sito nel browser.</p>
@@ -79,7 +91,7 @@
     <p>Il sito è ospitato su GitHub Pages e i suoi caratteri provengono da Google Fonts. Come per qualsiasi sito web, quando il browser carica le pagine e i caratteri, questi servizi ricevono dati tecnici come il tuo indirizzo IP e il tipo di browser. Non impostano cookie per questo sito. Puoi leggere come trattano i dati nell'<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">informativa sulla privacy di GitHub</a> e nelle <a href="https://policies.google.com/privacy">norme sulla privacy di Google</a>.</p>
 
     <h2>Il gioco</h2>
-    <p>Anche l'app Monkey Vine Rush non usa cookie né tracciamento. Consulta la nostra <a href="/it/privacy/">informativa sulla privacy</a> per sapere cosa salva il gioco.</p>
+    <p>L’app Monkey Vine Rush non usa cookie. Consulta la nostra <a href="/it/privacy/">informativa sulla privacy</a> per sapere cosa salva il gioco.</p>
 
     <h2>Modifiche e contatti</h2>
     <p>Se questa policy cambia, la nuova versione comparirà qui con una nuova data. Domande? Scrivi a:</p>
@@ -100,6 +112,7 @@
       <a href="/it/support/">Assistenza</a>
       <a href="/it/privacy/">Informativa sulla privacy</a>
       <a href="/it/cookies/" aria-current="page">Cookie policy</a>
+      <button type="button" class="cklink" id="ckOpen">Impostazioni cookie</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="Lingua"><a href="/cookies/" hreflang="en" lang="en" data-lang="en">English</a><a href="/es/cookies/" hreflang="es" lang="es" data-lang="es">Español</a><a href="/fr/cookies/" hreflang="fr" lang="fr" data-lang="fr">Français</a><a href="/de/cookies/" hreflang="de" lang="de" data-lang="de">Deutsch</a><a href="/pt/cookies/" hreflang="pt" lang="pt" data-lang="pt">Português</a><a href="/it/cookies/" hreflang="it" lang="it" data-lang="it" aria-current="true">Italiano</a><a href="/nl/cookies/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a><a href="/pl/cookies/" hreflang="pl" lang="pl" data-lang="pl">Polski</a><a href="/sv/cookies/" hreflang="sv" lang="sv" data-lang="sv">Svenska</a><a href="/ru/cookies/" hreflang="ru" lang="ru" data-lang="ru">Русский</a><a href="/zh/cookies/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a><a href="/ja/cookies/" hreflang="ja" lang="ja" data-lang="ja">日本語</a><a href="/ko/cookies/" hreflang="ko" lang="ko" data-lang="ko">한국어</a><a href="/zh-TW/cookies/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-TW">繁體中文</a><a href="/tr/cookies/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a><a href="/id/cookies/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></p>
@@ -115,5 +128,19 @@ document.getElementById('copyEmail').addEventListener('click', e => {
 });
 </script>
 <script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>
+<div class="ckbar" id="ckBar" role="dialog" aria-live="polite" aria-label="Cookie policy" hidden>
+  <p>Vorremmo usare i cookie di Google Analytics per capire come viene usato questo sito e migliorarlo. Vengono impostati solo se accetti. <a href="/it/cookies/">Cookie policy</a></p>
+  <div class="ckbtns"><button type="button" class="ckb ghost" data-ck="no">Rifiuta</button><button type="button" class="ckb" data-ck="yes">Accetta</button></div>
+</div>
+<style>.ckbar{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;width:min(720px,calc(100% - 24px));display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:16px 18px;border-radius:20px;background:rgba(6,23,15,.96);border:1.5px solid rgba(255,210,63,.55);box-shadow:0 18px 50px rgba(0,0,0,.5);color:#eaf7ee;font-family:'Fredoka',system-ui,sans-serif;font-size:16px;line-height:1.45}
+.ckbar[hidden]{display:none}.ckbar p{margin:0;flex:1 1 300px}.ckbar a{color:#ffd23f;font-weight:600}.ckbtns{display:flex;gap:10px;flex:0 0 auto;margin-left:auto}
+.ckb{font:inherit;font-weight:700;font-size:1rem;background:#ffd23f;color:#3a2210;border:0;border-radius:999px;padding:10px 22px;cursor:pointer;box-shadow:0 4px 0 #c48a12}
+.ckb.ghost{background:transparent;color:#eaf7ee;box-shadow:none;border:1.5px solid rgba(255,255,255,.4)}.cklink{all:unset;cursor:pointer;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:520px){.ckbtns{width:100%}.ckb{flex:1}}</style>
+<script>(()=>{const bar=document.getElementById('ckBar'),now=document.getElementById('ckNow'),C=window.mvrConsent;if(!bar||!C)return;
+const sync=()=>{if(now){const v=C.get();now.textContent=v==='yes'?now.dataset.yes:v==='no'?now.dataset.no:now.dataset.none;}};
+if(!C.get())bar.hidden=false;sync();
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ck]');if(b){C.set(b.dataset.ck);bar.hidden=true;sync();return;}
+if(e.target.closest&&e.target.closest('#ckOpen')){e.preventDefault();bar.hidden=false;bar.querySelector('[data-ck="yes"]').focus();}});})();</script>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Çerez Politikası · Monkey Vine Rush</title>
-<meta name="description" content="monkeyvinerush.com çerez politikası: çerez yok, izleme yok, reklam yok.">
+<meta name="description" content="monkeyvinerush.com çerez politikası: isteğe bağlı Google Analytics çerezleri, yalnızca kabul edersen.">
 <meta name="author" content="Jason Grimmitt, Grimmitt Games">
 <meta name="theme-color" content="#0b2a1c">
 <link rel="canonical" href="https://monkeyvinerush.com/tr/cookies/">
@@ -33,6 +33,13 @@
 <link rel="stylesheet" href="/assets/page.css">
 
 
+<script>(()=>{const ID='G-2M1YFDZQH2',K='mvr-consent';window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+let c=null;try{c=localStorage.getItem(K);}catch(e){}
+const load=()=>{if(window.__mvrGA)return;window.__mvrGA=1;gtag('consent','update',{analytics_storage:'granted'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);gtag('js',new Date());gtag('config',ID);};
+const wipe=()=>{for(const n of document.cookie.split(';').map(x=>x.split('=')[0].trim()))if(/^_ga/.test(n))for(const d of ['',location.hostname,'.'+location.hostname.replace(/^www\./,'')])document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');};
+window.mvrConsent={get:()=>{try{return localStorage.getItem(K);}catch(e){return null;}},set:v=>{const was=window.mvrConsent.get();try{localStorage.setItem(K,v);}catch(e){}if(v==='yes')load();else{wipe();if(was==='yes'&&window.__mvrGA)location.reload();}}};
+if(c==='yes')load();})();</script>
 </head>
 <body>
 
@@ -54,7 +61,7 @@
 <section class="hero">
   <p class="eyebrow">Çerez politikası</p>
   <h1>Monkey <span>Vine Rush</span></h1>
-  <p class="sub">Son güncelleme: 23 Ekim 2026</p>
+  <p class="sub">Son güncelleme: 26 Ekim 2026</p>
 </section>
 
 <main>
@@ -63,14 +70,19 @@
     <section class="card" aria-labelledby="sum">
       <h2 id="sum">Kısaca</h2>
       <ul>
-        <li>Bu web sitesi çerez kullanmaz.</li>
-        <li>Analiz, izleme veya reklam yok.</li>
+        <li>Analiz çerezleri yalnızca kabul edersen kullanılır.</li>
+        <li>Reklam çerezi yok, başka sitelerde izleme yok.</li>
         <li>Bir dil seçersen tarayıcın bunu cihazında hatırlar.</li>
       </ul>
     </section>
 
     <h2>Çerezler</h2>
-    <p>monkeyvinerush.com hiçbir çerez yerleştirmez ve hiçbir analiz, reklam veya izleme aracı kullanmayız. Bu yüzden burada çerez bildirimi görmezsin.</p>
+    <p>Kabul edersen site, ziyaretleri saymak ve hangi sayfaların popüler olduğunu görmek için Google Analytics kullanır. Şu çerezleri ayarlar:</p><ul><li><b>_ga</b>: ziyaretçileri birbirinden ayırır (2 yıl saklanır)</li><li><b>_ga_2M1YFDZQH2</b>: mevcut ziyaretini takip eder (2 yıl saklanır)</li></ul><p>Google Analytics, görüntülediğin sayfalar, cihaz ve tarayıcı türün ve yaklaşık konumun (IP adresinden hesaplanır, IP adresi saklanmaz) gibi bilgileri kaydeder. Bunu seni tanımak, reklam ya da seni başka sitelerde izlemek için kullanmayız. Reddedersen ya da seçim yapmazsan bu çerezler hiç ayarlanmaz ve Google Analytics hiç yüklenmez.</p>
+
+    <h2>Seçimin</h2>
+    <p>Seçimin tarayıcının yerel depolamasında (<b>mvr-consent</b> adıyla) saklanır. İstediğin zaman burada ya da her sayfanın altındaki Çerez ayarları ile değiştirebilirsin.</p>
+    <p class="ckpage"><button type="button" class="btn" data-ck="yes">Kabul et</button> <button type="button" class="btn ghost" data-ck="no">Reddet</button></p>
+    <p class="note" id="ckNow" data-yes="Seçimin: analiz çerezleri açık." data-no="Seçimin: analiz çerezleri kapalı." data-none="Henüz seçim yapmadın, bu yüzden analiz çerezleri kapalı."></p>
 
     <h2>Dil seçimin</h2>
     <p>Bir dil seçtiğinde site, bir dahaki sefere senin dilinde açılması için bu seçimi tarayıcının yerel depolamasına (<b>mvr-lang</b> adıyla) kaydeder. Cihazında kalır ve asla bize gönderilmez. Yalnızca sen istediğin için kaydedilir; tarayıcında bu sitenin verilerini temizleyerek istediğin zaman silebilirsin.</p>
@@ -79,7 +91,7 @@
     <p>Site GitHub Pages üzerinde barındırılır ve yazı tipleri Google Fonts'tan gelir. Her web sitesinde olduğu gibi, tarayıcın sayfaları ve yazı tiplerini yüklerken bu hizmetler IP adresin ve tarayıcı türün gibi teknik bilgileri alır. Bu site için çerez yerleştirmezler. Verileri nasıl işlediklerini <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub gizlilik bildirimi</a> ve <a href="https://policies.google.com/privacy">Google gizlilik politikası</a>nda okuyabilirsin.</p>
 
     <h2>Oyun</h2>
-    <p>Monkey Vine Rush uygulaması da çerez veya izleme kullanmaz. Oyunun neleri kaydettiğini <a href="/tr/privacy/">gizlilik politikamızda</a> bulabilirsin.</p>
+    <p>Monkey Vine Rush uygulaması çerez kullanmaz. Oyunun neleri sakladığını <a href="/tr/privacy/">gizlilik politikamızda</a> görebilirsin.</p>
 
     <h2>Değişiklikler ve iletişim</h2>
     <p>Bu politika değişirse yeni sürüm burada yeni bir tarihle yer alır. Soruların mı var? Şu adrese yaz:</p>
@@ -100,6 +112,7 @@
       <a href="/tr/support/">Destek</a>
       <a href="/tr/privacy/">Gizlilik Politikası</a>
       <a href="/tr/cookies/" aria-current="page">Çerez Politikası</a>
+      <button type="button" class="cklink" id="ckOpen">Çerez ayarları</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="Dil"><a href="/cookies/" hreflang="en" lang="en" data-lang="en">English</a><a href="/es/cookies/" hreflang="es" lang="es" data-lang="es">Español</a><a href="/fr/cookies/" hreflang="fr" lang="fr" data-lang="fr">Français</a><a href="/de/cookies/" hreflang="de" lang="de" data-lang="de">Deutsch</a><a href="/pt/cookies/" hreflang="pt" lang="pt" data-lang="pt">Português</a><a href="/it/cookies/" hreflang="it" lang="it" data-lang="it">Italiano</a><a href="/nl/cookies/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a><a href="/pl/cookies/" hreflang="pl" lang="pl" data-lang="pl">Polski</a><a href="/sv/cookies/" hreflang="sv" lang="sv" data-lang="sv">Svenska</a><a href="/ru/cookies/" hreflang="ru" lang="ru" data-lang="ru">Русский</a><a href="/zh/cookies/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a><a href="/ja/cookies/" hreflang="ja" lang="ja" data-lang="ja">日本語</a><a href="/ko/cookies/" hreflang="ko" lang="ko" data-lang="ko">한국어</a><a href="/zh-TW/cookies/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-TW">繁體中文</a><a href="/tr/cookies/" hreflang="tr" lang="tr" data-lang="tr" aria-current="true">Türkçe</a><a href="/id/cookies/" hreflang="id" lang="id" data-lang="id">Bahasa Indonesia</a></p>
@@ -115,5 +128,19 @@ document.getElementById('copyEmail').addEventListener('click', e => {
 });
 </script>
 <script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>
+<div class="ckbar" id="ckBar" role="dialog" aria-live="polite" aria-label="Çerez Politikası" hidden>
+  <p>Bu sitenin nasıl kullanıldığını görüp geliştirmek için Google Analytics çerezlerini kullanmak istiyoruz. Yalnızca kabul edersen ayarlanırlar. <a href="/tr/cookies/">Çerez politikası</a></p>
+  <div class="ckbtns"><button type="button" class="ckb ghost" data-ck="no">Reddet</button><button type="button" class="ckb" data-ck="yes">Kabul et</button></div>
+</div>
+<style>.ckbar{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;width:min(720px,calc(100% - 24px));display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:16px 18px;border-radius:20px;background:rgba(6,23,15,.96);border:1.5px solid rgba(255,210,63,.55);box-shadow:0 18px 50px rgba(0,0,0,.5);color:#eaf7ee;font-family:'Fredoka',system-ui,sans-serif;font-size:16px;line-height:1.45}
+.ckbar[hidden]{display:none}.ckbar p{margin:0;flex:1 1 300px}.ckbar a{color:#ffd23f;font-weight:600}.ckbtns{display:flex;gap:10px;flex:0 0 auto;margin-left:auto}
+.ckb{font:inherit;font-weight:700;font-size:1rem;background:#ffd23f;color:#3a2210;border:0;border-radius:999px;padding:10px 22px;cursor:pointer;box-shadow:0 4px 0 #c48a12}
+.ckb.ghost{background:transparent;color:#eaf7ee;box-shadow:none;border:1.5px solid rgba(255,255,255,.4)}.cklink{all:unset;cursor:pointer;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:520px){.ckbtns{width:100%}.ckb{flex:1}}</style>
+<script>(()=>{const bar=document.getElementById('ckBar'),now=document.getElementById('ckNow'),C=window.mvrConsent;if(!bar||!C)return;
+const sync=()=>{if(now){const v=C.get();now.textContent=v==='yes'?now.dataset.yes:v==='no'?now.dataset.no:now.dataset.none;}};
+if(!C.get())bar.hidden=false;sync();
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ck]');if(b){C.set(b.dataset.ck);bar.hidden=true;sync();return;}
+if(e.target.closest&&e.target.closest('#ckOpen')){e.preventDefault();bar.hidden=false;bar.querySelector('[data-ck="yes"]').focus();}});})();</script>
 </body>
 </html>

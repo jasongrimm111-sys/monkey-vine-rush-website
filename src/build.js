@@ -7,6 +7,30 @@ const ROOT = path.join(__dirname, '..'), SITE = 'https://monkeyvinerush.com';
 const LANGS = { en:'English', es:'Español', fr:'Français', de:'Deutsch', pt:'Português', it:'Italiano', nl:'Nederlands', pl:'Polski', sv:'Svenska',
   ru:'Русский', zh:'简体中文', ja:'日本語', ko:'한국어', 'zh-TW':'繁體中文', tr:'Türkçe', id:'Bahasa Indonesia' };
 const HTML_LANG = { zh:'zh-Hans', 'zh-TW':'zh-Hant' };
+// Google Analytics (G-2M1YFDZQH2) only loads once the visitor accepts cookies; until then nothing is set and nothing is sent.
+// The choice is kept in localStorage as mvr-consent ('yes' or 'no'). Rejecting after accepting deletes the _ga cookies and reloads.
+const GA_ID = 'G-2M1YFDZQH2';
+const CONSENT_HEAD = `<script>(()=>{const ID='${GA_ID}',K='mvr-consent';window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+let c=null;try{c=localStorage.getItem(K);}catch(e){}
+const load=()=>{if(window.__mvrGA)return;window.__mvrGA=1;gtag('consent','update',{analytics_storage:'granted'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);gtag('js',new Date());gtag('config',ID);};
+const wipe=()=>{for(const n of document.cookie.split(';').map(x=>x.split('=')[0].trim()))if(/^_ga/.test(n))for(const d of ['',location.hostname,'.'+location.hostname.replace(/^www\\./,'')])document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');};
+window.mvrConsent={get:()=>{try{return localStorage.getItem(K);}catch(e){return null;}},set:v=>{const was=window.mvrConsent.get();try{localStorage.setItem(K,v);}catch(e){}if(v==='yes')load();else{wipe();if(was==='yes'&&window.__mvrGA)location.reload();}}};
+if(c==='yes')load();})();</script>`;
+const consentBanner = t => `<div class="ckbar" id="ckBar" role="dialog" aria-live="polite" aria-label="${t('footer_cookies')}" hidden>
+  <p>${t('ck_text')} <a href="{{base}}cookies/">${t('ck_more')}</a></p>
+  <div class="ckbtns"><button type="button" class="ckb ghost" data-ck="no">${t('ck_reject')}</button><button type="button" class="ckb" data-ck="yes">${t('ck_accept')}</button></div>
+</div>
+<style>.ckbar{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;width:min(720px,calc(100% - 24px));display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:16px 18px;border-radius:20px;background:rgba(6,23,15,.96);border:1.5px solid rgba(255,210,63,.55);box-shadow:0 18px 50px rgba(0,0,0,.5);color:#eaf7ee;font-family:'Fredoka',system-ui,sans-serif;font-size:16px;line-height:1.45}
+.ckbar[hidden]{display:none}.ckbar p{margin:0;flex:1 1 300px}.ckbar a{color:#ffd23f;font-weight:600}.ckbtns{display:flex;gap:10px;flex:0 0 auto;margin-left:auto}
+.ckb{font:inherit;font-weight:700;font-size:1rem;background:#ffd23f;color:#3a2210;border:0;border-radius:999px;padding:10px 22px;cursor:pointer;box-shadow:0 4px 0 #c48a12}
+.ckb.ghost{background:transparent;color:#eaf7ee;box-shadow:none;border:1.5px solid rgba(255,255,255,.4)}.cklink{all:unset;cursor:pointer;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:520px){.ckbtns{width:100%}.ckb{flex:1}}</style>
+<script>(()=>{const bar=document.getElementById('ckBar'),now=document.getElementById('ckNow'),C=window.mvrConsent;if(!bar||!C)return;
+const sync=()=>{if(now){const v=C.get();now.textContent=v==='yes'?now.dataset.yes:v==='no'?now.dataset.no:now.dataset.none;}};
+if(!C.get())bar.hidden=false;sync();
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ck]');if(b){C.set(b.dataset.ck);bar.hidden=true;sync();return;}
+if(e.target.closest&&e.target.closest('#ckOpen')){e.preventDefault();bar.hidden=false;bar.querySelector('[data-ck="yes"]').focus();}});})();</script>`;
 const PAGES = [['home.html', ''], ['support.html', 'support/'], ['privacy.html', 'privacy/'], ['cookies.html', 'cookies/']];
 // The game's fonts (Lilita One, Fredoka) only cover Latin letters, so these languages get a matching chunky font of their own
 const SCRIPT_FONTS = {
@@ -63,6 +87,7 @@ for (const lang of Object.keys(LANGS)){
       <a href="${base(lang)}support/"${pageName === 'support' ? ' aria-current="page"' : ''}>${t('nav_support')}</a>
       <a href="${base(lang)}privacy/"${pageName === 'privacy' ? ' aria-current="page"' : ''}>${t('footer_privacy')}</a>
       <a href="${base(lang)}cookies/"${pageName === 'cookies' ? ' aria-current="page"' : ''}>${t('footer_cookies')}</a>
+      <button type="button" class="cklink" id="ckOpen">${t('ck_settings')}</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="${t('lang_label')}">${Object.entries(LANGS).map(([l, n]) => `<a href="${base(l) + rel}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a>`).join('')}</p>
@@ -82,6 +107,7 @@ document.getElementById('copyEmail').addEventListener('click', e => {
     };
     let html = fs.readFileSync(path.join(__dirname, tpl), 'utf8');
     // fill in parts (which may hold {{keys}} themselves), then strings, then any {{base}} the strings carry
+    html = html.replace('</head>', () => CONSENT_HEAD + '\n</head>').replace(/<\/body>(?![\s\S]*<\/body>)/, () => consentBanner(t) + '\n</body>');
     for (let pass = 0; pass < 3; pass++) html = html.replace(/\{\{(\w+)\}\}/g, (m, k) => k in parts ? parts[k] : t(k));
     if (/\{\{\w+\}\}/.test(html)) throw new Error(`${lang}/${tpl}: unfilled ${html.match(/\{\{\w+\}\}/)[0]}`);
     const out = path.join(ROOT, base(lang).slice(1), rel, 'index.html');
