@@ -197,7 +197,7 @@
   "videos_h": "Optional videos",
   "videos": "<p>In the app, you can choose to watch a short video advert to get free coins or a free power-up. A video only plays when you tap to watch one, and there are never adverts during play.</p><p>The videos come from Google AdMob. We ask Google to treat every request as coming from a child: the adverts are family-friendly, never personalised, and do not use your advertising ID or track you across apps. To show a video and count that it was watched, Google receives technical information such as your device type, the app's version and your IP address (used for your approximate country), under Google's own privacy policy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). The web version has no adverts.</p>",
   "q10": "Why won't a free video play?",
-  "a10": "<p>Free videos need the internet, so connect to Wi-Fi or mobile data and try again. If it says no video is ready, wait a minute: videos load in the background.</p><p>You can watch up to 5 videos a day for free coins, and 3 a day for each power-up. The limits reset at midnight.</p>",
+  "a10": "<p>Free videos need the internet, so connect to Wi-Fi or mobile data and try again. If it says no video is ready, wait a minute: videos load in the background.</p><p>You can watch up to 5 videos a day for free coins, and 5 a day for each power-up. The limits reset at midnight.</p>",
   "ck_text": "We'd like to use Google Analytics cookies to see how people use this site, so we can make it better. They're only set if you accept.",
   "ck_more": "Cookie policy",
   "ck_accept": "Accept",

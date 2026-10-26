@@ -197,7 +197,7 @@
   "videos_h": "Frivilliga videor",
   "videos": "<p>I appen kan du välja att titta på en kort videoreklam för att få gratis mynt eller en gratis power-up. En video spelas bara när du trycker för att titta, och det är aldrig reklam medan du spelar.</p><p>Videorna kommer från Google AdMob. Vi ber Google att behandla varje förfrågan som om den kom från ett barn: reklamen är familjevänlig, aldrig personanpassad och använder inte ditt reklam-ID eller spårar dig mellan appar. För att visa en video och räkna att den har setts får Google teknisk information som din enhetstyp, appens version och din IP-adress (används för ditt ungefärliga land), enligt Googles egen integritetspolicy (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>). Webbversionen har ingen reklam.</p>",
   "q10": "Varför spelas inte en gratisvideo?",
-  "a10": "<p>Gratisvideor behöver internet, så anslut till wifi eller mobildata och försök igen. Om ingen video är redo, vänta en minut: videorna laddas i bakgrunden.</p><p>Du kan titta på upp till 5 videor om dagen för gratis mynt och 3 om dagen för varje power-up. Gränserna nollställs vid midnatt.</p>",
+  "a10": "<p>Gratisvideor behöver internet, så anslut till wifi eller mobildata och försök igen. Om ingen video är redo, vänta en minut: videorna laddas i bakgrunden.</p><p>Du kan titta på upp till 5 videor om dagen för gratis mynt och 5 om dagen för varje power-up. Gränserna nollställs vid midnatt.</p>",
   "ck_text": "Vi vill gärna använda cookies från Google Analytics för att se hur sajten används och göra den bättre. De sätts bara om du godkänner.",
   "ck_more": "Cookiepolicy",
   "ck_accept": "Godkänn",

@@ -197,7 +197,7 @@
   "videos_h": "İsteğe bağlı videolar",
   "videos": "<p>Uygulamada, ücretsiz altın veya ücretsiz bir güçlendirme almak için kısa bir video reklam izlemeyi seçebilirsin. Video yalnızca izlemek için dokunduğunda oynar ve oyun sırasında asla reklam çıkmaz.</p><p>Videolar Google AdMob'dan gelir. Google'dan her isteği bir çocuktan geliyormuş gibi ele almasını istiyoruz: reklamlar aileye uygundur, asla kişiselleştirilmez, reklam kimliğini kullanmaz ve seni uygulamalar arasında izlemez. Bir videoyu göstermek ve izlendiğini saymak için Google, kendi gizlilik politikası (<a href=\"https://policies.google.com/privacy\" rel=\"noopener\">policies.google.com/privacy</a>) kapsamında cihaz türün, uygulamanın sürümü ve IP adresin (yaklaşık ülkeni bulmak için) gibi teknik bilgiler alır. Web sürümünde reklam yoktur.</p>",
   "q10": "Ücretsiz video neden oynamıyor?",
-  "a10": "<p>Ücretsiz videolar için internet gerekir; Wi-Fi'a veya mobil veriye bağlanıp tekrar dene. Hazır video olmadığını söylüyorsa bir dakika bekle: videolar arka planda yüklenir.</p><p>Günde en fazla 5 video ile ücretsiz altın, her güçlendirme için de günde 3 video izleyebilirsin. Sınırlar gece yarısı sıfırlanır.</p>",
+  "a10": "<p>Ücretsiz videolar için internet gerekir; Wi-Fi'a veya mobil veriye bağlanıp tekrar dene. Hazır video olmadığını söylüyorsa bir dakika bekle: videolar arka planda yüklenir.</p><p>Günde en fazla 5 video ile ücretsiz altın, her güçlendirme için de günde 5 video izleyebilirsin. Sınırlar gece yarısı sıfırlanır.</p>",
   "ck_text": "Bu sitenin nasıl kullanıldığını görüp geliştirmek için Google Analytics çerezlerini kullanmak istiyoruz. Yalnızca kabul edersen ayarlanırlar.",
   "ck_more": "Çerez politikası",
   "ck_accept": "Kabul et",
