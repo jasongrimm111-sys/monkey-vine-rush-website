@@ -22,6 +22,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.05;margin:0}
 @keyframes logoSwing{from{transform:rotate(-11deg)}to{transform:rotate(9deg)}}   /* swinging from the knot of leaves */
 @media (prefers-reduced-motion:reduce){ .brand img{animation:none} }
 .brand b{font-weight:400;color:var(--banana)}
+.brand{flex-shrink:0} .brand span{white-space:nowrap}   /* Monkey Vine Rush on one line on every screen */
 .top nav{margin-left:auto;display:flex;align-items:center;gap:26px;font-weight:600;font-size:1rem}
 .top nav a{text-decoration:none;color:var(--ink);opacity:.85} .top nav a:hover,.top nav a[aria-current]{opacity:1;color:var(--banana)}
 .badge-link{display:inline-block;opacity:1!important;transition:transform .18s ease}
@@ -125,3 +126,14 @@ footer .legal{flex-basis:100%;font-size:.8rem;opacity:.7;margin:0}
 }
 
 .note{background:rgba(95,242,255,.08);border:1px solid rgba(95,242,255,.3);border-radius:16px;padding:12px 16px;color:#d6f6fb;font-size:.95rem;margin-bottom:22px}
+
+/* iPad portrait: everything in the header fits on one row, with Monkey Vine Rush on one line */
+@media (min-width:761px) and (max-width:980px){
+  .top .wrap{gap:12px}
+  .top nav{gap:16px;font-size:.95rem}
+  .brand{font-size:1.2rem;gap:8px}
+  .brand img{width:42px;height:45px}
+  .lang summary{padding:7px 10px}
+  .hdr-badge img,.top .badge-link img{height:38px}
+}
+@media (min-width:761px) and (max-width:980px){ html[lang="ru"] .top nav{gap:10px;font-size:.82rem} html[lang="ru"] .top .wrap{gap:8px} html[lang="ru"] .brand{font-size:1.05rem} }   /* longer Russian menu words */
