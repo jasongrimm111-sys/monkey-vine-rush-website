@@ -111,6 +111,21 @@ section.block{padding:120px 0 40px}
 .phone img{width:100%;height:100%;object-fit:cover;border-radius:36px}
 .phone::after{content:"";position:absolute;left:50%;top:22px;width:30%;height:22px;margin-left:-15%;border-radius:12px;background:#000}
 .phone.tilt-l{transform:rotate(-4deg)} .phone.tilt-r{transform:rotate(4deg)}
+/* iPhone on its side, and iPad upright and on its side */
+.phone.land{width:min(560px,88vw);aspect-ratio:2622/1206;border-radius:44px}
+.phone.land::after{left:20px;top:50%;width:22px;height:30%;margin:0;transform:translateY(-50%)}
+.phone.land.tilt-l{transform:rotate(-3deg)}
+.tablet{position:relative;z-index:1;width:min(400px,80vw);aspect-ratio:2064/2752;border-radius:36px;padding:16px;background:#0a0d0c;box-shadow:0 0 0 2px #2c3a33,0 50px 80px rgba(0,0,0,.55)}
+.tablet img{width:100%;height:100%;object-fit:cover;border-radius:20px}
+.tablet::after{content:"";position:absolute;left:50%;top:6px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:#1d2622}
+.tablet.land{width:min(580px,90vw);aspect-ratio:2752/2064}
+.tablet.land::after{left:6px;top:50%;margin:-3px 0 0}
+.tablet.tilt-r{transform:rotate(3deg)}
+/* an iPad with an iPhone leaning in front of it */
+.mix{position:relative;display:flex;justify-content:center;padding:0 0 40px}
+.mix .tablet{width:min(540px,84vw)}
+.mix .phone{position:absolute;right:-2%;bottom:-2%;width:min(170px,28vw);border-radius:30px;padding:7px;transform:rotate(5deg);z-index:2}
+.mix .phone img{border-radius:24px} .mix .phone::after{top:14px;height:14px}
 .duo{display:flex;justify-content:center}
 .duo .phone{width:min(250px,44vw)}
 .duo .phone:first-child{transform:rotate(-6deg) translateX(30px)} .duo .phone:last-child{transform:rotate(5deg) translate(-30px,40px);z-index:2}

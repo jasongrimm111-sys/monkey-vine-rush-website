@@ -89,7 +89,7 @@ if(c==='yes')load();})();</script>
         </div>
       </div>
       <div class="video-card">
-        <video id="teaser" src="/img/teaser-sound.mp4?v=2" poster="/img/teaser-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Trailer di Monkey Vine Rush"></video>
+        <video id="teaser" src="/img/teaser-sound.mp4?v=2" poster="/img/teaser-poster.webp" autoplay muted loop playsinline preload="auto" aria-label="Trailer di Monkey Vine Rush"></video>
         <button class="playpause" id="ppBtn" type="button" aria-label="Pausa" data-pause="Pausa" data-play="Riproduci"><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></button>
         <button class="fsbtn" id="fsBtn" type="button" aria-label="Schermo intero"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
         <button class="sound" id="soundBtn" type="button" data-on="Guarda con l'audio" data-off="Muto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span>Guarda con l'audio</span></button>
@@ -115,7 +115,7 @@ if(c==='yes')load();})();</script>
       </div>
 
       <div class="feature reveal">
-        <div class="phone-wrap"><div class="phone tilt-l"><img src="/img/02-play.webp" alt="Dondola e vola" loading="lazy" width="600" height="1304"></div></div>
+        <div class="phone-wrap"><div class="phone land tilt-l"><img src="/img/02-play-land.webp" alt="Dondola e vola" loading="lazy" width="1304" height="600"></div></div>
         <div>
           <span class="tag">Tieni e lascia</span>
           <h3>L'oscillazione perfetta, <em>ogni volta</em></h3>
@@ -125,7 +125,7 @@ if(c==='yes')load();})();</script>
       </div>
 
       <div class="feature reveal" style="--glow:rgba(95,242,255,.28)">
-        <div class="phone-wrap"><div class="phone tilt-r"><img src="/img/06-worlds.webp" alt="24 mondi" loading="lazy" width="600" height="1304"></div></div>
+        <div class="phone-wrap"><div class="tablet tilt-r"><img src="/img/06-worlds-ipad.webp" alt="24 mondi" loading="lazy" width="1032" height="1376"></div></div>
         <div>
           <span class="tag c">24 mondi</span>
           <h3>Dalla giungla <em>allo spazio</em></h3>
@@ -145,7 +145,7 @@ if(c==='yes')load();})();</script>
       </div>
 
       <div class="feature reveal" style="--glow:rgba(95,242,255,.3)">
-        <div class="phone-wrap"><div class="phone tilt-r"><img src="/img/09-boss.webp" alt="Boss" loading="lazy" width="600" height="1304"></div></div>
+        <div class="phone-wrap"><div class="tablet land tilt-r"><img src="/img/09-boss-ipadland.webp" alt="Boss" loading="lazy" width="1376" height="1032"></div></div>
         <div>
           <span class="tag c">Boss</span>
           <h3>Affronta <em>boss epici</em></h3>
@@ -165,7 +165,7 @@ if(c==='yes')load();})();</script>
       </div>
 
       <div class="feature reveal" style="--glow:rgba(255,138,216,.28)">
-        <div class="phone-wrap"><div class="duo"><div class="phone"><img src="/img/04-profile.webp" alt="Look" loading="lazy" width="600" height="1304"></div><div class="phone"><img src="/img/08-shop_monkeys.webp" alt="Nuove scimmie" loading="lazy" width="600" height="1304"></div></div></div>
+        <div class="phone-wrap"><div class="mix"><div class="tablet land"><img src="/img/04-profile-ipadland.webp" alt="Look" loading="lazy" width="1376" height="1032"></div><div class="phone"><img src="/img/08-shop_monkeys.webp" alt="Nuove scimmie" loading="lazy" width="600" height="1304"></div></div></div>
         <div>
           <span class="tag p">A modo tuo</span>
           <h3>Vesti la tua <em>scimmia</em></h3>
@@ -242,6 +242,15 @@ if(c==='yes')load();})();</script>
   document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
   // the trailer plays silently; the button restarts it with sound
   const v = document.getElementById('teaser'), btn = document.getElementById('soundBtn');
+  // make sure the silent loop really starts: iPad Safari sometimes ignores autoplay (Low Power Mode, a page opened in the background),
+  // so try again when it can play, when it comes into view and when the page is shown, and on the first touch or scroll as a last resort
+  v.muted = true; v.defaultMuted = true; v.setAttribute('muted', '');
+  const kick = () => { if (v.paused && !v.controls && !document.hidden) v.play().catch(() => {}); };
+  kick(); v.addEventListener('canplay', kick); v.addEventListener('loadeddata', kick); addEventListener('pageshow', kick);
+  document.addEventListener('visibilitychange', kick);
+  if ('IntersectionObserver' in window) new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) kick(); }), { threshold:.25 }).observe(v);
+  const first = () => { kick(); for (const ev of ['touchstart', 'pointerdown', 'scroll', 'keydown']) removeEventListener(ev, first); };
+  for (const ev of ['touchstart', 'pointerdown', 'scroll', 'keydown']) addEventListener(ev, first, { passive:true, once:true });
   btn.addEventListener('click', () => {
     const on = v.muted;
     v.muted = !on; if (on){ v.currentTime = 0; v.play(); }
