@@ -106,19 +106,19 @@ section.block{padding:120px 0 40px}
 .tag.p{background:rgba(255,138,216,.12);color:var(--pink);border-color:rgba(255,138,216,.4)}
 .phone-wrap{position:relative;display:flex;justify-content:center}
 .phone-wrap::before{content:"";position:absolute;inset:8% 6%;border-radius:50%;background:radial-gradient(closest-side, var(--glow, rgba(255,210,63,.32)), transparent);filter:blur(10px);z-index:0}
-.phone{position:relative;z-index:1;width:min(300px,72vw);aspect-ratio:1206/2622;border-radius:46px;padding:11px;background:#0a0d0c;
+.phone{position:relative;z-index:1;width:min(300px,72vw);border-radius:46px;padding:11px;background:#0a0d0c;
   box-shadow:0 0 0 2px #2c3a33,0 50px 80px rgba(0,0,0,.55)}
-.phone img{width:100%;height:100%;object-fit:cover;border-radius:36px}
+.phone img{width:100%;height:auto;aspect-ratio:600/1304;object-fit:cover;border-radius:36px}   /* the screen keeps the picture's own shape: nothing trimmed */
 .phone::after{content:"";position:absolute;left:50%;top:22px;width:30%;height:22px;margin-left:-15%;border-radius:12px;background:#000}
 .phone.tilt-l{transform:rotate(-4deg)} .phone.tilt-r{transform:rotate(4deg)}
 /* iPhone on its side, and iPad upright and on its side */
-.phone.land{width:min(560px,88vw);aspect-ratio:2622/1206;border-radius:44px}
+.phone.land{width:min(560px,88vw);border-radius:44px} .phone.land img{aspect-ratio:1304/600}
 .phone.land::after{left:20px;top:50%;width:22px;height:30%;margin:0;transform:translateY(-50%)}
 .phone.land.tilt-l{transform:rotate(-3deg)}
-.tablet{position:relative;z-index:1;width:min(400px,80vw);aspect-ratio:2064/2752;border-radius:36px;padding:16px;background:#0a0d0c;box-shadow:0 0 0 2px #2c3a33,0 50px 80px rgba(0,0,0,.55)}
-.tablet img{width:100%;height:100%;object-fit:cover;border-radius:20px}
+.tablet{position:relative;z-index:1;width:min(400px,80vw);border-radius:36px;padding:16px;background:#0a0d0c;box-shadow:0 0 0 2px #2c3a33,0 50px 80px rgba(0,0,0,.55)}
+.tablet img{width:100%;height:auto;aspect-ratio:1032/1376;object-fit:cover;border-radius:20px}
 .tablet::after{content:"";position:absolute;left:50%;top:6px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:#1d2622}
-.tablet.land{width:min(580px,90vw);aspect-ratio:2752/2064}
+.tablet.land{width:min(580px,90vw)} .tablet.land img{aspect-ratio:1376/1032}
 .tablet.land::after{left:6px;top:50%;margin:-3px 0 0}
 .tablet.tilt-r{transform:rotate(3deg)}
 /* an iPad with an iPhone leaning in front of it */
