@@ -185,5 +185,13 @@
   "f6_li1": "Una sfida contro un boss ogni 10 livelli",
   "f6_li2": "Schiva palle di fuoco, ghiaccioli e laser",
   "f6_li3": "24 boss, ognuno con i suoi attacchi",
-  "cap9": "Boss"
+  "cap9": "Boss",
+  "f7_tag": "Boss Rush",
+  "f7_h3": "Tutti i boss, <em>uno dopo l’altro</em>",
+  "f7_p": "Sblocca tutti i 24 mondi per aprire il Boss Rush: una corsa senza fine attraverso ogni mondo, con un boss che ti aspetta in ciascuno. Battilo per passare al successivo. Quanti riesci a sconfiggerne?",
+  "f7_li1": "Tutti i 24 boss in una sola corsa",
+  "f7_li2": "Più monete per ogni boss",
+  "f7_li3": "Una classifica Game Center tutta sua",
+  "cap11": "Boss Rush",
+  "cap12": "Il Boss Rush nella schermata iniziale"
 }

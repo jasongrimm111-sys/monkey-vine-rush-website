@@ -185,5 +185,13 @@
   "f6_li1": "Un combat de boss tous les 10 niveaux",
   "f6_li2": "Esquive boules de feu, stalactites et lasers",
   "f6_li3": "24 boss, chacun avec ses attaques",
-  "cap9": "Combats de boss"
+  "cap9": "Combats de boss",
+  "f7_tag": "Boss Rush",
+  "f7_h3": "Tous les boss, <em>l’un après l’autre</em>",
+  "f7_p": "Débloque les 24 mondes pour ouvrir le Boss Rush : une course sans fin à travers tous les mondes, avec un boss qui t’attend dans chacun. Bats-le pour passer au suivant. Combien peux-tu en vaincre ?",
+  "f7_li1": "Les 24 boss en une seule course",
+  "f7_li2": "Plus de pièces pour chaque boss",
+  "f7_li3": "Son propre classement Game Center",
+  "cap11": "Boss Rush",
+  "cap12": "Le Boss Rush sur l’écran d’accueil"
 }

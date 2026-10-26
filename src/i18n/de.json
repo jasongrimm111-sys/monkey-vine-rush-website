@@ -185,5 +185,13 @@
   "f6_li1": "Alle 10 Level ein Bosskampf",
   "f6_li2": "Weiche Feuerbällen, Eiszapfen und Lasern aus",
   "f6_li3": "24 Bosse mit eigenen Angriffen",
-  "cap9": "Bosskämpfe"
+  "cap9": "Bosskämpfe",
+  "f7_tag": "Boss-Marathon",
+  "f7_h3": "Jeder Boss, <em>einer nach dem anderen</em>",
+  "f7_p": "Schalte alle 24 Welten frei, um den Boss-Marathon zu öffnen: ein endloser Lauf durch alle Welten, in jeder wartet ein Boss. Besiege ihn, um weiterzuschwingen. Wie viele schaffst du?",
+  "f7_li1": "Alle 24 Bosse in einem Lauf",
+  "f7_li2": "Mehr Münzen für jeden Boss",
+  "f7_li3": "Eine eigene Game-Center-Bestenliste",
+  "cap11": "Boss-Marathon",
+  "cap12": "Der Boss-Marathon auf dem Startbildschirm"
 }

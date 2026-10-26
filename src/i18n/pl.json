@@ -185,5 +185,13 @@
   "f6_li1": "Walka z bossem co 10 poziomów",
   "f6_li2": "Unikaj kul ognia, sopli i laserów",
   "f6_li3": "24 bossów, każdy z własnymi atakami",
-  "cap9": "Walki z bossami"
+  "cap9": "Walki z bossami",
+  "f7_tag": "Boss Rush",
+  "f7_h3": "Każdy boss, <em>jeden po drugim</em>",
+  "f7_p": "Odblokuj wszystkie 24 światy, aby otworzyć Boss Rush: jeden nieskończony bieg przez wszystkie światy, w każdym czeka boss. Pokonaj go, by polecieć dalej. Ilu dasz radę pokonać?",
+  "f7_li1": "Wszystkie 24 bossy w jednym biegu",
+  "f7_li2": "Więcej monet za każdego bossa",
+  "f7_li3": "Własny ranking w Game Center",
+  "cap11": "Boss Rush",
+  "cap12": "Boss Rush na ekranie głównym"
 }
