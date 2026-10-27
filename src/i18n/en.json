@@ -108,7 +108,7 @@
   "q7": "The game runs slowly or stutters",
   "a7": "<p>Turn on <b>Low graphics</b> in the game's Settings. It draws fewer effects and runs smoothly on older devices. Closing other apps can help too.</p>",
   "q8": "How do I learn the moves?",
-  "a8": "<p>Hold the screen to swing, let go to fly, and touch the next vine to grab it. Tap in the air for a Power Spin. The tutorial and the Power-up guide in the game show every move with an animation.</p>",
+  "a8": "<p>Tap and hold anywhere to swing, let go to fly, then tap and hold again to grab the next vine. Tap in mid-air for a Power Spin.</p><p>Prefer buttons? Turn on On-screen buttons in Settings, the pause menu or the first step of the tutorial. You get a Swing button and a Spin button, and you can move and resize them to suit your thumbs.</p><p>The tutorial and the Power-up guide in the game show every move with an animation.</p>",
   "q9": "I found a bug, or the game froze",
   "a9": "<p>Open the game's <span class=\"path\">Settings › Report a problem</span>, tap <b>Copy report</b>, and paste it into an email to us. The report lists your device and any errors the game noticed, and nothing personal, so we can find the problem quickly.</p>",
   "h_privacy": "Privacy",
@@ -209,5 +209,7 @@
   "c_choice_h": "Your choice",
   "c_choice": "<p>Your choice is saved in your browser’s local storage (under the name <b>mvr-consent</b>). You can change it at any time here, or with Cookie settings at the bottom of any page.</p>",
   "reminders_h": "Reminders",
-  "reminders": "<p>In the app, you can choose to get the odd reminder to come back and play. The game asks first, and then your device asks for permission.</p><p>Reminders are scheduled by your device itself, so nothing is sent to us or anyone else. To time them, the game counts which hours of the day you usually play and keeps that count on your device with your progress. You can turn reminders off at any time in the game's Settings or in your device's notification settings.</p>"
+  "reminders": "<p>In the app, you can choose to get the odd reminder to come back and play. The game asks first, and then your device asks for permission.</p><p>Reminders are scheduled by your device itself, so nothing is sent to us or anyone else. To time them, the game counts which hours of the day you usually play and keeps that count on your device with your progress. You can turn reminders off at any time in the game's Settings or in your device's notification settings.</p>",
+  "q11": "What is a perfect run?",
+  "a11": "<p>Stuck on a level? Choose Watch perfect run in the pause menu or on the Try again screen to see it played perfectly: every banana, the 3-star goal and any boss, with no power-ups. You can pause it, watch it again, and race it as a ghost. Perfect runs are being added world by world.</p>"
 }

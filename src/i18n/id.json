@@ -109,7 +109,7 @@
   "q7": "Game berjalan lambat atau tersendat",
   "a7": "<p>Aktifkan <b>Grafis rendah</b> di Pengaturan game. Efek yang digambar jadi lebih sedikit dan game berjalan lancar di perangkat lama. Menutup aplikasi lain juga bisa membantu.</p>",
   "q8": "Bagaimana cara mempelajari gerakannya?",
-  "a8": "<p>Tahan layar untuk berayun, lepaskan untuk terbang, dan sentuh sulur berikutnya untuk meraihnya. Ketuk di udara untuk Putaran Kuat. Tutorial dan Panduan power-up di game menunjukkan setiap gerakan dengan animasi.</p>",
+  "a8": "<p>Ketuk dan tahan di mana saja untuk berayun, lepas untuk terbang, lalu tahan lagi untuk meraih sulur berikutnya. Ketuk di udara untuk Putaran Kuat.</p><p>Lebih suka tombol? Nyalakan tombol di layar di Pengaturan, menu jeda, atau langkah pertama tutorial. Kamu akan mendapat tombol ayun dan tombol putar yang bisa dipindah dan diubah ukurannya.</p><p>Tutorial dan panduan power-up di game menunjukkan setiap gerakan dengan animasi.</p>",
   "q9": "Saya menemukan bug, atau game macet",
   "a9": "<p>Buka <span class=\"path\">Pengaturan › Laporkan masalah</span> di game, ketuk <b>Salin laporan</b>, lalu tempelkan ke email untuk kami. Laporan itu mencantumkan perangkatmu dan error yang terdeteksi game, tanpa data pribadi, sehingga kami bisa cepat menemukan masalahnya.</p>",
   "h_privacy": "Privasi",
@@ -209,5 +209,7 @@
   "c_choice_h": "Pilihanmu",
   "c_choice": "<p>Pilihanmu disimpan di penyimpanan lokal browser (dengan nama <b>mvr-consent</b>). Kamu bisa mengubahnya kapan saja di sini, atau lewat Pengaturan cookie di bagian bawah setiap halaman.</p>",
   "reminders_h": "Pengingat",
-  "reminders": "<p>Di aplikasi, kamu bisa memilih untuk sesekali mendapat pengingat agar kembali bermain. Game akan bertanya dulu, lalu perangkatmu meminta izin.</p><p>Pengingat dijadwalkan oleh perangkatmu sendiri, jadi tidak ada yang dikirim ke kami atau siapa pun. Untuk mengatur waktunya, game menghitung jam berapa kamu biasanya bermain dan menyimpan hitungan itu di perangkatmu bersama progresmu. Kamu bisa mematikan pengingat kapan saja di Pengaturan game atau di pengaturan notifikasi perangkatmu.</p>"
+  "reminders": "<p>Di aplikasi, kamu bisa memilih untuk sesekali mendapat pengingat agar kembali bermain. Game akan bertanya dulu, lalu perangkatmu meminta izin.</p><p>Pengingat dijadwalkan oleh perangkatmu sendiri, jadi tidak ada yang dikirim ke kami atau siapa pun. Untuk mengatur waktunya, game menghitung jam berapa kamu biasanya bermain dan menyimpan hitungan itu di perangkatmu bersama progresmu. Kamu bisa mematikan pengingat kapan saja di Pengaturan game atau di pengaturan notifikasi perangkatmu.</p>",
+  "q11": "Apa itu lari sempurna?",
+  "a11": "<p>Macet di satu level? Pilih Tonton lari sempurna di menu jeda atau layar Coba lagi untuk melihatnya dimainkan dengan sempurna: semua pisang, target 3 bintang, dan bos, tanpa power-up. Kamu bisa menjedanya, menonton lagi, dan balapan melawannya sebagai hantu. Lari sempurna ditambahkan dunia demi dunia.</p>"
 }

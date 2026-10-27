@@ -109,7 +109,7 @@
   "q7": "Il gioco è lento o va a scatti",
   "a7": "<p>Attiva <b>Grafica leggera</b> nelle Impostazioni del gioco. Disegna meno effetti e gira fluido anche sui dispositivi più vecchi. Può aiutare anche chiudere le altre app.</p>",
   "q8": "Come imparo le mosse?",
-  "a8": "<p>Tieni premuto lo schermo per dondolare, lascia per volare e tocca la liana successiva per afferrarla. Tocca in aria per un Giro Potente. Il tutorial e la Guida ai potenziamenti del gioco mostrano ogni mossa con un'animazione.</p>",
+  "a8": "<p>Tieni premuto ovunque per dondolare, lascia per volare, poi tieni di nuovo premuto per afferrare la liana successiva. Tocca in volo per un Giro Potente.</p><p>Preferisci i pulsanti? Attiva i pulsanti sullo schermo nelle Impostazioni, nel menu di pausa o nel primo passo del tutorial. Avrai un pulsante Dondola e uno Giro, che puoi spostare e ridimensionare come preferisci.</p><p>Il tutorial e la guida ai power-up del gioco mostrano ogni mossa con un’animazione.</p>",
   "q9": "Ho trovato un bug o il gioco si è bloccato",
   "a9": "<p>Nel gioco apri <span class=\"path\">Impostazioni › Segnala un problema</span>, tocca <b>Copia rapporto</b> e incollalo in un'email per noi. Il rapporto indica il tuo dispositivo e gli errori rilevati dal gioco, niente di personale, così troviamo subito il problema.</p>",
   "h_privacy": "Privacy",
@@ -209,5 +209,7 @@
   "c_choice_h": "La tua scelta",
   "c_choice": "<p>La tua scelta viene salvata nella memoria locale del browser (con il nome <b>mvr-consent</b>). Puoi cambiarla in qualsiasi momento qui o con Impostazioni cookie in fondo a ogni pagina.</p>",
   "reminders_h": "Promemoria",
-  "reminders": "<p>Nell’app puoi scegliere di ricevere ogni tanto un promemoria per tornare a giocare. Prima te lo chiede il gioco, poi il dispositivo chiede il permesso.</p><p>I promemoria li programma il tuo dispositivo, quindi non viene inviato nulla a noi né ad altri. Per sceglierne l’orario, il gioco conta in quali ore del giorno giochi di solito e conserva quel conteggio sul dispositivo insieme ai tuoi progressi. Puoi disattivare i promemoria in qualsiasi momento nelle Impostazioni del gioco o nelle impostazioni delle notifiche del dispositivo.</p>"
+  "reminders": "<p>Nell’app puoi scegliere di ricevere ogni tanto un promemoria per tornare a giocare. Prima te lo chiede il gioco, poi il dispositivo chiede il permesso.</p><p>I promemoria li programma il tuo dispositivo, quindi non viene inviato nulla a noi né ad altri. Per sceglierne l’orario, il gioco conta in quali ore del giorno giochi di solito e conserva quel conteggio sul dispositivo insieme ai tuoi progressi. Puoi disattivare i promemoria in qualsiasi momento nelle Impostazioni del gioco o nelle impostazioni delle notifiche del dispositivo.</p>",
+  "q11": "Cos’è una partita perfetta?",
+  "a11": "<p>Bloccato su un livello? Scegli Guarda la partita perfetta nel menu di pausa o nella schermata Riprova per vederlo giocato alla perfezione: tutte le banane, l’obiettivo da 3 stelle e il boss, senza power-up. Puoi metterla in pausa, riguardarla e sfidarla come fantasma. Le partite perfette arrivano mondo dopo mondo.</p>"
 }

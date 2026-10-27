@@ -109,7 +109,7 @@
   "q7": "O jogo está lento ou travando",
   "a7": "<p>Ative <b>Gráficos leves</b> nas Configurações do jogo. Ele desenha menos efeitos e roda liso em aparelhos mais antigos. Fechar outros apps também pode ajudar.</p>",
   "q8": "Como aprendo os movimentos?",
-  "a8": "<p>Segure a tela para balançar, solte para voar e toque no próximo cipó para agarrá-lo. Toque no ar para fazer um Giro Poderoso. O tutorial e o Guia de poderes do jogo mostram cada movimento com uma animação.</p>",
+  "a8": "<p>Toque e segure em qualquer lugar para balançar, solte para voar e segure de novo para agarrar o próximo cipó. Toque no ar para fazer um Giro Poderoso.</p><p>Prefere botões? Ative os botões na tela em Configurações, no menu de pausa ou no primeiro passo do tutorial. Você terá um botão de balanço e um de giro, e pode movê-los e mudar o tamanho do seu jeito.</p><p>O tutorial e o guia de power-ups do jogo mostram cada movimento com uma animação.</p>",
   "q9": "Encontrei um bug ou o jogo travou",
   "a9": "<p>Abra <span class=\"path\">Configurações › Relatar um problema</span> no jogo, toque em <b>Copiar relatório</b> e cole em um e-mail para nós. O relatório mostra o seu aparelho e os erros que o jogo percebeu, nada pessoal, para encontrarmos o problema rapidinho.</p>",
   "h_privacy": "Privacidade",
@@ -209,5 +209,7 @@
   "c_choice_h": "Sua escolha",
   "c_choice": "<p>Sua escolha fica salva no armazenamento local do navegador (com o nome <b>mvr-consent</b>). Você pode mudá-la quando quiser aqui ou em Configurações de cookies, no fim de qualquer página.</p>",
   "reminders_h": "Lembretes",
-  "reminders": "<p>No app, você pode escolher receber de vez em quando um lembrete para voltar a jogar. Primeiro o jogo pergunta e depois o seu aparelho pede permissão.</p><p>Os lembretes são agendados pelo próprio aparelho, então nada é enviado para nós nem para mais ninguém. Para escolher o horário, o jogo conta em que horas do dia você costuma jogar e guarda essa contagem no aparelho junto com o seu progresso. Você pode desativar os lembretes a qualquer momento nas Configurações do jogo ou nos ajustes de notificações do aparelho.</p>"
+  "reminders": "<p>No app, você pode escolher receber de vez em quando um lembrete para voltar a jogar. Primeiro o jogo pergunta e depois o seu aparelho pede permissão.</p><p>Os lembretes são agendados pelo próprio aparelho, então nada é enviado para nós nem para mais ninguém. Para escolher o horário, o jogo conta em que horas do dia você costuma jogar e guarda essa contagem no aparelho junto com o seu progresso. Você pode desativar os lembretes a qualquer momento nas Configurações do jogo ou nos ajustes de notificações do aparelho.</p>",
+  "q11": "O que é uma partida perfeita?",
+  "a11": "<p>Travou em um nível? Escolha Ver a partida perfeita no menu de pausa ou na tela Tentar de novo para vê-lo jogado com perfeição: todas as bananas, a meta de 3 estrelas e o chefão, sem power-ups. Você pode pausar, ver de novo e apostar corrida com ela como fantasma. As partidas perfeitas estão chegando mundo a mundo.</p>"
 }

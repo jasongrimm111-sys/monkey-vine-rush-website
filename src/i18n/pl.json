@@ -109,7 +109,7 @@
   "q7": "Gra działa wolno lub się zacina",
   "a7": "<p>Włącz <b>Niska grafika</b> w Ustawieniach gry. Gra rysuje wtedy mniej efektów i działa płynnie na starszych urządzeniach. Pomóc może też zamknięcie innych aplikacji.</p>",
   "q8": "Jak nauczyć się ruchów?",
-  "a8": "<p>Przytrzymaj ekran, by się bujać, puść, by polecieć, i dotknij kolejnej liany, by ją złapać. Stuknij w powietrzu, by wykonać Super obrót. Samouczek i Przewodnik po ulepszeniach w grze pokazują każdy ruch na animacji.</p>",
+  "a8": "<p>Dotknij i przytrzymaj w dowolnym miejscu, by się bujać, puść, by polecieć, i przytrzymaj znowu, by złapać następną lianę. Stuknij w powietrzu, by wykonać Super obrót.</p><p>Wolisz przyciski? Włącz przyciski na ekranie w Ustawieniach, w menu pauzy lub w pierwszym kroku samouczka. Dostaniesz przycisk bujania i przycisk obrotu, które możesz przesuwać i zmieniać ich rozmiar.</p><p>Samouczek i przewodnik po wzmocnieniach w grze pokazują każdy ruch na animacji.</p>",
   "q9": "Znalazłem błąd albo gra się zawiesiła",
   "a9": "<p>Otwórz w grze <span class=\"path\">Ustawienia › Zgłoś problem</span>, stuknij <b>Kopiuj raport</b> i wklej go do e-maila do nas. Raport zawiera informacje o twoim urządzeniu i błędach wykrytych przez grę, nic osobistego, więc szybko znajdziemy problem.</p>",
   "h_privacy": "Prywatność",
@@ -209,5 +209,7 @@
   "c_choice_h": "Twój wybór",
   "c_choice": "<p>Twój wybór jest zapisany w pamięci lokalnej przeglądarki (pod nazwą <b>mvr-consent</b>). Możesz go zmienić w dowolnej chwili tutaj lub w Ustawieniach plików cookie na dole każdej strony.</p>",
   "reminders_h": "Przypomnienia",
-  "reminders": "<p>W aplikacji możesz zdecydować, czy chcesz czasem dostać przypomnienie, by wrócić do gry. Najpierw pyta gra, a potem urządzenie prosi o zgodę.</p><p>Przypomnienia planuje samo urządzenie, więc nic nie jest wysyłane do nas ani nikogo innego. Aby dobrać porę, gra liczy, o których godzinach zwykle grasz, i przechowuje te dane na urządzeniu razem z postępami. Przypomnienia możesz w każdej chwili wyłączyć w Ustawieniach gry albo w ustawieniach powiadomień urządzenia.</p>"
+  "reminders": "<p>W aplikacji możesz zdecydować, czy chcesz czasem dostać przypomnienie, by wrócić do gry. Najpierw pyta gra, a potem urządzenie prosi o zgodę.</p><p>Przypomnienia planuje samo urządzenie, więc nic nie jest wysyłane do nas ani nikogo innego. Aby dobrać porę, gra liczy, o których godzinach zwykle grasz, i przechowuje te dane na urządzeniu razem z postępami. Przypomnienia możesz w każdej chwili wyłączyć w Ustawieniach gry albo w ustawieniach powiadomień urządzenia.</p>",
+  "q11": "Czym jest idealny przebieg?",
+  "a11": "<p>Utknąłeś na poziomie? Wybierz Obejrzyj idealny przebieg w menu pauzy lub na ekranie Spróbuj ponownie, by zobaczyć go przejściem idealnym: wszystkie banany, cel na 3 gwiazdki i boss, bez wzmocnień. Możesz go zatrzymać, obejrzeć ponownie i ścigać się z nim jako z duchem. Idealne przebiegi dochodzą świat po świecie.</p>"
 }

@@ -109,7 +109,7 @@
   "q7": "El juego va lento o da tirones",
   "a7": "<p>Activa <b>Gráficos bajos</b> en los Ajustes del juego. Dibuja menos efectos y funciona con fluidez en dispositivos antiguos. Cerrar otras apps también puede ayudar.</p>",
   "q8": "¿Cómo aprendo los movimientos?",
-  "a8": "<p>Mantén la pantalla pulsada para balancearte, suelta para volar y toca la siguiente liana para agarrarla. Toca en el aire para hacer un Giro Poderoso. El tutorial y la Guía de potenciadores del juego muestran cada movimiento con una animación.</p>",
+  "a8": "<p>Mantén pulsado en cualquier sitio para balancearte, suelta para volar y vuelve a mantener pulsado para agarrar la siguiente liana. Toca en el aire para un Giro potente.</p><p>¿Prefieres botones? Activa los botones en pantalla en Ajustes, en el menú de pausa o en el primer paso del tutorial. Tendrás un botón de balanceo y otro de giro, y puedes moverlos y cambiar su tamaño a tu gusto.</p><p>El tutorial y la guía de potenciadores del juego muestran cada movimiento con una animación.</p>",
   "q9": "He encontrado un error o el juego se ha bloqueado",
   "a9": "<p>Abre <span class=\"path\">Ajustes › Informar de un problema</span> en el juego, toca <b>Copiar informe</b> y pégalo en un correo para nosotros. El informe indica tu dispositivo y los errores que haya detectado el juego, nada personal, para que podamos encontrar el problema rápidamente.</p>",
   "h_privacy": "Privacidad",
@@ -209,5 +209,7 @@
   "c_choice_h": "Tu elección",
   "c_choice": "<p>Tu elección se guarda en el almacenamiento local de tu navegador (con el nombre <b>mvr-consent</b>). Puedes cambiarla cuando quieras aquí o con Ajustes de cookies al final de cualquier página.</p>",
   "reminders_h": "Recordatorios",
-  "reminders": "<p>En la app puedes elegir recibir de vez en cuando un recordatorio para volver a jugar. Primero te lo pregunta el juego y después tu dispositivo te pide permiso.</p><p>Los recordatorios los programa tu propio dispositivo, así que no se envía nada a nosotros ni a nadie más. Para elegir el momento, el juego cuenta a qué horas del día sueles jugar y guarda ese recuento en tu dispositivo junto con tu progreso. Puedes desactivar los recordatorios cuando quieras en los Ajustes del juego o en los ajustes de notificaciones de tu dispositivo.</p>"
+  "reminders": "<p>En la app puedes elegir recibir de vez en cuando un recordatorio para volver a jugar. Primero te lo pregunta el juego y después tu dispositivo te pide permiso.</p><p>Los recordatorios los programa tu propio dispositivo, así que no se envía nada a nosotros ni a nadie más. Para elegir el momento, el juego cuenta a qué horas del día sueles jugar y guarda ese recuento en tu dispositivo junto con tu progreso. Puedes desactivar los recordatorios cuando quieras en los Ajustes del juego o en los ajustes de notificaciones de tu dispositivo.</p>",
+  "q11": "¿Qué es una partida perfecta?",
+  "a11": "<p>¿Atascado en un nivel? Elige Ver la partida perfecta en el menú de pausa o en la pantalla de Reintentar para verlo jugado a la perfección: todos los plátanos, el objetivo de 3 estrellas y el jefe, sin potenciadores. Puedes pausarla, verla otra vez y competir contra ella como fantasma. Las partidas perfectas se añaden mundo a mundo.</p>"
 }

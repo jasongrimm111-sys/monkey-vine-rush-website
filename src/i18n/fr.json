@@ -109,7 +109,7 @@
   "q7": "Le jeu est lent ou saccadé",
   "a7": "<p>Active <b>Graphismes légers</b> dans les Paramètres du jeu. Il affiche moins d'effets et tourne de façon fluide sur les appareils plus anciens. Fermer d'autres apps peut aussi aider.</p>",
   "q8": "Comment apprendre les mouvements ?",
-  "a8": "<p>Maintiens l'écran pour te balancer, lâche pour t'envoler et touche la liane suivante pour l'attraper. Touche l'écran en l'air pour faire une Toupie. Le tutoriel et le Guide des bonus du jeu montrent chaque mouvement avec une animation.</p>",
+  "a8": "<p>Maintiens n’importe où pour te balancer, lâche pour voler, puis maintiens encore pour attraper la liane suivante. Touche l’écran en plein vol pour faire une Toupie.</p><p>Tu préfères des boutons ? Active les boutons à l’écran dans les Réglages, le menu pause ou la première étape du tutoriel. Tu auras un bouton Balance et un bouton Toupie, que tu peux déplacer et redimensionner selon tes pouces.</p><p>Le tutoriel et le guide des bonus du jeu montrent chaque mouvement avec une animation.</p>",
   "q9": "J'ai trouvé un bug, ou le jeu s'est figé",
   "a9": "<p>Ouvre <span class=\"path\">Paramètres › Signaler un problème</span> dans le jeu, touche <b>Copier le rapport</b> et colle-le dans un e-mail à notre intention. Le rapport indique ton appareil et les erreurs repérées par le jeu, rien de personnel, pour que nous trouvions vite le problème.</p>",
   "h_privacy": "Confidentialité",
@@ -209,5 +209,7 @@
   "c_choice_h": "Ton choix",
   "c_choice": "<p>Ton choix est enregistré dans le stockage local de ton navigateur (sous le nom <b>mvr-consent</b>). Tu peux le modifier à tout moment ici, ou avec Réglages des cookies en bas de chaque page.</p>",
   "reminders_h": "Rappels",
-  "reminders": "<p>Dans l’app, tu peux choisir de recevoir de temps en temps un rappel pour revenir jouer. Le jeu te le demande d’abord, puis ton appareil demande l’autorisation.</p><p>Les rappels sont programmés par ton appareil lui-même : rien n’est envoyé à nous ni à personne d’autre. Pour bien les placer, le jeu compte à quelles heures de la journée tu joues d’habitude et garde ce décompte sur ton appareil avec ta progression. Tu peux désactiver les rappels à tout moment dans les Réglages du jeu ou dans les réglages de notifications de ton appareil.</p>"
+  "reminders": "<p>Dans l’app, tu peux choisir de recevoir de temps en temps un rappel pour revenir jouer. Le jeu te le demande d’abord, puis ton appareil demande l’autorisation.</p><p>Les rappels sont programmés par ton appareil lui-même : rien n’est envoyé à nous ni à personne d’autre. Pour bien les placer, le jeu compte à quelles heures de la journée tu joues d’habitude et garde ce décompte sur ton appareil avec ta progression. Tu peux désactiver les rappels à tout moment dans les Réglages du jeu ou dans les réglages de notifications de ton appareil.</p>",
+  "q11": "Qu’est-ce qu’une partie parfaite ?",
+  "a11": "<p>Bloqué sur un niveau ? Choisis Voir la partie parfaite dans le menu pause ou sur l’écran Réessayer pour le voir joué parfaitement : toutes les bananes, l’objectif 3 étoiles et le boss, sans bonus. Tu peux la mettre en pause, la revoir et l’affronter comme un fantôme. Les parties parfaites arrivent monde par monde.</p>"
 }

@@ -109,7 +109,7 @@
   "q7": "Oyun yavaş çalışıyor ya da takılıyor",
   "a7": "<p>Oyunun Ayarlar bölümünden <b>Düşük grafik</b>'i aç. Daha az efekt çizer ve eski cihazlarda da akıcı çalışır. Diğer uygulamaları kapatmak da yardımcı olabilir.</p>",
   "q8": "Hareketleri nasıl öğrenirim?",
-  "a8": "<p>Sallanmak için ekrana basılı tut, uçmak için bırak ve yakalamak için sonraki sarmaşığa dokun. Havada dokunarak Güç Dönüşü yap. Oyundaki eğitim ve Güçlendirici rehberi her hareketi bir animasyonla gösterir.</p>",
+  "a8": "<p>Sallanmak için herhangi bir yere dokun ve basılı tut, uçmak için bırak, sonraki sarmaşığı yakalamak için yine basılı tut. Havada dokunarak Güç Dönüşü yap.</p><p>Düğme mi tercih edersin? Ayarlar’dan, duraklatma menüsünden ya da eğitimin ilk adımından ekran düğmelerini aç. Bir Sallanma ve bir Dönüş düğmesi gelir; yerlerini ve boyutlarını başparmaklarına göre değiştirebilirsin.</p><p>Oyundaki eğitim ve güçlendirme rehberi her hareketi animasyonla gösterir.</p>",
   "q9": "Bir hata buldum ya da oyun dondu",
   "a9": "<p>Oyunda <span class=\"path\">Ayarlar › Sorun bildir</span>'i aç, <b>Raporu kopyala</b>'ya dokun ve bize göndereceğin e-postaya yapıştır. Rapor, cihazını ve oyunun fark ettiği hataları listeler, kişisel hiçbir şey içermez; böylece sorunu hızla buluruz.</p>",
   "h_privacy": "Gizlilik",
@@ -209,5 +209,7 @@
   "c_choice_h": "Seçimin",
   "c_choice": "<p>Seçimin tarayıcının yerel depolamasında (<b>mvr-consent</b> adıyla) saklanır. İstediğin zaman burada ya da her sayfanın altındaki Çerez ayarları ile değiştirebilirsin.</p>",
   "reminders_h": "Hatırlatmalar",
-  "reminders": "<p>Uygulamada, ara sıra oyuna geri dönmen için hatırlatma almayı seçebilirsin. Önce oyun sorar, ardından cihazın izin ister.</p><p>Hatırlatmaları cihazın kendisi planlar, bu yüzden bize veya başka birine hiçbir şey gönderilmez. Zamanlamak için oyun, günün hangi saatlerinde genelde oynadığını sayar ve bu sayımı ilerlemenle birlikte cihazında saklar. Hatırlatmaları istediğin zaman oyunun Ayarlar bölümünden veya cihazının bildirim ayarlarından kapatabilirsin.</p>"
+  "reminders": "<p>Uygulamada, ara sıra oyuna geri dönmen için hatırlatma almayı seçebilirsin. Önce oyun sorar, ardından cihazın izin ister.</p><p>Hatırlatmaları cihazın kendisi planlar, bu yüzden bize veya başka birine hiçbir şey gönderilmez. Zamanlamak için oyun, günün hangi saatlerinde genelde oynadığını sayar ve bu sayımı ilerlemenle birlikte cihazında saklar. Hatırlatmaları istediğin zaman oyunun Ayarlar bölümünden veya cihazının bildirim ayarlarından kapatabilirsin.</p>",
+  "q11": "Mükemmel koşu nedir?",
+  "a11": "<p>Bir bölümde mi takıldın? Duraklatma menüsünden veya Tekrar dene ekranından Mükemmel koşuyu izle’yi seç ve bölümün kusursuz oynanışını gör: tüm muzlar, 3 yıldız hedefi ve boss, güçlendirme olmadan. Duraklatabilir, tekrar izleyebilir ve hayalet olarak onunla yarışabilirsin. Mükemmel koşular dünya dünya ekleniyor.</p>"
 }

@@ -109,7 +109,7 @@
   "q7": "Das Spiel läuft langsam oder ruckelt",
   "a7": "<p>Schalte in den Einstellungen des Spiels <b>Einfache Grafik</b> ein. Dann werden weniger Effekte gezeichnet und es läuft auch auf älteren Geräten flüssig. Andere Apps zu schließen, kann ebenfalls helfen.</p>",
   "q8": "Wie lerne ich die Bewegungen?",
-  "a8": "<p>Halte den Bildschirm gedrückt zum Schwingen, lass los zum Fliegen und berühre die nächste Liane, um sie zu packen. Tippe in der Luft für einen Power Spin. Das Tutorial und der Extras-Ratgeber im Spiel zeigen jede Bewegung mit einer Animation.</p>",
+  "a8": "<p>Tippe und halte irgendwo, um zu schwingen, lass los, um zu fliegen, und halte wieder, um die nächste Liane zu greifen. Tippe in der Luft für einen Power Spin.</p><p>Lieber Tasten? Schalte die Bildschirmtasten in den Einstellungen, im Pausenmenü oder im ersten Schritt des Tutorials ein. Du bekommst eine Schwing- und eine Dreh-Taste, die du verschieben und in der Größe anpassen kannst.</p><p>Das Tutorial und der Power-up-Guide im Spiel zeigen jede Bewegung mit einer Animation.</p>",
   "q9": "Ich habe einen Fehler gefunden oder das Spiel ist eingefroren",
   "a9": "<p>Öffne im Spiel <span class=\"path\">Einstellungen › Problem melden</span>, tippe auf <b>Bericht kopieren</b> und füge ihn in eine E-Mail an uns ein. Der Bericht nennt dein Gerät und alle Fehler, die das Spiel bemerkt hat, aber nichts Persönliches, damit wir das Problem schnell finden.</p>",
   "h_privacy": "Datenschutz",
@@ -209,5 +209,7 @@
   "c_choice_h": "Deine Wahl",
   "c_choice": "<p>Deine Wahl wird im lokalen Speicher deines Browsers gespeichert (unter dem Namen <b>mvr-consent</b>). Du kannst sie jederzeit hier ändern oder über Cookie-Einstellungen unten auf jeder Seite.</p>",
   "reminders_h": "Erinnerungen",
-  "reminders": "<p>In der App kannst du dich ab und zu ans Weiterspielen erinnern lassen. Das Spiel fragt zuerst, danach fragt dein Gerät um Erlaubnis.</p><p>Die Erinnerungen plant dein Gerät selbst, daher wird nichts an uns oder andere gesendet. Damit sie zur richtigen Zeit kommen, zählt das Spiel, zu welchen Tageszeiten du meistens spielst, und speichert das zusammen mit deinem Fortschritt auf deinem Gerät. Du kannst Erinnerungen jederzeit in den Einstellungen des Spiels oder in den Mitteilungseinstellungen deines Geräts ausschalten.</p>"
+  "reminders": "<p>In der App kannst du dich ab und zu ans Weiterspielen erinnern lassen. Das Spiel fragt zuerst, danach fragt dein Gerät um Erlaubnis.</p><p>Die Erinnerungen plant dein Gerät selbst, daher wird nichts an uns oder andere gesendet. Damit sie zur richtigen Zeit kommen, zählt das Spiel, zu welchen Tageszeiten du meistens spielst, und speichert das zusammen mit deinem Fortschritt auf deinem Gerät. Du kannst Erinnerungen jederzeit in den Einstellungen des Spiels oder in den Mitteilungseinstellungen deines Geräts ausschalten.</p>",
+  "q11": "Was ist ein perfekter Lauf?",
+  "a11": "<p>Kommst du bei einem Level nicht weiter? Wähle im Pausenmenü oder auf dem Nochmal-Bildschirm „Perfekten Lauf ansehen“, um ihn perfekt gespielt zu sehen: alle Bananen, das 3-Sterne-Ziel und jeden Boss, ohne Power-ups. Du kannst pausieren, ihn nochmal ansehen und als Geist gegen ihn antreten. Perfekte Läufe kommen Welt für Welt dazu.</p>"
 }

@@ -109,7 +109,7 @@
   "q7": "Spelet är långsamt eller hackar",
   "a7": "<p>Slå på <b>Enkel grafik</b> i spelets Inställningar. Då ritas färre effekter och spelet flyter på även på äldre enheter. Att stänga andra appar kan också hjälpa.</p>",
   "q8": "Hur lär jag mig rörelserna?",
-  "a8": "<p>Håll på skärmen för att svinga, släpp för att flyga och rör vid nästa lian för att greppa den. Tryck i luften för ett Kraftsnurr. Guiden och Guide till krafter i spelet visar varje rörelse med en animation.</p>",
+  "a8": "<p>Tryck och håll var som helst för att svinga, släpp för att flyga och håll igen för att ta nästa lian. Tryck i luften för ett Kraftsnurr.</p><p>Föredrar du knappar? Slå på knappar på skärmen i Inställningar, i pausmenyn eller i första steget i guiden. Du får en svingknapp och en snurrknapp som du kan flytta och ändra storlek på.</p><p>Guiden och power-up-guiden i spelet visar varje rörelse med en animation.</p>",
   "q9": "Jag hittade en bugg eller spelet frös",
   "a9": "<p>Öppna <span class=\"path\">Inställningar › Rapportera ett problem</span> i spelet, tryck på <b>Kopiera rapport</b> och klistra in den i ett mejl till oss. Rapporten visar din enhet och eventuella fel som spelet märkt, inget personligt, så att vi snabbt hittar problemet.</p>",
   "h_privacy": "Integritet",
@@ -209,5 +209,7 @@
   "c_choice_h": "Ditt val",
   "c_choice": "<p>Ditt val sparas i webbläsarens lokala lagring (under namnet <b>mvr-consent</b>). Du kan ändra det när som helst här, eller med Cookieinställningar längst ned på varje sida.</p>",
   "reminders_h": "Påminnelser",
-  "reminders": "<p>I appen kan du välja att få en påminnelse då och då om att komma tillbaka och spela. Spelet frågar först, och sedan ber din enhet om lov.</p><p>Påminnelserna schemaläggs av din enhet själv, så inget skickas till oss eller någon annan. För att välja tid räknar spelet vilka timmar på dygnet du brukar spela och sparar den räkningen på din enhet tillsammans med dina framsteg. Du kan stänga av påminnelser när som helst i spelets Inställningar eller i enhetens inställningar för notiser.</p>"
+  "reminders": "<p>I appen kan du välja att få en påminnelse då och då om att komma tillbaka och spela. Spelet frågar först, och sedan ber din enhet om lov.</p><p>Påminnelserna schemaläggs av din enhet själv, så inget skickas till oss eller någon annan. För att välja tid räknar spelet vilka timmar på dygnet du brukar spela och sparar den räkningen på din enhet tillsammans med dina framsteg. Du kan stänga av påminnelser när som helst i spelets Inställningar eller i enhetens inställningar för notiser.</p>",
+  "q11": "Vad är en perfekt runda?",
+  "a11": "<p>Fast på en bana? Välj Se den perfekta rundan i pausmenyn eller på Försök igen-skärmen för att se den spelad perfekt: alla bananer, 3-stjärnemålet och bossen, utan power-ups. Du kan pausa, se den igen och tävla mot den som spöke. Perfekta rundor läggs till värld för värld.</p>"
 }

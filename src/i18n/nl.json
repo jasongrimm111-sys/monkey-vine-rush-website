@@ -109,7 +109,7 @@
   "q7": "Het spel is traag of hapert",
   "a7": "<p>Zet <b>Lichte graphics</b> aan in de Instellingen van het spel. Dan worden er minder effecten getekend en loopt het soepel op oudere apparaten. Andere apps sluiten kan ook helpen.</p>",
   "q8": "Hoe leer ik de bewegingen?",
-  "a8": "<p>Houd het scherm vast om te slingeren, laat los om te vliegen en raak de volgende liaan aan om hem te pakken. Tik in de lucht voor een Krachtdraai. De tutorial en de Power-upgids in het spel laten elke beweging zien met een animatie.</p>",
+  "a8": "<p>Tik en houd ergens vast om te slingeren, laat los om te vliegen en houd weer vast om de volgende liaan te pakken. Tik in de lucht voor een Krachtdraai.</p><p>Liever knoppen? Zet knoppen op het scherm aan bij Instellingen, in het pauzemenu of in de eerste stap van de tutorial. Je krijgt een zwaaiknop en een draaiknop, die je kunt verplaatsen en groter of kleiner kunt maken.</p><p>De tutorial en de power-upgids in het spel laten elke beweging zien met een animatie.</p>",
   "q9": "Ik heb een bug gevonden of het spel is vastgelopen",
   "a9": "<p>Open in het spel <span class=\"path\">Instellingen › Probleem melden</span>, tik op <b>Rapport kopiëren</b> en plak het in een e-mail aan ons. Het rapport noemt je apparaat en eventuele fouten die het spel heeft opgemerkt, niets persoonlijks, zodat we het probleem snel vinden.</p>",
   "h_privacy": "Privacy",
@@ -209,5 +209,7 @@
   "c_choice_h": "Jouw keuze",
   "c_choice": "<p>Je keuze wordt bewaard in de lokale opslag van je browser (onder de naam <b>mvr-consent</b>). Je kunt hem altijd hier wijzigen, of via Cookie-instellingen onderaan elke pagina.</p>",
   "reminders_h": "Herinneringen",
-  "reminders": "<p>In de app kun je ervoor kiezen af en toe een herinnering te krijgen om weer te spelen. Het spel vraagt het eerst, daarna vraagt je apparaat om toestemming.</p><p>Herinneringen worden door je apparaat zelf ingepland, dus er wordt niets naar ons of iemand anders gestuurd. Om het juiste moment te kiezen, telt het spel op welke uren van de dag je meestal speelt en bewaart het die telling met je voortgang op je apparaat. Je kunt herinneringen altijd uitzetten in de Instellingen van het spel of in de meldingsinstellingen van je apparaat.</p>"
+  "reminders": "<p>In de app kun je ervoor kiezen af en toe een herinnering te krijgen om weer te spelen. Het spel vraagt het eerst, daarna vraagt je apparaat om toestemming.</p><p>Herinneringen worden door je apparaat zelf ingepland, dus er wordt niets naar ons of iemand anders gestuurd. Om het juiste moment te kiezen, telt het spel op welke uren van de dag je meestal speelt en bewaart het die telling met je voortgang op je apparaat. Je kunt herinneringen altijd uitzetten in de Instellingen van het spel of in de meldingsinstellingen van je apparaat.</p>",
+  "q11": "Wat is een perfecte run?",
+  "a11": "<p>Zit je vast op een level? Kies Perfecte run bekijken in het pauzemenu of op het Opnieuw-scherm om het perfect gespeeld te zien: alle bananen, het 3-sterrendoel en de baas, zonder power-ups. Je kunt pauzeren, opnieuw kijken en ertegen racen als geest. Perfecte runs komen er wereld voor wereld bij.</p>"
 }
