@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /posting/
 Sitemap: https://monkeyvinerush.com/sitemap.xml
