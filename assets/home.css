@@ -260,3 +260,5 @@ main{overflow-x:hidden;overflow-x:clip}   /* tilted phone pairs never cause a si
   .hdr-badge img,.top .badge-link img{height:38px}
 }
 @media (min-width:761px) and (max-width:980px){ html[lang="ru"] .top nav{gap:10px;font-size:.82rem} html[lang="ru"] .top .wrap{gap:8px} html[lang="ru"] .brand{font-size:1.05rem} }   /* longer Russian menu words */
+
+.studio-link{color:inherit;text-decoration:none}.studio-link:hover{text-decoration:underline}

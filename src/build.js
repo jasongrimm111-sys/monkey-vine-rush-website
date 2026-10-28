@@ -84,7 +84,7 @@ for (const lang of Object.keys(LANGS)){
 </header>`,
       footer: `<footer>
   <div class="wrap">
-    <div class="studio"><img src="/img/icon-96.png" alt="" width="40" height="40" style="border-radius:10px"><div>Grimmitt Games<small>${t('footer_makers')}</small></div></div>
+    <div class="studio"><img src="/img/icon-96.png" alt="" width="40" height="40" style="border-radius:10px"><div><a class="studio-link" href="https://www.grimmittgames.com/">Grimmitt Games</a><small>${t('footer_makers')}</small></div></div>
     <div class="links">
       <a href="${base(lang)}"${pageName === 'home' ? ' aria-current="page"' : ''}>${t('nav_home')}</a>
       <a href="${base(lang)}support/"${pageName === 'support' ? ' aria-current="page"' : ''}>${t('nav_support')}</a>
@@ -95,7 +95,7 @@ for (const lang of Object.keys(LANGS)){
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
     <p class="langs" aria-label="${t('lang_label')}">${Object.entries(LANGS).map(([l, n]) => `<a href="${base(l) + relFor(l)}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a>`).join('')}</p>
-    <p class="legal">© 2026 Grimmitt Games. ${t('legal')}</p>
+    <p class="legal">© 2026 <a class="studio-link" href="https://www.grimmittgames.com/">Grimmitt Games</a>. ${t('legal')}</p>
   </div>
 </footer>`,
       copyScript: `<script>
