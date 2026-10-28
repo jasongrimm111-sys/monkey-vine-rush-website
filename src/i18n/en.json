@@ -211,5 +211,6 @@
   "reminders_h": "Reminders",
   "reminders": "<p>In the app, you can choose to get the odd reminder to come back and play. The game asks first, and then your device asks for permission.</p><p>Reminders are scheduled by your device itself, so nothing is sent to us or anyone else. To time them, the game counts which hours of the day you usually play and keeps that count on your device with your progress. You can turn reminders off at any time in the game's Settings or in your device's notification settings.</p>",
   "q11": "What is a perfect run?",
-  "a11": "<p>Stuck on a level? Choose Watch perfect run in the pause menu or on the Try again screen to see it played perfectly: every banana, the 3-star goal and any boss, with no power-ups. You can pause it, watch it again, and race it as a ghost. Perfect runs are being added world by world.</p>"
+  "a11": "<p>Stuck on a level? Choose Watch perfect run in the pause menu or on the Try again screen to see it played perfectly: every banana, the 3-star goal and any boss, with no power-ups. You can pause it, watch it again, and race it as a ghost. Perfect runs are being added world by world.</p>",
+  "footer_terms": "Terms of service"
 }

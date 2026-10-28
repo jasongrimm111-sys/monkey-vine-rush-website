@@ -211,5 +211,6 @@
   "reminders_h": "Hatırlatmalar",
   "reminders": "<p>Uygulamada, ara sıra oyuna geri dönmen için hatırlatma almayı seçebilirsin. Önce oyun sorar, ardından cihazın izin ister.</p><p>Hatırlatmaları cihazın kendisi planlar, bu yüzden bize veya başka birine hiçbir şey gönderilmez. Zamanlamak için oyun, günün hangi saatlerinde genelde oynadığını sayar ve bu sayımı ilerlemenle birlikte cihazında saklar. Hatırlatmaları istediğin zaman oyunun Ayarlar bölümünden veya cihazının bildirim ayarlarından kapatabilirsin.</p>",
   "q11": "Mükemmel koşu nedir?",
-  "a11": "<p>Bir bölümde mi takıldın? Duraklatma menüsünden veya Tekrar dene ekranından Mükemmel koşuyu izle’yi seç ve bölümün kusursuz oynanışını gör: tüm muzlar, 3 yıldız hedefi ve boss, güçlendirme olmadan. Duraklatabilir, tekrar izleyebilir ve hayalet olarak onunla yarışabilirsin. Mükemmel koşular dünya dünya ekleniyor.</p>"
+  "a11": "<p>Bir bölümde mi takıldın? Duraklatma menüsünden veya Tekrar dene ekranından Mükemmel koşuyu izle’yi seç ve bölümün kusursuz oynanışını gör: tüm muzlar, 3 yıldız hedefi ve boss, güçlendirme olmadan. Duraklatabilir, tekrar izleyebilir ve hayalet olarak onunla yarışabilirsin. Mükemmel koşular dünya dünya ekleniyor.</p>",
+  "footer_terms": "Hizmet Şartları"
 }

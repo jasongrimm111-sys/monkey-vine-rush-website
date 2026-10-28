@@ -211,5 +211,6 @@
   "reminders_h": "Recordatorios",
   "reminders": "<p>En la app puedes elegir recibir de vez en cuando un recordatorio para volver a jugar. Primero te lo pregunta el juego y después tu dispositivo te pide permiso.</p><p>Los recordatorios los programa tu propio dispositivo, así que no se envía nada a nosotros ni a nadie más. Para elegir el momento, el juego cuenta a qué horas del día sueles jugar y guarda ese recuento en tu dispositivo junto con tu progreso. Puedes desactivar los recordatorios cuando quieras en los Ajustes del juego o en los ajustes de notificaciones de tu dispositivo.</p>",
   "q11": "¿Qué es una partida perfecta?",
-  "a11": "<p>¿Atascado en un nivel? Elige Ver la partida perfecta en el menú de pausa o en la pantalla de Reintentar para verlo jugado a la perfección: todos los plátanos, el objetivo de 3 estrellas y el jefe, sin potenciadores. Puedes pausarla, verla otra vez y competir contra ella como fantasma. Las partidas perfectas se añaden mundo a mundo.</p>"
+  "a11": "<p>¿Atascado en un nivel? Elige Ver la partida perfecta en el menú de pausa o en la pantalla de Reintentar para verlo jugado a la perfección: todos los plátanos, el objetivo de 3 estrellas y el jefe, sin potenciadores. Puedes pausarla, verla otra vez y competir contra ella como fantasma. Las partidas perfectas se añaden mundo a mundo.</p>",
+  "footer_terms": "Términos del servicio"
 }

@@ -211,5 +211,6 @@
   "reminders_h": "Rappels",
   "reminders": "<p>Dans l’app, tu peux choisir de recevoir de temps en temps un rappel pour revenir jouer. Le jeu te le demande d’abord, puis ton appareil demande l’autorisation.</p><p>Les rappels sont programmés par ton appareil lui-même : rien n’est envoyé à nous ni à personne d’autre. Pour bien les placer, le jeu compte à quelles heures de la journée tu joues d’habitude et garde ce décompte sur ton appareil avec ta progression. Tu peux désactiver les rappels à tout moment dans les Réglages du jeu ou dans les réglages de notifications de ton appareil.</p>",
   "q11": "Qu’est-ce qu’une partie parfaite ?",
-  "a11": "<p>Bloqué sur un niveau ? Choisis Voir la partie parfaite dans le menu pause ou sur l’écran Réessayer pour le voir joué parfaitement : toutes les bananes, l’objectif 3 étoiles et le boss, sans bonus. Tu peux la mettre en pause, la revoir et l’affronter comme un fantôme. Les parties parfaites arrivent monde par monde.</p>"
+  "a11": "<p>Bloqué sur un niveau ? Choisis Voir la partie parfaite dans le menu pause ou sur l’écran Réessayer pour le voir joué parfaitement : toutes les bananes, l’objectif 3 étoiles et le boss, sans bonus. Tu peux la mettre en pause, la revoir et l’affronter comme un fantôme. Les parties parfaites arrivent monde par monde.</p>",
+  "footer_terms": "Conditions d'utilisation"
 }

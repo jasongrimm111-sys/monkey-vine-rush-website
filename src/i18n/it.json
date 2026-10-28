@@ -211,5 +211,6 @@
   "reminders_h": "Promemoria",
   "reminders": "<p>Nell’app puoi scegliere di ricevere ogni tanto un promemoria per tornare a giocare. Prima te lo chiede il gioco, poi il dispositivo chiede il permesso.</p><p>I promemoria li programma il tuo dispositivo, quindi non viene inviato nulla a noi né ad altri. Per sceglierne l’orario, il gioco conta in quali ore del giorno giochi di solito e conserva quel conteggio sul dispositivo insieme ai tuoi progressi. Puoi disattivare i promemoria in qualsiasi momento nelle Impostazioni del gioco o nelle impostazioni delle notifiche del dispositivo.</p>",
   "q11": "Cos’è una partita perfetta?",
-  "a11": "<p>Bloccato su un livello? Scegli Guarda la partita perfetta nel menu di pausa o nella schermata Riprova per vederlo giocato alla perfezione: tutte le banane, l’obiettivo da 3 stelle e il boss, senza power-up. Puoi metterla in pausa, riguardarla e sfidarla come fantasma. Le partite perfette arrivano mondo dopo mondo.</p>"
+  "a11": "<p>Bloccato su un livello? Scegli Guarda la partita perfetta nel menu di pausa o nella schermata Riprova per vederlo giocato alla perfezione: tutte le banane, l’obiettivo da 3 stelle e il boss, senza power-up. Puoi metterla in pausa, riguardarla e sfidarla come fantasma. Le partite perfette arrivano mondo dopo mondo.</p>",
+  "footer_terms": "Termini di servizio"
 }

@@ -31,7 +31,8 @@ const sync=()=>{if(now){const v=C.get();now.textContent=v==='yes'?now.dataset.ye
 if(!C.get())bar.hidden=false;sync();
 document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ck]');if(b){C.set(b.dataset.ck);bar.hidden=true;sync();return;}
 if(e.target.closest&&e.target.closest('#ckOpen')){e.preventDefault();bar.hidden=false;bar.querySelector('[data-ck="yes"]').focus();}});})();</script>`;
-const PAGES = [['home.html', ''], ['support.html', 'support/'], ['privacy.html', 'privacy/'], ['cookies.html', 'cookies/']];
+const PAGES = [['home.html', ''], ['support.html', 'support/'], ['privacy.html', 'privacy/'], ['cookies.html', 'cookies/'], ['terms.html', 'terms/']];
+const EN_ONLY = new Set(['terms.html']);   // in English only, so other languages link to it in English
 // The game's fonts (Lilita One, Fredoka) only cover Latin letters, so these languages get a matching chunky font of their own
 const SCRIPT_FONTS = {
   ja:{ css:'M+PLUS+Rounded+1c:wght@500;800', display:"'M PLUS Rounded 1c'", body:"'M PLUS Rounded 1c'" },
@@ -51,6 +52,8 @@ for (const lang of Object.keys(LANGS)){
   const T = lang === 'en' ? EN : JSON.parse(fs.readFileSync(file, 'utf8'));
   const t = k => { if (T[k] != null) return T[k]; if (EN[k] == null) throw new Error(`no English text for "${k}"`); if (lang !== 'en'){ missing++; console.warn(`  ${lang}: missing "${k}"`); } return EN[k]; };
   for (const [tpl, rel] of PAGES){
+    if (EN_ONLY.has(tpl) && lang !== 'en') continue;
+    const relFor = l => EN_ONLY.has(tpl) && l !== 'en' ? '' : rel;
     const pageName = tpl.replace('.html', '');
     const url = l => SITE + base(l) + rel;
     const parts = {
@@ -60,7 +63,7 @@ for (const lang of Object.keys(LANGS)){
       // first visit to an English page: go to the visitor's own language if the site has it (their own choice always wins)
       autoLang: lang !== 'en' ? '' : `<script>(()=>{try{if(localStorage.getItem('mvr-lang'))return;const L=${JSON.stringify(Object.keys(LANGS).filter(l => l !== 'en' && l !== 'zh-TW'))};for(const x of (navigator.languages||[navigator.language||'']).map(s=>String(s).toLowerCase())){let m=null;if(/^zh-(tw|hk|mo|hant)/.test(x))m='zh-TW';else{const b=x.split('-')[0];if(b==='en')return;if(L.includes(b))m=b;}if(m){location.replace('/'+m+location.pathname+location.hash);return;}}}catch(e){}})()</script>`,
       langMenu: `<details class="lang"><summary aria-label="${t('lang_label')}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>${lang === 'zh-TW' ? '繁中' : lang.toUpperCase()}</summary><ul>`
-        + Object.entries(LANGS).map(([l, n]) => `<li><a href="${base(l) + rel}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a></li>`).join('') + `</ul></details>`,
+        + Object.entries(LANGS).map(([l, n]) => `<li><a href="${base(l) + relFor(l)}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a></li>`).join('') + `</ul></details>`,
       // remembers a chosen language, and opens/closes the phone menu
       langScript: `<script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>`,
       googlePlay: `<span class="soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M4 2.6l10.3 9.4L4 21.4c-.4-.2-.6-.6-.6-1.1V3.7c0-.5.2-.9.6-1.1z"/><path fill="#fbbc04" d="M17.6 15.1l-3.3-3.1 3.3-3.1 3.6 2c.9.5.9 1.8 0 2.3z"/><path fill="#4285f4" d="M14.3 12L4 21.4c.3.2.8.2 1.2 0l12.4-6.3z"/><path fill="#ea4335" d="M14.3 12L17.6 8.9 5.2 2.6c-.4-.2-.9-.2-1.2 0z"/></svg><span><small>Android</small>${t('gp_soon')}</span></span>`,
@@ -87,10 +90,11 @@ for (const lang of Object.keys(LANGS)){
       <a href="${base(lang)}support/"${pageName === 'support' ? ' aria-current="page"' : ''}>${t('nav_support')}</a>
       <a href="${base(lang)}privacy/"${pageName === 'privacy' ? ' aria-current="page"' : ''}>${t('footer_privacy')}</a>
       <a href="${base(lang)}cookies/"${pageName === 'cookies' ? ' aria-current="page"' : ''}>${t('footer_cookies')}</a>
+      <a href="/terms/"${pageName === 'terms' ? ' aria-current="page"' : ''}>${t('footer_terms')}</a>
       <button type="button" class="cklink" id="ckOpen">${t('ck_settings')}</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
     </div>
-    <p class="langs" aria-label="${t('lang_label')}">${Object.entries(LANGS).map(([l, n]) => `<a href="${base(l) + rel}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a>`).join('')}</p>
+    <p class="langs" aria-label="${t('lang_label')}">${Object.entries(LANGS).map(([l, n]) => `<a href="${base(l) + relFor(l)}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a>`).join('')}</p>
     <p class="legal">© 2026 Grimmitt Games. ${t('legal')}</p>
   </div>
 </footer>`,
@@ -115,7 +119,7 @@ document.getElementById('copyEmail').addEventListener('click', e => {
   }
 }
 // a sitemap so search engines find every language
-const urls = Object.keys(LANGS).flatMap(l => PAGES.map(([, rel]) => SITE + base(l) + rel));
+const urls = Object.keys(LANGS).flatMap(l => PAGES.filter(([tpl]) => l === 'en' || !EN_ONLY.has(tpl)).map(([, rel]) => SITE + base(l) + rel));
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log(`built ${ONLY ? ONLY.length : Object.keys(LANGS).length} languages × ${PAGES.length} pages${missing ? `, ${missing} strings fell back to English` : ''}`);

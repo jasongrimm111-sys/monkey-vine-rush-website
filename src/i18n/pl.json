@@ -211,5 +211,6 @@
   "reminders_h": "Przypomnienia",
   "reminders": "<p>W aplikacji możesz zdecydować, czy chcesz czasem dostać przypomnienie, by wrócić do gry. Najpierw pyta gra, a potem urządzenie prosi o zgodę.</p><p>Przypomnienia planuje samo urządzenie, więc nic nie jest wysyłane do nas ani nikogo innego. Aby dobrać porę, gra liczy, o których godzinach zwykle grasz, i przechowuje te dane na urządzeniu razem z postępami. Przypomnienia możesz w każdej chwili wyłączyć w Ustawieniach gry albo w ustawieniach powiadomień urządzenia.</p>",
   "q11": "Czym jest idealny przebieg?",
-  "a11": "<p>Utknąłeś na poziomie? Wybierz Obejrzyj idealny przebieg w menu pauzy lub na ekranie Spróbuj ponownie, by zobaczyć go przejściem idealnym: wszystkie banany, cel na 3 gwiazdki i boss, bez wzmocnień. Możesz go zatrzymać, obejrzeć ponownie i ścigać się z nim jako z duchem. Idealne przebiegi dochodzą świat po świecie.</p>"
+  "a11": "<p>Utknąłeś na poziomie? Wybierz Obejrzyj idealny przebieg w menu pauzy lub na ekranie Spróbuj ponownie, by zobaczyć go przejściem idealnym: wszystkie banany, cel na 3 gwiazdki i boss, bez wzmocnień. Możesz go zatrzymać, obejrzeć ponownie i ścigać się z nim jako z duchem. Idealne przebiegi dochodzą świat po świecie.</p>",
+  "footer_terms": "Warunki korzystania"
 }

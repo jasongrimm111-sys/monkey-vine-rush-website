@@ -211,5 +211,6 @@
   "reminders_h": "Påminnelser",
   "reminders": "<p>I appen kan du välja att få en påminnelse då och då om att komma tillbaka och spela. Spelet frågar först, och sedan ber din enhet om lov.</p><p>Påminnelserna schemaläggs av din enhet själv, så inget skickas till oss eller någon annan. För att välja tid räknar spelet vilka timmar på dygnet du brukar spela och sparar den räkningen på din enhet tillsammans med dina framsteg. Du kan stänga av påminnelser när som helst i spelets Inställningar eller i enhetens inställningar för notiser.</p>",
   "q11": "Vad är en perfekt runda?",
-  "a11": "<p>Fast på en bana? Välj Se den perfekta rundan i pausmenyn eller på Försök igen-skärmen för att se den spelad perfekt: alla bananer, 3-stjärnemålet och bossen, utan power-ups. Du kan pausa, se den igen och tävla mot den som spöke. Perfekta rundor läggs till värld för värld.</p>"
+  "a11": "<p>Fast på en bana? Välj Se den perfekta rundan i pausmenyn eller på Försök igen-skärmen för att se den spelad perfekt: alla bananer, 3-stjärnemålet och bossen, utan power-ups. Du kan pausa, se den igen och tävla mot den som spöke. Perfekta rundor läggs till värld för värld.</p>",
+  "footer_terms": "Användarvillkor"
 }

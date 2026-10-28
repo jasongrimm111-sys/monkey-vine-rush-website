@@ -211,5 +211,6 @@
   "reminders_h": "Lembretes",
   "reminders": "<p>No app, você pode escolher receber de vez em quando um lembrete para voltar a jogar. Primeiro o jogo pergunta e depois o seu aparelho pede permissão.</p><p>Os lembretes são agendados pelo próprio aparelho, então nada é enviado para nós nem para mais ninguém. Para escolher o horário, o jogo conta em que horas do dia você costuma jogar e guarda essa contagem no aparelho junto com o seu progresso. Você pode desativar os lembretes a qualquer momento nas Configurações do jogo ou nos ajustes de notificações do aparelho.</p>",
   "q11": "O que é uma partida perfeita?",
-  "a11": "<p>Travou em um nível? Escolha Ver a partida perfeita no menu de pausa ou na tela Tentar de novo para vê-lo jogado com perfeição: todas as bananas, a meta de 3 estrelas e o chefão, sem power-ups. Você pode pausar, ver de novo e apostar corrida com ela como fantasma. As partidas perfeitas estão chegando mundo a mundo.</p>"
+  "a11": "<p>Travou em um nível? Escolha Ver a partida perfeita no menu de pausa ou na tela Tentar de novo para vê-lo jogado com perfeição: todas as bananas, a meta de 3 estrelas e o chefão, sem power-ups. Você pode pausar, ver de novo e apostar corrida com ela como fantasma. As partidas perfeitas estão chegando mundo a mundo.</p>",
+  "footer_terms": "Termos de serviço"
 }
