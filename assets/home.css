@@ -264,3 +264,5 @@ main{overflow-x:hidden;overflow-x:clip}   /* tilted phone pairs never cause a si
 .studio-link{color:inherit;text-decoration:none}.studio-link:hover{text-decoration:underline}
 
 .hdr-badge[hidden]{display:none}
+.hdr-badge+.hdr-badge{margin-left:8px}
+@media (max-width:700px){.hdr-play.dual{display:none}}

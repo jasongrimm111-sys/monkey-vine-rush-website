@@ -64,7 +64,7 @@ if(c==='yes')load();})();</script>
     </nav>
     <a class="badge-link sm hdr-badge" href="https://apps.apple.com/app/id6825472830"><img src="/img/app-store-badge.svg" alt="App Storeからダウンロード" width="132" height="44"></a>
     <a class="badge-link sm hdr-badge hdr-play" href="https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush" hidden><img src="/img/google-play-badge.png" alt="Google Play で手に入れよう" width="148" height="44"></a>
-    <script>/Android/i.test(navigator.userAgent)&&document.querySelectorAll('.hdr-badge').forEach(b=>b.hidden=!b.classList.contains('hdr-play'))</script>
+    <script>(()=>{const u=navigator.userAgent,an=/Android/i.test(u),ios=/iPhone|iPad|iPod/.test(u)||(/Macintosh/.test(u)&&navigator.maxTouchPoints>1),[ap,gp]=document.querySelectorAll('.hdr-badge');if(!ap||!gp)return;if(an){ap.hidden=true;gp.hidden=false}else if(!ios){gp.hidden=false;gp.classList.add('dual')}})()</script>
     <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="メニュー"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path class="l1" d="M4 7h16"/><path class="l2" d="M4 12h16"/><path class="l3" d="M4 17h16"/></svg></button>
   </div>
 </header>
