@@ -66,7 +66,8 @@ for (const lang of Object.keys(LANGS)){
         + Object.entries(LANGS).map(([l, n]) => `<li><a href="${base(l) + relFor(l)}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a></li>`).join('') + `</ul></details>`,
       // remembers a chosen language, and opens/closes the phone menu
       langScript: `<script>(()=>{document.querySelectorAll('[data-lang]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('mvr-lang',a.dataset.lang)}catch(e){}}));const top=document.getElementById('top'),btn=document.getElementById('menuBtn'),set=o=>{top.classList.toggle('open',o);btn.setAttribute('aria-expanded',String(o));};btn.addEventListener('click',e=>{e.stopPropagation();set(!top.classList.contains('open'));});document.querySelectorAll('#mainNav > a').forEach(a=>a.addEventListener('click',()=>set(false)));addEventListener('keydown',e=>{if(e.key==='Escape')set(false);});addEventListener('resize',()=>{if(innerWidth>760)set(false);});document.addEventListener('click',e=>{const d=document.querySelector('.lang[open]');if(d&&!d.contains(e.target)&&innerWidth>760)d.open=false;if(top.classList.contains('open')&&!top.contains(e.target))set(false);});})()</script>`,
-      googlePlay: `<span class="soon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M4 2.6l10.3 9.4L4 21.4c-.4-.2-.6-.6-.6-1.1V3.7c0-.5.2-.9.6-1.1z"/><path fill="#fbbc04" d="M17.6 15.1l-3.3-3.1 3.3-3.1 3.6 2c.9.5.9 1.8 0 2.3z"/><path fill="#4285f4" d="M14.3 12L4 21.4c.3.2.8.2 1.2 0l12.4-6.3z"/><path fill="#ea4335" d="M14.3 12L17.6 8.9 5.2 2.6c-.4-.2-.9-.2-1.2 0z"/></svg><span><small>Android</small>${t('gp_soon')}</span></span>`,
+      // Google Play badge next to the App Store one (user, 2026-11-08: show both stores as live)
+      googlePlay: `<a class="badge-link" href="https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush"><img src="/img/google-play-badge.png" alt="${t('badge_play_alt')}" width="208" height="62"></a>`,
       // the top bar: logo, links (a drop-down panel behind the menu button on phones), language picker, App Store badge
       pageHeader: `<header class="top" id="top">
   <div class="wrap">
@@ -79,6 +80,8 @@ for (const lang of Object.keys(LANGS)){
       {{langMenu}}
     </nav>
     <a class="badge-link sm hdr-badge" href="https://apps.apple.com/app/id6825472830"><img src="/img/app-store-badge.svg" alt="${t('badge_alt')}" width="132" height="44"></a>
+    <a class="badge-link sm hdr-badge hdr-play" href="https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush" hidden><img src="/img/google-play-badge.png" alt="${t('badge_play_alt')}" width="148" height="44"></a>
+    <script>/Android/i.test(navigator.userAgent)&&document.querySelectorAll('.hdr-badge').forEach(b=>b.hidden=!b.classList.contains('hdr-play'))</script>
     <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="${t('menu')}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path class="l1" d="M4 7h16"/><path class="l2" d="M4 12h16"/><path class="l3" d="M4 17h16"/></svg></button>
   </div>
 </header>`,
@@ -93,6 +96,7 @@ for (const lang of Object.keys(LANGS)){
       <a href="/terms/"${pageName === 'terms' ? ' aria-current="page"' : ''}>${t('footer_terms')}</a>
       <button type="button" class="cklink" id="ckOpen">${t('ck_settings')}</button>
       <a href="https://apps.apple.com/app/id6825472830">App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush">Google Play</a>
     </div>
     <p class="langs" aria-label="${t('lang_label')}">${Object.entries(LANGS).map(([l, n]) => `<a href="${base(l) + relFor(l)}" hreflang="${HTML_LANG[l] || l}" lang="${HTML_LANG[l] || l}" data-lang="${l}"${l === lang ? ' aria-current="true"' : ''}>${n}</a>`).join('')}</p>
     <p class="legal">© 2026 <a class="studio-link" href="https://www.grimmittgames.com/">Grimmitt Games</a>. ${t('legal')}</p>
