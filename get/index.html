@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Get Monkey Vine Rush</title>
+<meta name="description" content="Get Monkey Vine Rush for your phone or tablet. Swing through 24 wild worlds and 1,200 levels.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b2a1c">
+<link rel="canonical" href="https://monkeyvinerush.com/get/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Monkey Vine Rush · Hold. Swing. Fly!">
+<meta property="og:description" content="Swing through 24 wild worlds and 1,200 levels. No intrusive ads, plays offline, fun for all ages. Tap to get the game.">
+<meta property="og:image" content="https://monkeyvinerush.com/img/og.jpg">
+<meta property="og:url" content="https://monkeyvinerush.com/get/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<script>
+/* The one link for every social post: monkeyvinerush.com/get/
+   iPhone / iPad  -> straight to the App Store
+   Android        -> straight to Google Play (once ANDROID_LIVE is true; until then a "coming soon" note)
+   anything else  -> both stores and a QR code that brings a phone back to this page
+   Add ?src=tiktok (or instagram, youtube...) to a post's link to see in Google Play which post brought the install. */
+(() => {
+  const ANDROID_LIVE = false;   // set to true the day the app is public on Google Play
+  const IOS = 'https://apps.apple.com/app/id6825472830';
+  const src = (new URLSearchParams(location.search).get('src') || 'site').replace(/[^\w-]/g, '').slice(0, 40);
+  const PLAY = 'https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush&referrer=' + encodeURIComponent('utm_source=' + src + '&utm_medium=social');
+  const ua = navigator.userAgent || '';
+  // iPadOS asks for the desktop site and calls itself a Mac, but a Mac has no touch screen
+  const ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  const android = /Android/i.test(ua);
+  const kind = ios ? 'ios' : android ? (ANDROID_LIVE ? 'android' : 'soon') : 'other';
+  window.MVR_GET = { kind, IOS, PLAY, ANDROID_LIVE };
+  document.documentElement.dataset.kind = kind;
+  if (kind === 'ios') location.replace(IOS);
+  else if (kind === 'android') location.replace(PLAY);
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Lilita+One&display=swap" rel="stylesheet">
+<style>
+:root{--banana:#ffd23f;--leaf-950:#06170f;--leaf-900:#0b2a1c;--leaf-800:#123b28;--ink:#eaf7ee;--muted:#b6d3c0}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:radial-gradient(900px 420px at 50% 0%,rgba(255,214,120,.24),transparent 65%),linear-gradient(180deg,#0f8f8a 0%,#1b6b48 55%,var(--leaf-950) 100%) fixed;
+  color:var(--ink);font-family:'Fredoka',system-ui,sans-serif;font-size:18px;line-height:1.5;display:flex;align-items:center;justify-content:center;
+  padding:max(24px,env(safe-area-inset-top)) 16px max(24px,env(safe-area-inset-bottom))}
+main{width:min(560px,100%);text-align:center;background:rgba(6,23,15,.82);border:1.5px solid rgba(255,210,63,.45);border-radius:28px;padding:32px 24px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.icon{width:104px;height:104px;border-radius:24px;box-shadow:0 10px 26px rgba(0,0,0,.4)}
+h1{font-family:'Lilita One','Fredoka',sans-serif;font-weight:400;font-size:clamp(1.9rem,7vw,2.5rem);line-height:1.1;margin:14px 0 6px;color:#fff}
+h1 b{font-weight:400;color:var(--banana)}
+p{margin:8px 0;color:var(--muted)}
+.lead{color:var(--ink);font-size:1.15rem;font-weight:600}
+.badges{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;margin:20px 0 6px}
+.badges img{display:block;height:58px;width:auto}
+.soon{display:inline-flex;align-items:center;gap:10px;height:58px;text-decoration:none;cursor:default;padding:0 20px;border-radius:12px;border:1.5px solid rgba(255,255,255,.35);color:var(--ink);font-weight:600;font-size:1rem;background:rgba(255,255,255,.06)}
+.soon svg{width:26px;height:26px;flex:none}
+.btn{display:inline-block;margin-top:14px;font-weight:700;font-size:1.05rem;background:var(--banana);color:#3a2210;text-decoration:none;border-radius:999px;padding:12px 26px;box-shadow:0 4px 0 #c48a12}
+.qr{margin:22px auto 4px;width:190px;height:190px;background:#fff;border-radius:16px;padding:10px}
+.qr svg{display:block;width:100%;height:100%}
+.more{display:inline-block;margin-top:18px;color:var(--banana);font-weight:600}
+[data-show]{display:none}
+html[data-kind="ios"] [data-show~="ios"],html[data-kind="android"] [data-show~="android"],html[data-kind="soon"] [data-show~="soon"],html[data-kind="other"] [data-show~="other"]{display:block}
+html[data-kind="other"] .badges[data-show~="other"],html[data-kind="soon"] .badges[data-show~="soon"]{display:flex}
+@media (max-width:420px){main{padding:26px 18px}.badges img,.soon{height:52px}}
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="/img/icon-336.webp" alt="" width="104" height="104">
+  <h1>Monkey <b>Vine Rush</b></h1>
+
+  <!-- iPhone / iPad: on its way to the App Store -->
+  <div data-show="ios">
+    <p class="lead" data-t="open_ios">Opening the App Store…</p>
+    <p data-t="tap">Not opening? Tap the button.</p>
+    <a class="btn jsIos" href="https://apps.apple.com/app/id6825472830" data-t="get">Get the game</a>
+  </div>
+
+  <!-- Android, once it's on Google Play -->
+  <div data-show="android">
+    <p class="lead" data-t="open_play">Opening Google Play…</p>
+    <p data-t="tap">Not opening? Tap the button.</p>
+    <a class="btn jsPlay" href="#" data-t="get">Get the game</a>
+  </div>
+
+  <!-- Android, before it's on Google Play -->
+  <div data-show="soon">
+    <p class="lead" data-t="soon">Coming soon to Google Play</p>
+    <p data-t="soon_sub">Monkey Vine Rush is on its way to Android. Until then, it's on iPhone and iPad.</p>
+  </div>
+
+  <!-- computers and anything else -->
+  <div data-show="other">
+    <p class="lead" data-t="desk">Get Monkey Vine Rush on your phone or tablet</p>
+    <div class="qr" id="qr" aria-label="QR code for monkeyvinerush.com/get" role="img"></div>
+    <p data-t="scan">Scan with your phone's camera</p>
+  </div>
+
+  <div class="badges" data-show="other soon">
+    <a href="https://apps.apple.com/app/id6825472830" class="jsIos"><img src="/img/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
+    <a class="soon jsPlaySlot" href="#" aria-disabled="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M3.6 2.3 13.3 12l-9.7 9.7c-.4-.2-.6-.7-.6-1.2V3.5c0-.5.2-1 .6-1.2z"/><path fill="#fbbc04" d="m16.6 15.3-3.3-3.3 3.3-3.3 3.9 2.2c1.1.6 1.1 1.6 0 2.2z"/><path fill="#ea4335" d="M16.6 15.3 13.3 12l-9.7 9.7c.4.2.9.2 1.4-.1z"/><path fill="#4285f4" d="M16.6 8.7 5 2.4c-.5-.3-1-.3-1.4-.1l9.7 9.7z"/></svg>
+      <span data-t="play_soon">Google Play: coming soon</span>
+    </a>
+  </div>
+
+  <a class="more" href="/" data-t="more">More about the game</a>
+</main>
+
+<noscript><p style="text-align:center"><a href="https://apps.apple.com/app/id6825472830" style="color:#ffd23f">Download on the App Store</a></p></noscript>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script>
+(() => {
+  const G = window.MVR_GET; if (!G) return;
+  // a few words in the visitor's own language (the same languages as the game)
+  const T = {
+    es:{open_ios:'Abriendo el App Store…',open_play:'Abriendo Google Play…',tap:'¿No se abre? Toca el botón.',get:'Consigue el juego',soon:'Muy pronto en Google Play',soon_sub:'Monkey Vine Rush llegará pronto a Android. Mientras tanto, está en iPhone y iPad.',desk:'Consigue Monkey Vine Rush en tu móvil o tableta',scan:'Escanea con la cámara de tu móvil',play_soon:'Google Play: muy pronto',more:'Más sobre el juego'},
+    fr:{open_ios:'Ouverture de l’App Store…',open_play:'Ouverture de Google Play…',tap:'Rien ne s’ouvre ? Touche le bouton.',get:'Obtenir le jeu',soon:'Bientôt sur Google Play',soon_sub:'Monkey Vine Rush arrive bientôt sur Android. En attendant, il est sur iPhone et iPad.',desk:'Obtiens Monkey Vine Rush sur ton téléphone ou ta tablette',scan:'Scanne avec l’appareil photo de ton téléphone',play_soon:'Google Play : bientôt',more:'En savoir plus sur le jeu'},
+    de:{open_ios:'App Store wird geöffnet…',open_play:'Google Play wird geöffnet…',tap:'Öffnet sich nichts? Tippe auf den Button.',get:'Spiel holen',soon:'Bald bei Google Play',soon_sub:'Monkey Vine Rush kommt bald auf Android. Bis dahin gibt es das Spiel für iPhone und iPad.',desk:'Hol dir Monkey Vine Rush auf dein Handy oder Tablet',scan:'Mit der Handykamera scannen',play_soon:'Google Play: bald verfügbar',more:'Mehr über das Spiel'},
+    pt:{open_ios:'Abrindo a App Store…',open_play:'Abrindo o Google Play…',tap:'Não abriu? Toque no botão.',get:'Baixar o jogo',soon:'Em breve no Google Play',soon_sub:'Monkey Vine Rush chega em breve ao Android. Enquanto isso, está no iPhone e iPad.',desk:'Tenha Monkey Vine Rush no seu celular ou tablet',scan:'Escaneie com a câmera do celular',play_soon:'Google Play: em breve',more:'Mais sobre o jogo'},
+    it:{open_ios:'Apertura dell’App Store…',open_play:'Apertura di Google Play…',tap:'Non si apre? Tocca il pulsante.',get:'Scarica il gioco',soon:'Presto su Google Play',soon_sub:'Monkey Vine Rush arriva presto su Android. Nel frattempo è su iPhone e iPad.',desk:'Scarica Monkey Vine Rush sul telefono o sul tablet',scan:'Inquadra con la fotocamera del telefono',play_soon:'Google Play: presto',more:'Scopri di più sul gioco'},
+    nl:{open_ios:'App Store wordt geopend…',open_play:'Google Play wordt geopend…',tap:'Opent er niets? Tik op de knop.',get:'Download het spel',soon:'Binnenkort in Google Play',soon_sub:'Monkey Vine Rush komt binnenkort naar Android. Tot die tijd is het er voor iPhone en iPad.',desk:'Speel Monkey Vine Rush op je telefoon of tablet',scan:'Scan met de camera van je telefoon',play_soon:'Google Play: binnenkort',more:'Meer over het spel'},
+    pl:{open_ios:'Otwieranie App Store…',open_play:'Otwieranie Google Play…',tap:'Nic się nie otwiera? Stuknij przycisk.',get:'Pobierz grę',soon:'Wkrótce w Google Play',soon_sub:'Monkey Vine Rush wkrótce trafi na Androida. Na razie jest na iPhone’a i iPada.',desk:'Pobierz Monkey Vine Rush na telefon lub tablet',scan:'Zeskanuj aparatem telefonu',play_soon:'Google Play: wkrótce',more:'Więcej o grze'},
+    sv:{open_ios:'Öppnar App Store…',open_play:'Öppnar Google Play…',tap:'Öppnas inget? Tryck på knappen.',get:'Hämta spelet',soon:'Snart på Google Play',soon_sub:'Monkey Vine Rush kommer snart till Android. Tills dess finns det för iPhone och iPad.',desk:'Hämta Monkey Vine Rush till din mobil eller surfplatta',scan:'Skanna med mobilens kamera',play_soon:'Google Play: snart',more:'Mer om spelet'},
+    ru:{open_ios:'Открываем App Store…',open_play:'Открываем Google Play…',tap:'Не открывается? Нажмите кнопку.',get:'Скачать игру',soon:'Скоро в Google Play',soon_sub:'Monkey Vine Rush скоро появится на Android. А пока игра есть на iPhone и iPad.',desk:'Скачайте Monkey Vine Rush на телефон или планшет',scan:'Отсканируйте камерой телефона',play_soon:'Google Play: скоро',more:'Подробнее об игре'},
+    zh:{open_ios:'正在打开 App Store…',open_play:'正在打开 Google Play…',tap:'没有打开？请点按钮。',get:'获取游戏',soon:'即将登陆 Google Play',soon_sub:'Monkey Vine Rush 即将登陆 Android。现在可在 iPhone 和 iPad 上畅玩。',desk:'在手机或平板上获取 Monkey Vine Rush',scan:'用手机相机扫描',play_soon:'Google Play：即将推出',more:'了解游戏详情'},
+    'zh-TW':{open_ios:'正在開啟 App Store…',open_play:'正在開啟 Google Play…',tap:'沒有開啟？請點按鈕。',get:'取得遊戲',soon:'即將登上 Google Play',soon_sub:'Monkey Vine Rush 即將登上 Android。現在可在 iPhone 和 iPad 上暢玩。',desk:'在手機或平板上取得 Monkey Vine Rush',scan:'用手機相機掃描',play_soon:'Google Play：即將推出',more:'了解遊戲詳情'},
+    ja:{open_ios:'App Store を開いています…',open_play:'Google Play を開いています…',tap:'開かない場合はボタンをタップしてください。',get:'ゲームを入手',soon:'Google Play に近日登場',soon_sub:'Monkey Vine Rush はまもなく Android に登場します。それまでは iPhone と iPad で遊べます。',desk:'スマホやタブレットで Monkey Vine Rush を入手',scan:'スマホのカメラでスキャン',play_soon:'Google Play：近日公開',more:'ゲームについて詳しく'},
+    ko:{open_ios:'App Store를 여는 중…',open_play:'Google Play를 여는 중…',tap:'열리지 않나요? 버튼을 탭하세요.',get:'게임 받기',soon:'Google Play 출시 예정',soon_sub:'Monkey Vine Rush가 곧 Android에 출시됩니다. 그동안 iPhone과 iPad에서 즐겨 보세요.',desk:'휴대폰이나 태블릿에서 Monkey Vine Rush를 받으세요',scan:'휴대폰 카메라로 스캔하세요',play_soon:'Google Play: 출시 예정',more:'게임 더 알아보기'},
+    tr:{open_ios:'App Store açılıyor…',open_play:'Google Play açılıyor…',tap:'Açılmadı mı? Düğmeye dokun.',get:'Oyunu indir',soon:'Yakında Google Play’de',soon_sub:'Monkey Vine Rush yakında Android’de. O zamana kadar iPhone ve iPad’de oynayabilirsin.',desk:'Monkey Vine Rush’ı telefonuna veya tabletine indir',scan:'Telefonunun kamerasıyla tara',play_soon:'Google Play: yakında',more:'Oyun hakkında daha fazlası'},
+    id:{open_ios:'Membuka App Store…',open_play:'Membuka Google Play…',tap:'Tidak terbuka? Ketuk tombolnya.',get:'Dapatkan gamenya',soon:'Segera hadir di Google Play',soon_sub:'Monkey Vine Rush segera hadir di Android. Sementara itu, mainkan di iPhone dan iPad.',desk:'Dapatkan Monkey Vine Rush di ponsel atau tabletmu',scan:'Pindai dengan kamera ponselmu',play_soon:'Google Play: segera hadir',more:'Selengkapnya tentang game ini'}
+  };
+  const langs = (navigator.languages || [navigator.language || 'en']).map(l => String(l));
+  let code = 'en';
+  for (const l of langs){ const low = l.toLowerCase();
+    if (/^zh-(tw|hk|mo|hant)/.test(low) || low === 'zh-hant'){ code = 'zh-TW'; break; }
+    const two = low.slice(0, 2); if (T[two]){ code = two; break; } if (two === 'en') break; }
+  if (T[code]){ document.documentElement.lang = code; for (const el of document.querySelectorAll('[data-t]')){ const v = T[code][el.dataset.t]; if (v) el.textContent = v; } }
+  for (const a of document.querySelectorAll('.jsPlay')) a.href = G.PLAY;
+  if (G.ANDROID_LIVE) for (const a of document.querySelectorAll('.jsPlaySlot')){ a.href = G.PLAY; a.removeAttribute('aria-disabled'); const s = a.querySelector('span'); if (s) s.textContent = 'Get it on Google Play'; }
+  else for (const a of document.querySelectorAll('.jsPlaySlot')) a.addEventListener('click', e => e.preventDefault());
+  // a QR code back to this page, for people reading the post on a computer
+  if (G.kind === 'other' && window.qrcode){ try { const q = qrcode(0, 'M'); q.addData('https://monkeyvinerush.com/get/'); q.make(); document.getElementById('qr').innerHTML = q.createSvgTag({ cellSize: 6, margin: 0, scalable: true }); } catch (e) {} }
+})();
+</script>
+</body>
+</html>
