@@ -266,3 +266,5 @@ main{overflow-x:hidden;overflow-x:clip}   /* tilted phone pairs never cause a si
 .hdr-badge[hidden]{display:none}
 .hdr-badge+.hdr-badge{margin-left:8px}
 @media (max-width:700px){.hdr-play.dual{display:none}}
+
+footer .social{display:flex;flex-wrap:wrap;align-items:center;gap:10px;width:100%;margin:16px 0 0;font-weight:700} footer .social span{margin-right:6px} footer .social a{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;color:var(--ink);background:rgba(127,127,127,.14);transition:color .15s,background .15s} footer .social a:hover,footer .social a:focus-visible{color:var(--banana);background:rgba(127,127,127,.24)}
