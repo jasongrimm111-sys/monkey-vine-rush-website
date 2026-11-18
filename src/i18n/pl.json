@@ -214,5 +214,7 @@
   "a11": "<p>Utknąłeś na poziomie? Wybierz Obejrzyj idealny przebieg w menu pauzy lub na ekranie Spróbuj ponownie, by zobaczyć go przejściem idealnym: wszystkie banany, cel na 3 gwiazdki i boss, bez wzmocnień. Możesz go zatrzymać, obejrzeć ponownie i ścigać się z nim jako z duchem. Idealne przebiegi dochodzą świat po świecie.</p>",
   "footer_terms": "Warunki korzystania",
   "footer_follow": "Obserwuj nas",
-  "badge_play_alt": "Pobierz z Google Play"
+  "badge_play_alt": "Pobierz z Google Play",
+  "tiktok_h": "Monkey Vine Rush na TikToku",
+  "tiktok": "<p>Naszej aplikacji dewelopera TikToka, też o nazwie Monkey Vine Rush, używamy tylko do publikowania naszych własnych filmów z gry na naszym oficjalnym koncie TikTok (@monkey.vine.rush). Loguje się ona przez Login Kit TikToka do tego jednego konta, odczytując tylko jego podstawowy profil (identyfikator, nazwę wyświetlaną i zdjęcie), a przez Content Posting API TikToka przesyła i publikuje nasze filmy z opisami. Gracze i inne osoby nie mogą się do niej logować, a ona nie odczytuje, nie przechowuje ani nie udostępnia informacji o innych użytkownikach TikToka ani ich treściach. Klucze dostępu do naszego konta są szyfrowane i nigdy nieudostępniane, a dostęp aplikacji możemy w każdej chwili cofnąć w ustawieniach TikToka. To, jak TikTok sam przetwarza dane, opisuje <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">Polityka prywatności TikToka</a>.</p>"
 }

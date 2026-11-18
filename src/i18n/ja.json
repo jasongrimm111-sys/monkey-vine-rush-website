@@ -214,5 +214,7 @@
   "a11": "<p>レベルで行き詰まったら、ポーズメニューか「もう一度」画面で「パーフェクトランを見る」を選ぼう。バナナ全部、3つ星の目標、ボスまで、パワーアップなしで完璧にクリアする様子が見られます。一時停止やもう一度見ることもでき、ゴーストとして競争もできます。パーフェクトランはワールドごとに追加されていきます。</p>",
   "footer_terms": "利用規約",
   "footer_follow": "フォローする",
-  "badge_play_alt": "Google Play で手に入れよう"
+  "badge_play_alt": "Google Play で手に入れよう",
+  "tiktok_h": "TikTok での Monkey Vine Rush",
+  "tiktok": "<p>当社の TikTok 開発者アプリ（名前は同じく Monkey Vine Rush）は、当社自身のゲームプレイ動画を当社の公式 TikTok アカウント（@monkey.vine.rush）に投稿するためだけに使います。TikTok の Login Kit でその1つのアカウントにだけログインし、基本プロフィール（ID、表示名、プロフィール画像）のみを読み取り、TikTok の Content Posting API で動画とキャプションをアップロードして公開します。プレイヤーやほかの人はこのアプリにログインできず、ほかの TikTok ユーザーやそのコンテンツの情報を読み取ったり保存・共有したりすることはありません。当社アカウントのアクセスキーは暗号化して保管し、共有することはありません。アプリのアクセス権は TikTok の設定からいつでも取り消せます。TikTok によるデータの取り扱いは <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">TikTok プライバシーポリシー</a>に記載されています。</p>"
 }

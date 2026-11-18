@@ -214,5 +214,7 @@
   "a11": "<p>Travou em um nível? Escolha Ver a partida perfeita no menu de pausa ou na tela Tentar de novo para vê-lo jogado com perfeição: todas as bananas, a meta de 3 estrelas e o chefão, sem power-ups. Você pode pausar, ver de novo e apostar corrida com ela como fantasma. As partidas perfeitas estão chegando mundo a mundo.</p>",
   "footer_terms": "Termos de serviço",
   "footer_follow": "Siga-nos",
-  "badge_play_alt": "Disponível no Google Play"
+  "badge_play_alt": "Disponível no Google Play",
+  "tiktok_h": "Monkey Vine Rush no TikTok",
+  "tiktok": "<p>Usamos nosso app de desenvolvedor do TikTok, também chamado Monkey Vine Rush, apenas para publicar nossos próprios vídeos do jogo na nossa conta oficial do TikTok (@monkey.vine.rush). Ele usa o Login Kit do TikTok para entrar nessa única conta, lendo apenas o perfil básico (ID, nome de exibição e foto), e a Content Posting API do TikTok para enviar e publicar nossos vídeos com suas legendas. Jogadores e outras pessoas não podem entrar nele, e ele não lê, guarda nem compartilha informações sobre outros usuários do TikTok ou seu conteúdo. As chaves de acesso da nossa conta ficam criptografadas e nunca são compartilhadas, e podemos remover o acesso do app a qualquer momento nas configurações do TikTok. O tratamento de dados pelo próprio TikTok está descrito na <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">Política de Privacidade do TikTok</a>.</p>"
 }

@@ -214,5 +214,7 @@
   "a11": "<p>레벨에서 막혔나요? 일시정지 메뉴나 다시 하기 화면에서 완벽한 플레이 보기를 선택하면 완벽하게 플레이하는 모습을 볼 수 있어요. 바나나 전부, 3성 목표, 보스까지 파워업 없이요. 일시정지하거나 다시 보고, 고스트로 경주할 수도 있어요. 완벽한 플레이는 월드별로 추가되고 있어요.</p>",
   "footer_terms": "서비스 약관",
   "footer_follow": "팔로우하기",
-  "badge_play_alt": "Google Play에서 다운로드"
+  "badge_play_alt": "Google Play에서 다운로드",
+  "tiktok_h": "TikTok의 Monkey Vine Rush",
+  "tiktok": "<p>저희 TikTok 개발자 앱(이름이 마찬가지로 Monkey Vine Rush)은 저희가 만든 게임 플레이 영상을 저희 공식 TikTok 계정(@monkey.vine.rush)에 올리는 데에만 사용해요. TikTok의 Login Kit으로 그 계정 하나에만 로그인하며 기본 프로필(ID, 표시 이름, 사진)만 읽고, TikTok의 Content Posting API로 영상과 캡션을 업로드하고 게시해요. 플레이어나 다른 사람은 이 앱에 로그인할 수 없고, 앱은 다른 TikTok 사용자나 그들의 콘텐츠에 관한 정보를 읽거나 저장하거나 공유하지 않아요. 저희 계정의 액세스 키는 암호화해 보관하며 공유하지 않고, 앱의 접근 권한은 TikTok 설정에서 언제든 해제할 수 있어요. TikTok 자체의 데이터 처리 방식은 <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">TikTok 개인정보처리방침</a>에 설명되어 있어요.</p>"
 }

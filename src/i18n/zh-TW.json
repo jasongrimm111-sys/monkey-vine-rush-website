@@ -214,5 +214,7 @@
   "a11": "<p>卡關了嗎？在暫停選單或「再試一次」畫面選擇「觀看完美通關」，就能看到這一關被完美通過：所有香蕉、三星目標和頭目，不用任何道具。你可以暫停、重看，還能和它的幽靈比賽。完美通關會按世界逐一加入。</p>",
   "footer_terms": "服務條款",
   "footer_follow": "關注我們",
-  "badge_play_alt": "立即前往 Google Play 下載"
+  "badge_play_alt": "立即前往 Google Play 下載",
+  "tiktok_h": "Monkey Vine Rush 與 TikTok",
+  "tiktok": "<p>我們的 TikTok 開發者應用程式同樣名為 Monkey Vine Rush，僅用於把我們自己的遊戲影片發佈到我們自己的官方 TikTok 帳號（@monkey.vine.rush）。它透過 TikTok 的 Login Kit 登入這一個帳號，只讀取其基本資料（ID、顯示名稱和頭像），並透過 TikTok 的 Content Posting API 上傳和發佈我們的影片及其文字說明。玩家和其他人無法登入該應用程式，它也不會讀取、儲存或分享其他 TikTok 使用者及其內容的資訊。我們帳號的存取金鑰經過加密保存，從不分享，我們也可以隨時在 TikTok 的設定中撤銷該應用程式的存取權。TikTok 自身如何處理資料，請參閱 <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">TikTok 隱私權政策</a>。</p>"
 }

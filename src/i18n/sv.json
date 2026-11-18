@@ -214,5 +214,7 @@
   "a11": "<p>Fast på en bana? Välj Se den perfekta rundan i pausmenyn eller på Försök igen-skärmen för att se den spelad perfekt: alla bananer, 3-stjärnemålet och bossen, utan power-ups. Du kan pausa, se den igen och tävla mot den som spöke. Perfekta rundor läggs till värld för värld.</p>",
   "footer_terms": "Användarvillkor",
   "footer_follow": "Följ oss",
-  "badge_play_alt": "Ladda ned på Google Play"
+  "badge_play_alt": "Ladda ned på Google Play",
+  "tiktok_h": "Monkey Vine Rush på TikTok",
+  "tiktok": "<p>Vi använder vår utvecklarapp för TikTok, som också heter Monkey Vine Rush, bara för att lägga upp våra egna spelvideor på vårt eget officiella TikTok-konto (@monkey.vine.rush). Den loggar in på det enda kontot med TikToks Login Kit och läser bara dess grundprofil (id, visningsnamn och bild), och den laddar upp och publicerar våra videor med deras texter med TikToks Content Posting API. Spelare och andra kan inte logga in i den, och den läser, sparar eller delar ingen information om andra TikTok-användare eller deras innehåll. Åtkomstnycklarna till vårt konto förvaras krypterade och delas aldrig, och vi kan ta bort appens åtkomst när som helst i TikToks inställningar. Hur TikTok själv hanterar data beskrivs i <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">TikToks integritetspolicy</a>.</p>"
 }

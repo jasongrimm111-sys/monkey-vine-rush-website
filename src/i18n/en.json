@@ -214,5 +214,7 @@
   "a11": "<p>Stuck on a level? Choose Watch perfect run in the pause menu or on the Try again screen to see it played perfectly: every banana, the 3-star goal and any boss, with no power-ups. You can pause it, watch it again, and race it as a ghost. Perfect runs are being added world by world.</p>",
   "footer_terms": "Terms of service",
   "footer_follow": "Follow us",
-  "badge_play_alt": "Get it on Google Play"
+  "badge_play_alt": "Get it on Google Play",
+  "tiktok_h": "Monkey Vine Rush on TikTok",
+  "tiktok": "<p>We use our TikTok developer app, also called Monkey Vine Rush, only to post our own gameplay videos of the game to our own official TikTok account (@monkey.vine.rush). It uses TikTok's Login Kit to sign in to that one account, reading only its basic profile (its ID, display name and picture), and TikTok's Content Posting API to upload and publish our videos with their captions. Players and other people cannot sign in to it, and it does not read, store or share information about other TikTok users or their content. The access keys for our account are kept encrypted and never shared, and we can remove the app's access at any time in TikTok's settings. TikTok's own handling of data is described in the <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">TikTok Privacy Policy</a>.</p>"
 }

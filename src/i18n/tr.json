@@ -214,5 +214,7 @@
   "a11": "<p>Bir bölümde mi takıldın? Duraklatma menüsünden veya Tekrar dene ekranından Mükemmel koşuyu izle’yi seç ve bölümün kusursuz oynanışını gör: tüm muzlar, 3 yıldız hedefi ve boss, güçlendirme olmadan. Duraklatabilir, tekrar izleyebilir ve hayalet olarak onunla yarışabilirsin. Mükemmel koşular dünya dünya ekleniyor.</p>",
   "footer_terms": "Hizmet Şartları",
   "footer_follow": "Bizi takip edin",
-  "badge_play_alt": "Google Play'den alın"
+  "badge_play_alt": "Google Play'den alın",
+  "tiktok_h": "TikTok'ta Monkey Vine Rush",
+  "tiktok": "<p>Yine Monkey Vine Rush adını taşıyan TikTok geliştirici uygulamamızı yalnızca kendi oyun videolarımızı kendi resmi TikTok hesabımızda (@monkey.vine.rush) paylaşmak için kullanırız. TikTok'un Login Kit'i ile yalnızca bu tek hesaba giriş yapar ve sadece temel profilini (kimliği, görünen adı ve fotoğrafı) okur; TikTok'un Content Posting API'si ile videolarımızı açıklamalarıyla birlikte yükler ve yayınlar. Oyuncular ve başkaları uygulamaya giriş yapamaz; uygulama diğer TikTok kullanıcıları veya içerikleri hakkında bilgi okumaz, saklamaz ya da paylaşmaz. Hesabımızın erişim anahtarları şifreli tutulur ve asla paylaşılmaz; uygulamanın erişimini istediğimiz zaman TikTok ayarlarından kaldırabiliriz. TikTok'un verileri nasıl işlediği <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">TikTok Gizlilik Politikası</a>'nda açıklanır.</p>"
 }

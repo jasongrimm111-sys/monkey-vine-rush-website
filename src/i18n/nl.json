@@ -214,5 +214,7 @@
   "a11": "<p>Zit je vast op een level? Kies Perfecte run bekijken in het pauzemenu of op het Opnieuw-scherm om het perfect gespeeld te zien: alle bananen, het 3-sterrendoel en de baas, zonder power-ups. Je kunt pauzeren, opnieuw kijken en ertegen racen als geest. Perfecte runs komen er wereld voor wereld bij.</p>",
   "footer_terms": "Servicevoorwaarden",
   "footer_follow": "Volg ons",
-  "badge_play_alt": "Ontdek het op Google Play"
+  "badge_play_alt": "Ontdek het op Google Play",
+  "tiktok_h": "Monkey Vine Rush op TikTok",
+  "tiktok": "<p>We gebruiken onze TikTok-ontwikkelaarsapp, die ook Monkey Vine Rush heet, alleen om onze eigen gameplayvideo's te plaatsen op ons eigen officiële TikTok-account (@monkey.vine.rush). Hij logt met de Login Kit van TikTok in op dat ene account en leest alleen het basisprofiel (ID, weergavenaam en foto), en uploadt en publiceert met de Content Posting API van TikTok onze video's met hun bijschriften. Spelers en andere mensen kunnen er niet op inloggen, en hij leest, bewaart of deelt geen informatie over andere TikTok-gebruikers of hun content. De toegangssleutels van ons account worden versleuteld bewaard en nooit gedeeld, en we kunnen de toegang van de app op elk moment intrekken in de instellingen van TikTok. Hoe TikTok zelf met gegevens omgaat, staat in het <a href=\"https://www.tiktok.com/legal/page/global/privacy-policy/en\">privacybeleid van TikTok</a>.</p>"
 }
