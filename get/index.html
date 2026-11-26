@@ -26,7 +26,7 @@
   const ANDROID_LIVE = true;    // set to true the day the app is public on Google Play
   const IOS = 'https://apps.apple.com/app/id6825472830';
   const src = (new URLSearchParams(location.search).get('src') || 'site').replace(/[^\w-]/g, '').slice(0, 40);
-  const PLAY = 'https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush&referrer=' + encodeURIComponent('utm_source=' + src + '&utm_medium=social');
+  const PLAY = 'https://play.google.com/store/apps/details?id=com.grimmittgames.vinerush&referrer=' + encodeURIComponent('utm_source=' + src + '&utm_medium=social');
   const ua = navigator.userAgent || '';
   // iPadOS asks for the desktop site and calls itself a Mac, but a Mac has no touch screen
   const ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
@@ -102,7 +102,7 @@ html[data-kind="other"] .badges[data-show~="other"],html[data-kind="soon"] .badg
 
   <div class="badges" data-show="other soon">
     <a href="https://apps.apple.com/app/id6825472830" class="jsIos"><img src="/img/app-store-badge.svg" alt="Download on the App Store" width="174" height="58"></a>
-    <a class="jsPlaySlot" href="https://play.google.com/store/apps/details?id=com.grimmittgames.monkeyvinerush"><img src="/img/google-play-badge.png" alt="Get it on Google Play" width="195" height="58"></a>
+    <a class="jsPlaySlot" href="https://play.google.com/store/apps/details?id=com.grimmittgames.vinerush"><img src="/img/google-play-badge.png" alt="Get it on Google Play" width="195" height="58"></a>
   </div>
 
   <a class="more" href="/" data-t="more">More about the game</a>
